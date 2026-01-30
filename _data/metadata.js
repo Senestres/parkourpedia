@@ -1,11 +1,13 @@
 export default {
-	title: "Eleventy Base Blog v9",
+	title: "The movement library",
 	url: "https://example.com/",
-	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	language: "fr",
+	description: "Bibliothèque de mouvements et exercices pour apprendre et enseigner le parkour.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
-	}
+		name: "Yann Daout",
+		bluesky: "https://bsky.app/profile/traces.info",
+		url: "https://traces.info/"
+	},
+	robots: "/robots.txt",
+	sitemap: "/sitemap.xml"
 }

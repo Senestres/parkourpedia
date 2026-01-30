@@ -52,12 +52,15 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	height: 100%;
+	max-width: 2600px;
 }
 html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	display: flex;
+	flex-direction: column;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -114,16 +117,42 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
+main {
+	margin:0 auto;
+	max-width: 1440px;
+	justify-content: center;
+}
+
 main,
 footer {
 	padding: 1rem;
+
 }
-main :first-child {
-	margin-top: 0;
+footer {
+	margin-top: auto;
+	padding: 1rem 2rem;
+	margin-right: 0;
+	margin-left: auto;
 }
 
 header {
 	border-bottom: 1px dashed var(--color-gray-20);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+	max-width: 100%;
+}
+@media (min-width: 50em){
+	header {
+		flex-direction: row;
+	}
+}	
+header>div {
+	flex: 1;
+	text-align: center;
 }
 
 #skip-link {
@@ -210,15 +239,21 @@ header {
 }
 
 /* Nav */
+.menu {
+	font-size: large;
+}
+
 .nav {
+	font-size: large;
 	display: flex;
-	gap: .5em 1em;
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	justify-content: center;
 }
 .nav-item {
 	display: inline-block;
+	margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -226,49 +261,68 @@ header {
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
 }
+/* Social icons*/
+nav ul,
+ul.socials {
+	padding: 0;
+}
+.nav-icon:hover path {
+	fill: var(--accent);
+}
+svg.nav-icon {
+	width: 100%;
+	height: 30px;
+}
 
 /* Posts list */
-.postlist {
-	counter-reset: start-from var(--postlist-index);
-	list-style: none;
-	padding: 0;
-	padding-left: 1.5rem;
-}
-.postlist-item {
+.postlist-row {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
-	margin-bottom: 1em;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+	padding-left: 0;
 }
-.postlist-item:before {
-	display: inline-block;
-	pointer-events: none;
-	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
-	text-align: right;
-	margin-left: -1.5rem;
+
+.postlist-card {
+	width: 25%;
+	min-width: 25ch;
+	flex: 0 0 auto;
+	border: 1px solid #ccc;
+	margin-bottom: 50px;
+	transition: 0.3s;
+	list-style-type: none;
+	box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301);
 }
-.postlist-date,
-.postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+
+.postlist-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
-.postlist-date {
-	word-spacing: -0.5px;
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff41ff, #ff4b2b);
+  color: #fff;
 }
-.postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
-	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
-	text-underline-position: from-font;
-	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
 }
-.postlist-item-active .postlist-link {
-	font-weight: bold;
+/* Responsive media queries for cards */
+@media screen and (max-width: 1000px) {
+  .postlist-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .postlist-card {
+    width: 80%;
+  }
 }
 
 /* Tags */
@@ -296,3 +350,18 @@ header {
 	margin-right: 1em;
 }
 
+
+/* Pagefind */
+
+.pf-filter-pane {
+	flex-direction: row !important; 
+}
+.pf-results {
+	/* display:grid !important; */
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+}
+.pf-result {
+	/* display:grid !important; */
+	max-width: 30ch !important;
+}

@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { execSync } from 'child_process';
 
 import pluginFilters from "./_config/filters.js";
 
@@ -17,6 +18,15 @@ export default async function(eleventyConfig) {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}
+	});
+
+	// Shortcodes
+	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+	// add search
+	// if it crashes, do pagefind command after your Eleventy site build script has finished instead of in the after event.
+	eleventyConfig.on('eleventy.after', () => {
+		execSync(`npx pagefind@beta --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
 	});
 
 	// Copy the contents of the `public` folder to the output folder
@@ -62,14 +72,8 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
-		outputPath: "/feed/feed.xml",
+		outputPath: "/feed.xml",
 		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 4
-			}
-		},
 		collection: {
 			name: "posts",
 			limit: 10,
