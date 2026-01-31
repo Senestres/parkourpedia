@@ -154,7 +154,9 @@ header>div {
 	flex: 1;
 	text-align: center;
 }
-
+article {
+	max-width: 90ch;
+}
 #skip-link {
 	text-decoration: none;
 	background: var(--background-color);
@@ -352,9 +354,8 @@ svg.nav-icon {
 
 
 /* Pagefind */
-
 .pf-filter-pane {
-	flex-direction: row !important; 
+/* 	flex-direction: row !important;  */
 }
 .pf-results {
 	/* display:grid !important; */
@@ -364,4 +365,9 @@ svg.nav-icon {
 .pf-result {
 	/* display:grid !important; */
 	max-width: 30ch !important;
+}
+.explorer {
+	display:flex;
+	justify-content: flex-start;
+	align-items: flex-start;
 }

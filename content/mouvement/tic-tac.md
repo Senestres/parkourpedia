@@ -2,7 +2,21 @@
 title: Tic-tac
 description: This is a post on My Blog about agile frameworks.
 date: 2026-05-01
-tags: wall
+tags:
+  - wall
+  - saut
+fc:
+  - wall tricks
+  - sauts
+  - rotations
+  - créativité
+  - respect
+  - flow
+  - se balancer
+  - cheese
+prerequis:
+  - saut de chat
+  - passement de sécurité
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
