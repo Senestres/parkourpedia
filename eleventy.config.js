@@ -4,6 +4,7 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { execSync } from 'child_process';
+import metadata from "./_data/metadata.js";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -73,20 +74,11 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
-		stylesheet: "pretty-atom-feed.xsl",
 		collection: {
 			name: "posts",
 			limit: 10,
 		},
-		metadata: {
-			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
-			author: {
-				name: "Your Name"
-			}
-		}
+		metadata
 	});
 
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
