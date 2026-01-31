@@ -118,9 +118,8 @@ a[href]:active {
 }
 
 main {
-	margin:0 auto;
+	margin: 0 auto;
 	max-width: 1440px;
-	justify-content: center;
 }
 
 main,
@@ -354,20 +353,33 @@ svg.nav-icon {
 
 
 /* Pagefind */
-.pf-filter-pane {
-/* 	flex-direction: row !important;  */
-}
 .pf-results {
-	/* display:grid !important; */
 	flex-direction: row !important;
 	flex-wrap: wrap !important;
+
 }
 .pf-result {
-	/* display:grid !important; */
-	max-width: 30ch !important;
+	max-width: 40ch !important;
 }
-.explorer {
-	display:flex;
-	justify-content: flex-start;
-	align-items: flex-start;
+/* This seems to be required to avoid the explorer to resize when filtered down */
+main:has(.explorer-grid) {
+	width: 100%;
 }
+.explorer-grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 10px;
+}
+
+.box-filter {
+	grid-column: 1 ;
+/* 	use something like this to add a scroll ?
+	overflow-y: auto;
+	height: 100%; */
+}
+.box-results {
+	grid-column: 2 / 5;
+	display: flex;
+	flex-wrap: wrap;
+}
+

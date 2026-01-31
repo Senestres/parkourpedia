@@ -7,27 +7,7 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 3;
 ---
 
-
-<h1>Explorer</h1>
-{# Search #}
-{# Script #}
-<link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-component-ui.js" type="module"></script>
-<pagefind-config faceted preload></pagefind-config>
-
-
-<div class="explorer">
-
-	<pagefind-filter-pane open="catégorie, forme caractéristique"></pagefind-filter-pane>
-
-{# 	<pagefind-filter-dropdown filter="catégorie"></pagefind-filter-dropdown>
-	<pagefind-filter-dropdown filter="forme caractéristique"></pagefind-filter-dropdown> #}
-	<span>
-		<pagefind-summary></pagefind-summary>
-		<pagefind-results></pagefind-results>
-	</span>
-</div>
-
+	{% include "explorer.njk" %}
 
 
 {# <pagefind-input placeholder="Recherche"></pagefind-input> #}

@@ -13,42 +13,61 @@ layout: layouts/base.njk
 	{%- endfor %}
 
 <h1>{{ title }}</h1>
+<div><b>Formes caractéristiques: </b>{{fc}}</div>
 
-<ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
+{# <h2>Video</h2> or img ? #}
+
+<h2>Description</h2>
 
 <article data-pagefind-body>
 {{ content | safe }}
 </article>
 
 
+{# Check if there are variations and foundations #}
+{% set foundations = [] %}
+{% set variations = [] %}
 
-{# This lists prerequisits and variations - Only if it exists in a collection #}
-<ul class="links-nextprev">
-	{%- for move in collections.mouvement %}
+{%- for move in collections.mouvement %}
+  {% if move.data.prerequis %}
+    {% for requis in prerequis %}
+      {% if move.data.title | slugify == requis | slugify %}
+        {% set foundations = foundations.concat([move]) %}
+      {% endif %}
+    {% endfor %}
+	{% for requis in move.data.prerequis %}
+      {% if title | slugify == requis | slugify %}
+        {% set variations = variations.concat([move]) %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{%- endfor %}
 
-	{# check if this has prerequisits #}
-		{% for requis in prerequis %}
-			{%- if move.data.title | slugify == requis | slugify %}
-				<li class="links-nextprev-prev">← Prérequis<br> <a href="{{ move.url }}">{{ move.data.title }}</a></li>
-			{%- endif %}
-		{% endfor %}
+{# build list of variations #}
+{% if foundations | length %}
+	<h2>Prérequis</h2>
+  <ul class="postlist-row">
+    {% for move in foundations %}
+		<li class="postlist-card">
+			<div class="card-header postlist-img">Prérequis</div>
+			<div class="card-body"><a href="{{ move.url }}">{{ move.data.title }}</a></div>
+	</li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
-	{# check if this is required in another post #}
-		{% for requis in move.data.prerequis %}
-
-			{%- if title | slugify == requis | slugify %}
-				<li class="links-nextprev-next">Variation →<br> <a href="{{ move.url }}">{{ move.data.title }}</a></li>
-			{%- endif %}
-		{% endfor %}
-
-	{%- endfor %}
-</ul>
+{# build list of variations #}
+{% if variations | length %}
+  <h2>Variations</h2>
+  <ul class="postlist-row">
+    {% for move in variations %}
+      <li class="postlist-card">
+		<div class="card-header postlist-img">Variation</div>
+		<div class="card-body"><a href="{{ move.url }}">{{ move.data.title }}</a></div>
+	</li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
 {# {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
@@ -60,3 +79,15 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %} #}
+
+<div class="post-metadata">
+	<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></div>
+	<div><b>Auteur: </b>{{author}}</div>
+	<div><b>Tags: </b>
+		{%- for tag in tags | filterTagList %}
+		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+		{%- endfor %}
+	</div>
+
+</div>
