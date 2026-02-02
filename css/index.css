@@ -17,8 +17,8 @@
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
-	--accent-color: rgb(0, 140, 255);
-	--accent-color2: rgb(0, 255, 213);
+	--accent-color: rgb(186, 187, 241);
+	--accent-color2: rgb(203, 189, 218);
 
 	--syntax-tab-size: 2;
 }
@@ -123,12 +123,19 @@ a[href]:active {
 main {
 	margin: 0 auto;
 	max-width: 1440px;
+	width: 100%
 }
 
 main,
 footer {
 	padding: 1rem;
 
+}
+.content {
+	max-width: 90ch;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	background-color: var(--background-color); 
 }
 footer {
 	margin-top: auto;
@@ -156,9 +163,7 @@ header>div {
 	flex: 1;
 	text-align: center;
 }
-article {
-	max-width: 90ch;
-}
+
 #skip-link {
 	text-decoration: none;
 	background: var(--background-color);
@@ -175,21 +180,6 @@ article {
 	left: 1rem;
 	/* Ensure it is positioned on top of everything else when it is shown */
 	z-index: 999;
-}
-
-.links-nextprev {
-	display: flex;
-	justify-content: space-between;
-	gap: .5em 1em;
-	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
-}
-.links-nextprev > * {
-	flex-grow: 1;
-}
-.links-nextprev-next {
-	text-align: right;
 }
 
 table {
@@ -302,6 +292,65 @@ svg.nav-icon {
 	margin-right: 1em;
 }
 
+/* Posts list */
+.postlist-row {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 1.5rem;
+	justify-content: start;
+	list-style-type: none;
+	padding-left: 0;
+}
+.postlist-card {
+	transition: 0.3s;
+	list-style-type: none;
+	align-items: center;
+	padding-top: 56%;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301);
+	background-image: linear-gradient(to right, var(--accent-color), var(--accent-color2));
+}
+.postlist-card:hover {
+ 	transform: scale(1.05);
+  	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-overlay {
+	display: flex;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #00000080;
+}
+.card-img {
+	position: absolute;
+	z-index: 0;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translateY(-50%);
+}
+/* Responsive media queries for cards */
+@media screen and (max-width: 1000px) {
+  .postlist-card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .postlist-card {
+    width: 100%;
+  }
+}
 
 /* Pagefind */
 .pf-results {
@@ -328,105 +377,3 @@ main:has(.explorer-grid) {
     grid-template-columns: 1fr;
   }
 }
-
-
-/* Posts list */
-.postlist-row {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	gap: 2rem;
-	padding-left: 0;
-	justify-content: center;
-
-}
-
-.postlist-card {
-	width: 10%;
-	min-width: 25ch;
-	border: 1px solid #ccc;
-	margin-bottom: 50px;
-	transition: 0.3s;
-	list-style-type: none;
-	box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301);
-}
-.postlist-card:hover {
- 	transform: scale(1.1);
-  	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-.card-header {
-	height: 150px;
-  	background: linear-gradient(to right, var(--accent-color), var(--accent-color2));
-  	color: #fff;
-}
-.card-img {
-	max-height: 150px;	
-}
-
-.card-img img {
-	max-height: 150px;
-	object-fit: cover;
-}
-.card-body {
-	padding: 30px 20px;
-	text-align: center;
-	font-size: 18px;
-}
-
-/* Responsive media queries for cards */
-@media screen and (max-width: 1000px) {
-  .postlist-card {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 620px) {
-  .postlist-card {
-    width: 100%;
-  }
-}
-
-
-/*
-Until there is more info that needs to be shown; a card should have an img background with title overlay.
-Here's the pktheory example:
-
-
-<div class="category-card" style="background-image: url(...);"><div class="overlay"><span class="move-name" data-cy="move-cell-360_dash">360 DASH</span></div></div>
-	<div class="overlay"><span class="move-name" data-cy="move-cell-360_dash">360 DASH</span></div>
-
-.category-card {
-  align-items: center;
-  background-color: #f5f5f5;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  padding-top: 56%;
-  position: relative;
-  width: 100%;
-}
-
-.category-card .overlay {
-  align-items: center;
-  background-color: #00000080;
-  bottom: 0;
-  color: #fff;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  left: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  transition: .5s ease;
-  width: 100%;
-}
-
-*/

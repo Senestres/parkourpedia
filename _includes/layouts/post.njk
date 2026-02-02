@@ -12,11 +12,12 @@ layout: layouts/base.njk
 	<meta data-pagefind-filter="forme caractéristique:{{f}}">
 	{%- endfor %}
 
+<div class="content">
 <h1>{{ title }}</h1>
 <div><b>Formes caractéristiques:</b> {% for f in fc %} {{f}}{%- if not loop.last %}, {% endif %} {% endfor %}</div>
 
 {% if coverImage %}
-	<img src="../img/{{coverImage}}" alt="This is a cover image">
+	<img src="/img/{{coverImage}}" alt="This is a cover image">
 {% endif %}
 {# <h2>Video</h2> or img ? #}
 
@@ -60,11 +61,6 @@ layout: layouts/base.njk
 {% include "postslist.njk" %}
 {% endif %}
 
-{# Cover images used to work but not anymore
-{% set imageUrl %}../img/{{move.data.coverImage}}{% endset %}
-but now 
- #}
-
 <div class="post-metadata">
 	<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
 	{% if author %}
@@ -77,27 +73,4 @@ but now
 		{%- endfor %}
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{# {%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-	{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %} #}
+</div>
