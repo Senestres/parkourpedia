@@ -2,6 +2,7 @@
 title: Tic-tac
 description: This is a post on My Blog about agile frameworks.
 date: 2026-05-01
+coverImage: "possum.png"
 tags:
   - wall
   - saut

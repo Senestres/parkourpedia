@@ -17,6 +17,9 @@
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
+	--accent-color: rgb(0, 140, 255);
+	--accent-color2: rgb(0, 255, 213);
+
 	--syntax-tab-size: 2;
 }
 
@@ -275,57 +278,6 @@ svg.nav-icon {
 	height: 30px;
 }
 
-/* Posts list */
-.postlist-row {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 2rem;
-	padding-left: 0;
-}
-
-.postlist-card {
-	width: 25%;
-	min-width: 25ch;
-	flex: 0 0 auto;
-	border: 1px solid #ccc;
-	margin-bottom: 50px;
-	transition: 0.3s;
-	list-style-type: none;
-	box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301);
-}
-
-.postlist-card:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-
-.card-header {
-  text-align: center;
-  padding: 50px 10px;
-  background: linear-gradient(to right, #ff41ff, #ff4b2b);
-  color: #fff;
-}
-
-.card-body {
-  padding: 30px 20px;
-  text-align: center;
-  font-size: 18px;
-}
-/* Responsive media queries for cards */
-@media screen and (max-width: 1000px) {
-  .postlist-card {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .postlist-card {
-    width: 80%;
-  }
-}
-
 /* Tags */
 .post-tag {
 	display: inline-flex;
@@ -344,8 +296,7 @@ svg.nav-icon {
 	flex-wrap: wrap;
 	gap: .5em;
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	padding-top: 2em;
 }
 .post-metadata time {
 	margin-right: 1em;
@@ -371,15 +322,111 @@ main:has(.explorer-grid) {
 	gap: 10px;
 }
 
-.box-filter {
-	grid-column: 1 ;
-/* 	use something like this to add a scroll ?
-	overflow-y: auto;
-	height: 100%; */
-}
-.box-results {
-	grid-column: 2 / 5;
-	display: flex;
-	flex-wrap: wrap;
+@media screen and (max-width: 620px) {
+  .explorer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
+
+/* Posts list */
+.postlist-row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 2rem;
+	padding-left: 0;
+	justify-content: center;
+
+}
+
+.postlist-card {
+	width: 10%;
+	min-width: 25ch;
+	border: 1px solid #ccc;
+	margin-bottom: 50px;
+	transition: 0.3s;
+	list-style-type: none;
+	box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301);
+}
+.postlist-card:hover {
+ 	transform: scale(1.1);
+  	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-header {
+	height: 150px;
+  	background: linear-gradient(to right, var(--accent-color), var(--accent-color2));
+  	color: #fff;
+}
+.card-img {
+	max-height: 150px;	
+}
+
+.card-img img {
+	max-height: 150px;
+	object-fit: cover;
+}
+.card-body {
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+/* Responsive media queries for cards */
+@media screen and (max-width: 1000px) {
+  .postlist-card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .postlist-card {
+    width: 100%;
+  }
+}
+
+
+/*
+Until there is more info that needs to be shown; a card should have an img background with title overlay.
+Here's the pktheory example:
+
+
+<div class="category-card" style="background-image: url(...);"><div class="overlay"><span class="move-name" data-cy="move-cell-360_dash">360 DASH</span></div></div>
+	<div class="overlay"><span class="move-name" data-cy="move-cell-360_dash">360 DASH</span></div>
+
+.category-card {
+  align-items: center;
+  background-color: #f5f5f5;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 56%;
+  position: relative;
+  width: 100%;
+}
+
+.category-card .overlay {
+  align-items: center;
+  background-color: #00000080;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  transition: .5s ease;
+  width: 100%;
+}
+
+*/

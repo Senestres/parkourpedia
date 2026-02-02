@@ -5,5 +5,4 @@ export default {
 		"entrainement"
 	],
 	"layout": "layouts/post.njk",
-	coverImage: "rocks.jpg",
 };

@@ -35,8 +35,8 @@ export default async function(eleventyConfig) {
 	eleventyConfig
 		.addPassthroughCopy({
 			"./public/": "/"
-		})
-		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+		});
+/* 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl"); */
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
@@ -143,7 +143,7 @@ export const config = {
 
 	// These are all optional:
 	dir: {
-		input: "content",          // default: "."
+		input: "content",          // default: "."; was "content"
 		includes: "../_includes",  // default: "_includes" (`input` relative)
 		data: "../_data",          // default: "_data" (`input` relative)
 		output: "_site"

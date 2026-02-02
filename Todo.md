@@ -1,23 +1,22 @@
 # UI
-Actuellement le problème est 
+- Harmoniser le moteur de recherche et les autres listes de posts
 
 # Lier les librairies
-Actuellement il y a une librairie de mouvements et une librairie de formes d'entrainements.
-Idéalement, chaque page de mvmt devrait lister les formes d'entrainement pertinentes.
- - Une séquence progressive pour le saut de chat devrait se trouver sur la page SDC
- - Un jeu généraliste ne devrait pas s'y trouver, même si il peut être adapté pour le SDC.
+- Lister les formes d'entrainement pertinentes pour chaque mvmt
+- Une séquence progressive pour le saut de chat devrait se trouver sur la page SDC
+- Un jeu généraliste ne devrait pas s'y trouver, même si il peut être adapté pour le SDC.
  
-# Ressources
-Une page de ressources diverses sur l'enseignement du parkour
+# Page de ressources
 - starter kit pour les enseignants
 - histoire du pk
-etc.
+- Matériel utilisable
 
 # Ajouter du contenu
 - Formes de mouvement
 - Formes de jeu
 
-# Autres idées
+# Autres
 - Ajouter des formes d'entrainement pour les qualités athlétiques (force, v, e, etc.)
 - Ajouter des formes d'entrainement pour les qualités mentales
 - Classement par niveau (F1, F2-F3, T)
+- Icones pour chaque FC

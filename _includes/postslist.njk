@@ -1,16 +1,23 @@
 <ol reversed class="postlist-row" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
 
 	{%- for post in postslist | reverse %}
+
 			<li class="postlist-card" >
-				<div class="card-header postlist-img">
+				<a href="{{ post.url }}">
+				<div class="card-img">
 						{% if post.data.coverImage %}
-						{% set imageUrl %}.{{post.url}}/{{post.data.coverImage}}{% endset %}
+						{% set imageUrl %}/img/{{post.data.coverImage}}{% endset %}
 						<img src="{{ imageUrl }}" alt="Cover Picture">
+						{% else %}
+						<div class="card-header">
+						</div>
 						{% endif %}
+							
 				</div>
 				<div class="card-body">
-						<a href="{{ post.url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+					{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
 				</div>
+				</a>
 			</li>
 
 	{%- endfor %}

@@ -13,16 +13,18 @@ layout: layouts/base.njk
 	{%- endfor %}
 
 <h1>{{ title }}</h1>
-<div><b>Formes caractéristiques: </b>{{fc}}</div>
+<div><b>Formes caractéristiques:</b> {% for f in fc %} {{f}}{%- if not loop.last %}, {% endif %} {% endfor %}</div>
 
+{% if coverImage %}
+	<img src="../img/{{coverImage}}" alt="This is a cover image">
+{% endif %}
 {# <h2>Video</h2> or img ? #}
 
 <h2>Description</h2>
 
 <article data-pagefind-body>
-{{ content | safe }}
+	{{ content | safe }}
 </article>
-
 
 {# Check if there are variations and foundations #}
 {% set foundations = [] %}
@@ -43,31 +45,51 @@ layout: layouts/base.njk
   {% endif %}
 {%- endfor %}
 
+
 {# build list of variations #}
 {% if foundations | length %}
 	<h2>Prérequis</h2>
-  <ul class="postlist-row">
-    {% for move in foundations %}
-		<li class="postlist-card">
-			<div class="card-header postlist-img">Prérequis</div>
-			<div class="card-body"><a href="{{ move.url }}">{{ move.data.title }}</a></div>
-	</li>
-    {% endfor %}
-  </ul>
+	{% set postslist = foundations %}
+	{% include "postslist.njk" %}
 {% endif %}
 
 {# build list of variations #}
 {% if variations | length %}
   <h2>Variations</h2>
-  <ul class="postlist-row">
-    {% for move in variations %}
-      <li class="postlist-card">
-		<div class="card-header postlist-img">Variation</div>
-		<div class="card-body"><a href="{{ move.url }}">{{ move.data.title }}</a></div>
-	</li>
-    {% endfor %}
-  </ul>
+{% set postslist = variations %}
+{% include "postslist.njk" %}
 {% endif %}
+
+{# Cover images used to work but not anymore
+{% set imageUrl %}../img/{{move.data.coverImage}}{% endset %}
+but now 
+ #}
+
+<div class="post-metadata">
+	<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
+	{% if author %}
+		<div><b>Auteur: </b>{{author}}</div>
+	{% endif %}
+	<div><b>Tags: </b>
+		{%- for tag in tags | filterTagList %}
+		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+		{%- endfor %}
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {# {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
@@ -79,15 +101,3 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %} #}
-
-<div class="post-metadata">
-	<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
-	<div><b>Auteur: </b>{{author}}</div>
-	<div><b>Tags: </b>
-		{%- for tag in tags | filterTagList %}
-		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-		{%- endfor %}
-	</div>
-
-</div>
