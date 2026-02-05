@@ -1,12 +1,12 @@
 <h1>Explorer</h1>
 {# Search #}
 {# Script #}
-<link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+{# <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet"> #}
 <script src="/pagefind/pagefind-component-ui.js" type="module"></script>
 <pagefind-config faceted preload></pagefind-config>
 
 
-<div class="explorer-grid">
+<div class="explorer-grid" id="explorer-grid">
     <div class="box-filter" >
         <pagefind-input></pagefind-input>
         <pagefind-summary ></pagefind-summary>
@@ -15,10 +15,9 @@
 	    <pagefind-filter-dropdown filter="forme caractéristique"></pagefind-filter-dropdown>
     </div>
     <div>
-        <pagefind-results ></pagefind-results>
-    </div>
+    <pagefind-results show-images="true" id="explorer"></pagefind-results>
 
-{# 	 #}
+
+
+    </div>
 </div>
-{# 
-{{ content | safe }} #}

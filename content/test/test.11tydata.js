@@ -1,8 +1,9 @@
 export default {
-	categories: "Forme de mouvement",
+	categories: "Forme d'entrainement",
 	tags: [
 		"posts",
-		"mouvement",
+		"entrainement",
+		"gros caca"
 	],
 	"layout": "layouts/post.njk",
 };

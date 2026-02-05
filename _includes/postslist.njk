@@ -5,7 +5,7 @@
 				{% set imageUrl %}/img/{{post.data.coverImage}}{% endset %}
 				<div class="card-header">
 					<div class="card-overlay">{% if post.data.title %}{{ post.data.title }}{% else %} <code>{{ post.url }}</code>{% endif %}</div>
-					{% if post.data.coverImage %}<img class="card-img" src="{{ imageUrl }}" alt="Cover Picture">{% endif %}
+					{% if post.data.coverImage %}<img class="card-img" src="{{ imageUrl }}" alt="">{% endif %}
 				</div>
 			</a>
 		</li>

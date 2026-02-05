@@ -6,7 +6,7 @@ layout: layouts/base.njk
 <style>{% include "css/prism-diff.css" %}</style>
 
 {# Metadata for pagefind filters #}
-	<meta data-pagefind-filter="catégorie:{{category or "aucune"}}">
+	<meta data-pagefind-filter="catégorie:{{categories or "aucune"}}">
 {# 	<meta data-pagefind-filter="Forme caractéristique:{{fc or "aucune"}}"> #}
 	{%- for f in fc %}
 	<meta data-pagefind-filter="forme caractéristique:{{f}}">
@@ -15,9 +15,10 @@ layout: layouts/base.njk
 <div class="content">
 <h1>{{ title }}</h1>
 <div><b>Formes caractéristiques:</b> {% for f in fc %} {{f}}{%- if not loop.last %}, {% endif %} {% endfor %}</div>
+<div data-pagefind-body><b>Alias: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
 
 {% if coverImage %}
-	<img src="/img/{{coverImage}}" alt="This is a cover image">
+	<img src="/img/{{coverImage}}" alt="">
 {% endif %}
 {# <h2>Video</h2> or img ? #}
 
