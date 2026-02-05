@@ -7,7 +7,6 @@ coverImage: "{{ title | slugify }}.jpg"
 aliases:
   - prec 360
 tags:
-  - base
 fc:
   - sauts
   - rotations
