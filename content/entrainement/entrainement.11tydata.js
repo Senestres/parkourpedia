@@ -5,4 +5,5 @@ export default {
 		"entrainement"
 	],
 	"layout": "layouts/post.njk",
+	"permalink": "/entrainement/{{ title | slugify }}/",
 };

@@ -3,7 +3,7 @@ title: Tic-tac inversé
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
@@ -11,10 +11,9 @@ fc:
   - rotations
 prerequis:
   - tic-tac
+video:
+  - LjuW-4HFAMw
 ---
-## Vidéo
-https://www.youtube.com/watch?v=LjuW-4HFAMw
-
 ## Description
 Tic-tac avec une rotation pour se propulser avec le "mauvais" pied par rapport à la direction de la course.
 

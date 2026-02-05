@@ -3,7 +3,7 @@ title: Saut de bras
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
   - bras
 tags:
@@ -13,10 +13,9 @@ fc:
   - tricks muraux
   - grimper
 prerequis:
+video:
+  - R6SCKLax-aU
 ---
-## Vidéo
-https://www.youtube.com/watch?v=R6SCKLax-aU
-
 ## Description
 Saut dont l’atterrissage se fait avec les pieds sur la surface verticale d’un mur, les mains saisissant le sommet.
 

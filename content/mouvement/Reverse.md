@@ -3,7 +3,7 @@ title: Reverse
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
@@ -12,10 +12,9 @@ fc:
 prerequis:
   - passement latéral
   - roulade assise
+video:
+  - 7gpPAbgn_rM
 ---
-## Vidéo
-https://www.youtube.com/watch?v=7gpPAbgn_rM
-
 ## Description
 Passement avec rotation complète sur l'axe longitudinal.
 Contrairement au passement papillon, la rotation implique de tourner le dos à l'obstacle.

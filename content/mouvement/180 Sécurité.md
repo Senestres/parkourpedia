@@ -3,7 +3,7 @@ title: 180 Sécurité
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
@@ -13,10 +13,9 @@ fc:
 prerequis:
   - passement de sécurité
   - saut de précision 180
+video:
+  - _kM1nJJrwag
 ---
-## Vidéo
-https://www.youtube.com/watch?v=_kM1nJJrwag
-
 ## Description
 Saut de précision 180 enchaîné avec un passement de sécurité.
 

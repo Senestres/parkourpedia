@@ -3,17 +3,16 @@ title: Strides
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
   - base
 fc:
   - sauts
 prerequis:
+video:
+  - zxMKsJZZ_EA
 ---
-## Vidéo
-https://www.youtube.com/watch?v=zxMKsJZZ_EA
-
 ## Description
 Enchaînement de sauts avec alternance de la jambe d’appui.
 

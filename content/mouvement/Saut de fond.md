@@ -3,16 +3,17 @@ title: Saut de fond
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
   - base
 fc:
   - sauts
 prerequis:
+  - saut de précision
+video:
+  - CXC7Ut7PSmI
 ---
-## Vidéo
-https://www.youtube.com/watch?v=CXC7Ut7PSmI
 ## Description
 Saut effectué en contrebas. Selon la situation, suivi d'une roulade pour dissiper l'impact.
 

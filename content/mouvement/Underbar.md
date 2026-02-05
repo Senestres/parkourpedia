@@ -3,7 +3,7 @@ title: Underbar
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
   - base
@@ -12,8 +12,6 @@ fc:
   - balancés
 prerequis:
 ---
-## Vidéo
-[A venir]
 ## Description
 Passer sous une barre ou branche d'arbre avec une prise en pronation. 
 

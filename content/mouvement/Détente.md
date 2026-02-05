@@ -5,16 +5,15 @@ tags:
   - base
 description: Apprendre et enseigner le parkour - {{ title }}
 authors: Yann Daout
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 fc:
   - sauts
 prerequis:
 aliases:
   - saut avec élan
+video:
+  - VPrdpKBt918
 ---
-## Vidéo
-https://www.youtube.com/watch?v=VPrdpKBt918
-
 ## Description
 Saut de précision réalisé avec de l'élan.
 ## Remarques

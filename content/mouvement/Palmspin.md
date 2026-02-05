@@ -3,17 +3,17 @@ title: Palmspin
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
   - passements
   - rotations
 prerequis:
+  - palmspin marché
+video:
+  - 2TiUWqmnJKk
 ---
-## Vidéo
-https://www.youtube.com/watch?v=2TiUWqmnJKk
-
 ## Description
 Rotation complète sur l'axe antéro-postérieur autour d'un bras d'appui sur un obstacle. L'appui de la deuxième main peut être utilisé au début du mouvement.
 ## Remarques

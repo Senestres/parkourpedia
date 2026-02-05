@@ -3,7 +3,7 @@ title: Wallspin
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
@@ -11,10 +11,9 @@ fc:
   - rotations
 prerequis:
   - wallspin angulaire
+video:
+  - cT8YU2RH2EE
 ---
-## Vidéo
-https://www.youtube.com/watch?v=cT8YU2RH2EE
-
 ## Description
 Rotation sur l'axe antéro-postérieur autour d'un point d'appui contre une surface verticale.
 

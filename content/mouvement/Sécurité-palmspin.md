@@ -3,7 +3,7 @@ title: Sécurité-palmspin
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
@@ -11,10 +11,9 @@ fc:
   - rotations
 prerequis:
   - passement de sécurité
+video:
+  - LMKBZeEE5JA
 ---
-## Vidéo
-https://www.youtube.com/watch?v=LMKBZeEE5JA
-
 ## Description
 Palmspin réalisé depuis le milieu d'un passement de sécurité.
 

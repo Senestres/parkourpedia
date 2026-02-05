@@ -3,7 +3,7 @@ title: Passement de sécurité mural
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 aliases:
 tags:
 fc:
@@ -11,10 +11,9 @@ fc:
   - tricks muraux
 prerequis:
   - passement de sécurité
+video:
+  - ejn6cknZAew
 ---
-## Vidéo
-https://www.youtube.com/watch?v=ejn6cknZAew
-
 ## Description
 Passement de sécurité effectué contre une surface verticale.
 

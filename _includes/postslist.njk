@@ -5,7 +5,13 @@
 				{% set imageUrl %}/img/{{post.data.coverImage}}{% endset %}
 				<div class="card-header">
 					<div class="card-overlay">{% if post.data.title %}{{ post.data.title }}{% else %} <code>{{ post.url }}</code>{% endif %}</div>
-					{% if post.data.coverImage %}<img class="card-img" src="{{ imageUrl }}" alt="">{% endif %}
+					{# If need some flexibility for cover images, change something here #}
+					{# {% if post.data.coverImage %}<img class="card-img" src="{{ imageUrl }}" alt="">{% endif %} #}
+
+					{% if post.data.video %} {# Should be adapted if video =/= youtube #}
+						<img class="card-img" src="https://img.youtube.com/vi/{{ post.data.video }}/hqdefault.jpg" alt="youtube thumbnail">
+					{% endif %}
+					
 				</div>
 			</a>
 		</li>

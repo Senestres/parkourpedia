@@ -5,20 +5,19 @@ tags:
   - base
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: "{{ title | slugify }}.jpg"
+coverImage: false
 fc:
   - sauts
 prerequis:
 aliases:
   - prec
   - presse
+video:
+  - 1oH-soF96ag
 ---
-## Vidéo
-https://www.youtube.com/watch?v=1oH-soF96ag
-
 ## Description
 Saut entre deux points différents, généralement avec atterrissage sur une surface réduite.
 Dans la plupart des cas, l'atterissage se fait sur la moitié antérieure du pied.
 
 ## Remarques
-Le bruit à l'aterrissage est un des meilleurs indicateurs de la qualité de la technique: trop de bruit = mauvaise ou insuffisante flexion des jambes = choc
+Le bruit à l'aterrissage est un des meilleurs indicateurs de la qualité de la technique: trop de bruit = mauvaise ou insuffisante flexion des jambes = choc.
