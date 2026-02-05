@@ -1,22 +1,38 @@
 ---
 title: Feuille-caillou-ciseau
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+date: 2026-02-04
+authors: Yann Daout
+description: Apprendre et enseigner le parkour - {{ title }}
+coverImage: "{{ title | slugify }}.jpg"
+aliases:
 tags:
-    - number 2
-    - wall
 fc:
-    - passements
+  - passements
 prerequis:
-    - passement de sécurité
+  - passement de sécurité
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+# Objectifs
+Effectuer un parcours d'obstacles le plus rapidement possible.
 
-## Section Header
+# Organisation
+Durée: 15+ min
+Participants: équipes de 3-6 joueurs
+Matériel: obstacles divers, adaptés au niveau du joueur. 
 
-<a href="/blog/firstpost.md">First post</a>
-<a href="blog/thirdpost.md">Third post</a>
+# Description
+Une équipe commence à un point A, l'autre équipe à un point B. Chaque équipe envoie un joueur à travers le parcours d'obstacles en direction de la base opposée. Au moment où ils se rencontrent, ils font un feuille-caillou-ciseau.
+- Celui qui gagne a le droit de continuer.
+- Celui qui perd retourne à sa base. Son équipe envoie immédiatement un autre joueur pour bloquer l'avancée de l'adversaire.
+Lorsqu'un joueur franchit le dernier obstacle avant d'atteindre la base adverse, il peut être bloqué une dernière fois. Si il gagne ce duel final, il remporte le point pour son équipe.
+Un joueur qui parvient à la base adverse marque un point pour son équipe. Le jeu continue immédiatement, les deux équipes envoyant un autre joueur.
+Faire une manche au temps, puis les équipes changent de camp pour la deuxième manche.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+# Variantes
+-/+Imposer des techniques spécifiques
+-/+Varier les obstacles et la distance entre les deux équipes
++Jouer à FCC avec les pieds: les joueurs sautent en même temps et choisissent leur position d'atterissage (pieds écartés = feuille; pieds joints = caillou; jambes croisées = ciseaux)
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+# Remarques
+Attention à utiliser des obstacles qui présentent peu de danger en situation de stress: hauteur adaptée et zone de chute appropriée.
+Le FCC joué avec les pieds (voir variantes) est une forme très intéressante pour le parkour, mais est *très* couteuse cognitivement. 
+

@@ -1,0 +1,20 @@
+---
+title: Détente
+date: 2026-02-03
+tags:
+  - base
+description: Apprendre et enseigner le parkour - {{ title }}
+authors: Yann Daout
+coverImage: "{{ title | slugify }}.jpg"
+fc:
+  - sauts
+prerequis:
+aliases:
+  - saut avec élan
+---
+# Vidéo
+https://www.youtube.com/watch?v=VPrdpKBt918
+
+# Description
+Saut de précision réalisé avec de l'élan.
+# Notes
