@@ -305,7 +305,7 @@ svg.nav-icon {
 	transition: 0.3s;
 	list-style-type: none;
 	align-items: center;
-	padding-top: 56%;
+	padding-top: 55%;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
@@ -377,4 +377,8 @@ main:has(.explorer-grid) {
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+
+.variations {
+	margin-top: 3em;
 }

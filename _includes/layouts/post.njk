@@ -30,6 +30,7 @@ layout: layouts/base.njk
 	{{ content | safe }}
 </article>
 
+<section class="variations">
 {# Check if there are variations and foundations #}
 {% set foundations = [] %}
 {% set variations = [] %}
@@ -67,8 +68,8 @@ layout: layouts/base.njk
 
 <div class="post-metadata">
 	<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
-	{% if author %}
-		<div><b>Auteur: </b>{{author}}</div>
+	{% if authors | length %}
+			<div><b>Auteur: </b>{% for author in authors %}{{author}}{% endfor %}</div> {# should work with mult authors #}
 	{% endif %}
 	<div><b>Tags: </b>
 		{%- for tag in tags | filterTagList %}
@@ -77,4 +78,7 @@ layout: layouts/base.njk
 		{%- endfor %}
 	</div>
 </div>
+
+</section>
+
 </div>

@@ -21,7 +21,16 @@ const eleventyComputed = {
 ---
 <h1>Tagged “{{ tag }}”</h1>
 
+{# This should get the long name of a FC #}
+{% for forme in formesCaracteristiques %}
+	{% if tag == forme.name %}
+	{{forme.description}}
+{% endif %}
+{% endfor %}
+
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
 <p>See <a href="tags.njk">all tags</a>.</p>
+
+

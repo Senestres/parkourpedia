@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import embedEverything from "eleventy-plugin-embed-everything";
 import { execSync } from 'child_process';
 import metadata from "./_data/metadata.js";
 
@@ -62,6 +63,9 @@ export default async function(eleventyConfig) {
 		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
 		bundleHtmlContentFromSelector: "script",
 	});
+
+	// add yt embedd
+	eleventyConfig.addPlugin(embedEverything);
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
