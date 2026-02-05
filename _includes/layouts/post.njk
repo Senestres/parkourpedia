@@ -17,12 +17,11 @@ layout: layouts/base.njk
 <div><b>Formes caractéristiques:</b> {% for f in fc %} {{f}}{%- if not loop.last %}, {% endif %} {% endfor %}</div>
 <div data-pagefind-body><b>Alias: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
 
-{% if coverImage %}
-	<img src="/img/{{coverImage}}" alt="">
+{# Add an if check for img or video ? and img needs styling #}
+{% if coverImage == true %}
+	<img src="/img/{{title | slugify}}.jpg" alt="No image">	
 {% endif %}
-{# <h2>Video</h2> or img ? #}
 
-<h2>Description</h2>
 
 <article data-pagefind-body>
 	{{ content | safe }}
@@ -47,8 +46,10 @@ layout: layouts/base.njk
   {% endif %}
 {%- endfor %}
 
+{# test for foundations #}
+<h2>{{foundations}}</h2>
 
-{# build list of variations #}
+{# build list of foundations #}
 {% if foundations | length %}
 	<h2>Prérequis</h2>
 	{% set postslist = foundations %}
@@ -58,8 +59,8 @@ layout: layouts/base.njk
 {# build list of variations #}
 {% if variations | length %}
   <h2>Variations</h2>
-{% set postslist = variations %}
-{% include "postslist.njk" %}
+	{% set postslist = variations %}
+	{% include "postslist.njk" %}
 {% endif %}
 
 <div class="post-metadata">
