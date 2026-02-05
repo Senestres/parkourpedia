@@ -284,12 +284,9 @@ svg.nav-icon {
 .post-metadata {
 	display: inline-flex;
 	flex-wrap: wrap;
-	gap: .5em;
+	gap: 1em;
 	list-style: none;
 	padding-top: 2em;
-}
-.post-metadata time {
-	margin-right: 1em;
 }
 
 /* Posts list */

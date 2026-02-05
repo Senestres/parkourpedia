@@ -14,10 +14,6 @@ Eviter l'écueil du technicisme.
 
 Citer le manuel J+S
 
-https://www.youtube.com/watch?v=ZbSRADDzkL8
-
-<img src="https://img.youtube.com/vi/ZbSRADDzkL8/maxresdefault.jpg" alt="no image">
-
 ## Les formes d'entrainement
 
 ## Les formes caractéristiques

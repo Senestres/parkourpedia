@@ -16,7 +16,7 @@ video:
   - o37cVSzB7FQ
 ---
 ## Description
-Passement de sécurité arrière enchaîné avec un passement de sécurité, en tournant le dos à l'obstacle (pont).
+Passement de sécurité arrière enchaîné avec un passement de sécurité avant, en tournant le dos à l'obstacle (pont).
 
 ## Remarques
 Similaire à une roulade assise.
