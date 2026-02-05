@@ -11,10 +11,10 @@ fc:
   - sauts
 prerequis:
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=zxMKsJZZ_EA
 
-# Description
+## Description
 Enchaînement de sauts avec alternance de la jambe d’appui.
 
-# Notes
+## Remarques

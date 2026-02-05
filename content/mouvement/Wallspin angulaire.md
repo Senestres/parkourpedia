@@ -12,11 +12,11 @@ fc:
 prerequis:
   - palmspin
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=IRgh-QfgQSA
 
-# Description
+## Description
 Wallspin avec assistance d'un appui pour la main inférieure.
 
-# Notes
+## Remarques
 Fonctionne très bien avec les bancs, mais également avec une main au sol et l'autre contre un mur. C'est donc une bonne progression pour le wallspin.

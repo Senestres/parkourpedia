@@ -13,12 +13,12 @@ aliases:
   - prec
   - presse
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=1oH-soF96ag
 
-# Description
+## Description
 Saut entre deux points différents, généralement avec atterrissage sur une surface réduite.
 Dans la plupart des cas, l'atterissage se fait sur la moitié antérieure du pied.
 
-# Notes
+## Remarques
 Le bruit à l'aterrissage est un des meilleurs indicateurs de la qualité de la technique: trop de bruit = mauvaise ou insuffisante flexion des jambes = choc

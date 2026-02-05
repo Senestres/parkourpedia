@@ -12,11 +12,11 @@ fc:
 prerequis:
   - wallspin angulaire
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=cT8YU2RH2EE
 
-# Description
+## Description
 Rotation sur l'axe antéro-postérieur autour d'un point d'appui contre une surface verticale.
 
-# Notes
+## Remarques
 La rotation est similaire à une roue avec les jambes pliées.

@@ -13,11 +13,11 @@ prerequis:
   - passement de sécurité
   - passement de sécurité arrière
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=giRBfKSTWaA
 
-# Description
+## Description
 Un passement de sécurité arrière suivi d'un passement de sécurité avant du côté opposé.
 
-# Notes
+## Remarques
 A des similarités avec le reverse palmspin.

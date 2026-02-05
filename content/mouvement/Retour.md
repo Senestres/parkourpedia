@@ -12,11 +12,11 @@ fc:
 prerequis:
   - tic-tac
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=VdltpOYOAl4
 
-# Description
+## Description
 Rotation de 180° pour s'éloigner d'un mur grâce à l'appui des pieds, généralement avec une traction des bras.
 
-# Notes
+## Remarques
 Des pas alternés contre le mur permettent de monter le centre de gravité avant de se propulser, et donc d'augmenter la distance ou de se projeter vers un obstacle plus haut.

@@ -14,11 +14,11 @@ fc:
 prerequis:
   - passement latéral
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=Lxo0DjqOUls
 
-# Description
+## Description
 Passement consistant à franchir un obstacle en plongeant en avant puis en poussant simultanément avec les deux mains afin de rétablir le corps. Contrairement à d'autres passements, il n'y a pas de bascule latérale, et le corps reste toujours penché vers l'avant.
 
-# Notes
+## Remarques
 Utiliser une corde détendue entre deux caissons ou obstacles permet d'apprendre le mouvement sans avoir peur de se prendre les pieds.

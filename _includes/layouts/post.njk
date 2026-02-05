@@ -15,7 +15,10 @@ layout: layouts/base.njk
 <div class="content">
 <h1>{{ title }}</h1>
 <div><b>Formes caractéristiques:</b> {% for f in fc %} {{f}}{%- if not loop.last %}, {% endif %} {% endfor %}</div>
-<div data-pagefind-body><b>Alias: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
+{% if aliases %}
+	<div data-pagefind-body><b>Alias: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
+{% endif %}
+
 
 {# Add an if check for img or video ? and img needs styling #}
 {% if coverImage == true %}
@@ -32,22 +35,21 @@ layout: layouts/base.njk
 {% set variations = [] %}
 
 {%- for move in collections.mouvement %}
-  {% if move.data.prerequis %}
-    {% for requis in prerequis %}
-      {% if move.data.title | slugify == requis | slugify %}
-        {% set foundations = foundations.concat([move]) %}
-      {% endif %}
-    {% endfor %}
-	{% for requis in move.data.prerequis %}
-      {% if title | slugify == requis | slugify %}
-        {% set variations = variations.concat([move]) %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
+  	{% if prerequis %} {# creates problems if a file has no prerequis but has variations #}
+		{% for requis in prerequis %}
+			{% if move.data.title | slugify == requis | slugify %}
+				{% set foundations = foundations.concat([move]) %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+	{% if move.data.prerequis %}
+			{% for requis in move.data.prerequis %}
+		{% if title | slugify == requis | slugify %}
+			{% set variations = variations.concat([move]) %}
+		{% endif %}
+		{% endfor %}
+	{% endif %}
 {%- endfor %}
-
-{# test for foundations #}
-<h2>{{foundations}}</h2>
 
 {# build list of foundations #}
 {% if foundations | length %}

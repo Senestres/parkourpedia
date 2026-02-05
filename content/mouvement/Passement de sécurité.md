@@ -12,10 +12,10 @@ fc:
   - passements
 prerequis:
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=qTeYgw-H-UA
 
-# Description
+## Description
 Passement avec une main et le pied opposé.
 
-# Notes
+## Remarques

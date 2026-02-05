@@ -11,9 +11,9 @@ fc:
   - balancés
 prerequis:
 ---
-# Vidéo
+## Vidéo
 [A venir]
 
-# Description
+## Description
 Comme le nom l'indique, se balancer à une barre ou branche d'arbre, généralement suivi par un lâché.
-# Notes
+## Remarques

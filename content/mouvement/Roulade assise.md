@@ -12,11 +12,11 @@ fc:
   - rotations
 prerequis:
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=MAU4NDmrKic
 
-# Description
+## Description
 Passement consistant à rouler sur les fesses sur l'obstacle. 
 
-# Notes
+## Remarques
 La forme la plus esthétique implique une rotation complète, plus proche d'un reverse que d'un lazy.

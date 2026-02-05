@@ -14,11 +14,11 @@ prerequis:
   - passement de sécurité
   - saut de précision 180
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=_kM1nJJrwag
 
-# Description
+## Description
 Saut de précision 180 enchaîné avec un passement de sécurité.
 
-# Notes
+## Remarques
 Il est possible d'atterir à pieds joints ou à un pied.

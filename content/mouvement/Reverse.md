@@ -13,14 +13,14 @@ prerequis:
   - passement latéral
   - roulade assise
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=7gpPAbgn_rM
 
-# Description
+## Description
 Passement avec rotation complète sur l'axe longitudinal.
 Contrairement au passement papillon, la rotation implique de tourner le dos à l'obstacle.
 
-# Notes
+## Remarques
 Le passement peut être effectué au sol (quadrupédie latérale avec demi-tour)
 Au sol (quadrupédie latérale avec demi tour).
 

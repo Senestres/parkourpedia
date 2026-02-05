@@ -13,11 +13,11 @@ fc:
 prerequis:
   - passement de sécurité
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=1gTjn0dsaFc
 
-# Description
+## Description
 Passement latéral à une main. 
 
-# Notes
+## Remarques
 Peut être considéré comme un passement de sécurité sans poser le pied.

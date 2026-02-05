@@ -13,11 +13,11 @@ prerequis:
   - passement de sécurité arrière
   - passement de sécurité
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=o37cVSzB7FQ
 
-# Description
+## Description
 Passement de sécurité arrière enchaîné avec un passement de sécurité, en tournant le dos à l'obstacle (pont).
 
-# Notes
+## Remarques
 Similaire à une roulade assise.

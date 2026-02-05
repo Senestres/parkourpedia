@@ -12,10 +12,10 @@ fc:
 prerequis:
   - strides
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=xFggri56Gkg
 
-# Description
+## Description
 Strides avec une demi-rotation entre chaque pas.
 
-# Notes
+## Remarques

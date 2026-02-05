@@ -12,10 +12,10 @@ fc:
 prerequis:
   - tic-tac
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=LjuW-4HFAMw
 
-# Description
+## Description
 Tic-tac avec une rotation pour se propulser avec le "mauvais" pied par rapport à la direction de la course.
 
-# Notes
+## Remarques

@@ -12,11 +12,11 @@ fc:
   - grimper
 prerequis:
 ---
-# Vidéo
+## Vidéo
 [A venir]
 
-# Description
+## Description
 Mouvement consistant à passer de la suspension au sommet d’un mur jusqu’à l’appui, en effectuant une traction puis antépulsion des bras, avec aide des pieds contre la surface verticale du mur. Appelé « planche » en France.
 
-# Notes
+## Remarques
 Aussi difficile techniquement qu'en termes de force. Avec des enfants le mouvement peut être travaillé si les pieds ont un appui suffisant, permettant de décharger les bras.

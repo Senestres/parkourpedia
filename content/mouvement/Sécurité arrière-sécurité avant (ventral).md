@@ -12,10 +12,10 @@ prerequis:
   - passement de sécurité
   - passement de sécurité arrière
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=csQWugT9nUk
 
-# Description
+## Description
 Franchissement d'un obstacle en commençant par un passement de sécurité arrière et en terminant avec un passement de sécurité avant, en passant par un appui facial.
 
-# Notes
+## Remarques

@@ -12,10 +12,10 @@ fc:
 prerequis:
   - strides 180
 ---
-# Vidéo
+## Vidéo
 [A venir]
 
-# Description
+## Description
 Strides avec rotation complète entre chaque pas.
 
-# Notes
+## Remarques

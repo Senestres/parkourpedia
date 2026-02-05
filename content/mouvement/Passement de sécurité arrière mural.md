@@ -12,11 +12,11 @@ fc:
 prerequis:
   - passement de sécurité mural
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=YSehDtncEvY
 
-# Description
+## Description
 Passement de sécurité arrière contre une surface verticale.
 
-# Notes
+## Remarques
 Le plus facile est d'effectuer le passement après un passemuraille. 

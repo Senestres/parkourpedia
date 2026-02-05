@@ -10,12 +10,12 @@ fc:
   - flow
   - passements
 prerequis:
-  - sécurité-sécurité
+  - sécurité switch
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=jSJpj406LA0
 
-# Description
+## Description
 Passement de sécurité enchaîné avec un lazy.
 
-# Notes
+## Remarques

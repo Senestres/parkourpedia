@@ -12,9 +12,9 @@ fc:
 prerequis:
   - lazy
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=1BhiI4uyIUQ
-# Description
+## Description
 Début d'un lazy suivi d'une rotation complète.
 
-# Notes
+## Remarques

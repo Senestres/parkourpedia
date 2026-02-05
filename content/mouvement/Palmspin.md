@@ -11,10 +11,10 @@ fc:
   - rotations
 prerequis:
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=2TiUWqmnJKk
 
-# Description
+## Description
 Rotation complète sur l'axe antéro-postérieur autour d'un bras d'appui sur un obstacle. L'appui de la deuxième main peut être utilisé au début du mouvement.
-# Notes
+## Remarques
 La rotation peut être pensée comme une roue avec les jambes pliées, et peut être presque verticale.

@@ -12,8 +12,8 @@ fc:
 prerequis:
   - balancé
 ---
-# Vidéo
+## Vidéo
 
-# Description
+## Description
 
-# Notes
+## Remarques

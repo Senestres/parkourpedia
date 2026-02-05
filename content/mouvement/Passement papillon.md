@@ -12,10 +12,10 @@ fc:
 prerequis:
   - passement latéral
 ---
-# Vidéo
+## Vidéo
 
-# Description
+## Description
 Franchir l'obstacle avec une rotation complète analogue à un coup de pied papillon (ou une roue horizontale).
 
-# Notes
+## Remarques
 Peut être utilisé comme progression pour la roue.

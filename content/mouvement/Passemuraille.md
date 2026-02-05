@@ -12,9 +12,9 @@ fc:
   - grimper
 prerequis:
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=O1YmbwIj6Gk
-# Description
+## Description
 Technique visant à atteindre le sommet d’un mur par une course d’élan et un appui d’un pied contre la surface verticale du mur.
 
-# Notes
+## Remarques

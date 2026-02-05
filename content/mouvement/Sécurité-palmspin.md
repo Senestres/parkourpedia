@@ -12,10 +12,10 @@ fc:
 prerequis:
   - passement de sécurité
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=LMKBZeEE5JA
 
-# Description
+## Description
 Palmspin réalisé depuis le milieu d'un passement de sécurité.
 
-# Notes
+## Remarques

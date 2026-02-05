@@ -12,11 +12,11 @@ fc:
 prerequis:
   - passement de sécurité
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=c_q0cyrHzio
-# Description
+## Description
 Un passement de sécurité enchaîné avec un passement de sécurité du côté opposé.
 
-# Notes
+## Remarques
 
 

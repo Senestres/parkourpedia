@@ -11,9 +11,9 @@ fc:
 prerequis:
   - passement de sécurité
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=Mgs0yJsGmkU
-# Description
+## Description
 Passement de sécurité effectué en sens inverse, en commençant dos à l'obstacle.
 
-# Notes
+## Remarques

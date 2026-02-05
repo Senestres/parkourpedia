@@ -12,10 +12,10 @@ fc:
   - balancés
 prerequis:
 ---
-# Vidéo
+## Vidéo
 [A venir]
-# Description
+## Description
 Passer sous une barre ou branche d'arbre avec une prise en pronation. 
 
-# Notes
+## Remarques
 Relativement similaire à une sortie filée/fusée en gymastique.

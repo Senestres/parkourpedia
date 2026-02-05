@@ -12,11 +12,11 @@ fc:
 prerequis:
   - passement de sécurité
 ---
-# Vidéo
+## Vidéo
 https://www.youtube.com/watch?v=ejn6cknZAew
 
-# Description
+## Description
 Passement de sécurité effectué contre une surface verticale.
 
-# Notes
+## Remarques
 Selon l'inclinaison de la surface, il est possible de faire une [autre variation du passement de sécurité mural](https://parkourtheory.com/move/wall_safety_step).
