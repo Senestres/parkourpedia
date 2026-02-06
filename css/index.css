@@ -353,8 +353,6 @@ svg.nav-icon {
 .pf-results { /* Must be overriden with an id in the <pf-results> etc */
 	flex-direction: row !important;
 	flex-wrap: wrap !important;
-	background-color: yellow;
-
 }
 .pf-result {
 	max-width: 40ch !important;
@@ -378,4 +376,71 @@ main:has(.explorer-grid) {
 
 .variations {
 	margin-top: 3em;
+}
+
+
+
+
+/* Test */
+/* #explore:not(#_):not(#_) .pf-results {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 1.5rem;
+	justify-content: start;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.postlist-card, #explore:not(#_):not(#_) .pf-result-card {
+	transition: 0.3s;
+	list-style-type: none;
+	align-items: center;
+	padding-top: 55%;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301); 
+	background-image: linear-gradient(to right, var(--accent-color), var(--accent-color2));
+}
+.pf-result-card:hover {
+ 	transform: scale(1.05);
+  	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-overlay, #explore:not(#_):not(#_) .pf-result-content {
+	display: flex;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #00000080;
+}
+#explore:not(#_):not(#_) .pf-result-link {
+color: #fff;
+}
+
+.card-img, #explore:not(#_):not(#_) .pf-result-image {
+	position: absolute;
+	z-index: 0;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translateY(-50%);
+}
+@media screen and (max-width: 620px) {
+  #explore:not(#_):not(#_) .pf-result-card {
+    width: 100%;
+  }
+} */
+
+
+.my-result p.yellow {
+	background-color: yellow;
 }

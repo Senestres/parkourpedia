@@ -6,6 +6,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import embedEverything from "eleventy-plugin-embed-everything";
 import { execSync } from 'child_process';
 import metadata from "./_data/metadata.js";
+import formesCaracteristiques from "./_data/formesCaracteristiques.json" with { type: "json" } ;
 
 import pluginFilters from "./_config/filters.js";
 
@@ -63,6 +64,28 @@ export default async function(eleventyConfig) {
 		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
 		bundleHtmlContentFromSelector: "script",
 	});
+
+	// Create new collections from metadata
+  formesCaracteristiques.forEach(({ name }) => {
+    eleventyConfig.addCollection(name, function (collection) {
+      return collection.getAll().filter(item => {
+		if (!item.data.fc) return false;
+		if (Array.isArray(item.data.fc)) {
+          return item.data.fc.includes(name);
+        }
+		return item.data.fc === name;
+	  });
+    });
+  });
+
+
+/*   fcValues.forEach(fc => {
+    eleventyConfig.addCollection(fc, function (collection) {
+      return collection.getAll().filter(item => item.data.fc === fc);
+    });
+  }); */
+
+
 
 	// add yt embedd
 	eleventyConfig.addPlugin(embedEverything);

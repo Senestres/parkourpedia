@@ -14,11 +14,10 @@ layout: layouts/base.njk
 
 <div class="content">
 <h1>{{ title }}</h1>
-<div><b>Formes caractéristiques:</b> {% for f in fc %} {{f}}{%- if not loop.last %}, {% endif %} {% endfor %}</div>
+<div><b>Formes caractéristiques:</b> {% for f in fc %} <a href="/tags/{{f | slugify}}/">{{f}}</a>{%- if not loop.last %}, {% endif %} {% endfor %}</div>
 {% if aliases %}
 	<div data-pagefind-body><b>Alias: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
 {% endif %}
-
 
 {# Add an if check for img or video ? and img needs styling #}
 {% if coverImage == true %}
@@ -32,6 +31,7 @@ layout: layouts/base.njk
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
 		picture-in-picture; web-share" allowfullscreen=""></iframe>
 	</div>
+	<div data-pagefind-meta="image[src], image_alt[alt]" src="https://img.youtube.com/vi/{{ video }}/hqdefault.jpg" alt=""cover image></div>
 {% endif %}
 
 <article data-pagefind-body>
