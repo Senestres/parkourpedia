@@ -4,7 +4,9 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import embedEverything from "eleventy-plugin-embed-everything";
+import markdownItFootnote from 'markdown-it-footnote';
 import { execSync } from 'child_process';
+
 import metadata from "./_data/metadata.js";
 import formesCaracteristiques from "./_data/formesCaracteristiques.json" with { type: "json" } ;
 
@@ -63,6 +65,11 @@ export default async function(eleventyConfig) {
 		// Add all <script> content to the `js` bundle (use <script eleventy:ignore> to opt-out)
 		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
 		bundleHtmlContentFromSelector: "script",
+	});
+
+	eleventyConfig.amendLibrary("md", mdLib => {
+		mdLib.use(markdownItFootnote); 		// add markdown footnotes
+		/* If using img in .md ressources, use add md-eleventy-img */
 	});
 
 	// Create new collections from metadata

@@ -16,7 +16,7 @@ Eviter l'écueil du technicisme.
 -> pas seulement une liste de techniques
 -> apprendre = reproduire des mvmts stéréotypés
 
-Citer le manuel J+S^[This is a footnote.]
+Citer le manuel J+S^[Dutoit, J. et al., *Manuel Parkour* (2022).]
 
 ## Les formes d'entrainement
 
@@ -26,6 +26,8 @@ Citer le manuel J+S^[This is a footnote.]
     {% endfor -%}
  #}
 
-# Comment commencer ?
+This is an ![image](/img/default.jpg)
+
+## Comment commencer ?
 [Commencer par les bases !](/tags/base/)
 
