@@ -1,6 +1,6 @@
 ---
-title: Sécurité 360
-date: 2026-02-03
+title: Step-dash
+date: 2026-02-06
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
@@ -8,13 +8,10 @@ aliases:
 tags:
 fc:
   - passements
-  - rotations
 prerequis:
-  - passement de sécurité
 video:
-  - sS8v9ZMlA1k
 ---
 ## Description
-Passement de sécurité suivi d'une rotation complète.
+Un dash effectué avec un pas sur l'obstacle.
 
 ## Remarques

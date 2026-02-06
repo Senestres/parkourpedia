@@ -13,8 +13,6 @@ prerequis:
   - saut de chat
 ---
 ## Description
-Le plongeon-chat consiste à franchir une longue distance avant de poser les mains sur un obstacle.
-
-
+Saut plongé vers l'avant en couvrant une distance avant de poser les mains sur un obstacle, suivi d'un appui pour rétablir le corps et franchir l'obstacle.
 
 ## Remarques

@@ -3,7 +3,7 @@ title: Lâché
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: false
+coverImage: "false"
 aliases:
 tags:
   - base
@@ -13,5 +13,6 @@ prerequis:
   - balancé
 ---
 ## Description
+Mouvement consistant à se propulser d'une barre après s'être balancé.
 
 ## Remarques

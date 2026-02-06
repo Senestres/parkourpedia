@@ -1,6 +1,6 @@
 ---
-title: Sécurité 360
-date: 2026-02-03
+title: Roulade dorsale hyper
+date: 2026-02-06
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
@@ -10,11 +10,11 @@ fc:
   - passements
   - rotations
 prerequis:
-  - passement de sécurité
+  - roulade assise hyper
+  - passement roulade
 video:
-  - sS8v9ZMlA1k
 ---
 ## Description
-Passement de sécurité suivi d'une rotation complète.
+Roulade dorsale avec sur-rotation pour atterrir sur l'autre jambe.
 
 ## Remarques

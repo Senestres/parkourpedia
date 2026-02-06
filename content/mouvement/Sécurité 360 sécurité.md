@@ -1,6 +1,6 @@
 ---
-title: Sécurité 360
-date: 2026-02-03
+title: Sécurité 360 sécurité
+date: 2026-02-06
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
@@ -10,11 +10,10 @@ fc:
   - passements
   - rotations
 prerequis:
-  - passement de sécurité
+  - sécurité 360
 video:
-  - sS8v9ZMlA1k
 ---
 ## Description
-Passement de sécurité suivi d'une rotation complète.
+Un passement de sécurité suivi d'un 360 pour revenir en position de sécurité sur le même obstacle.
 
 ## Remarques

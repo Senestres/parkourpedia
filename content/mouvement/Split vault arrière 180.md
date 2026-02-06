@@ -1,6 +1,6 @@
 ---
-title: Sécurité 360
-date: 2026-02-03
+title: Split vault arrière 180
+date: 2026-02-06
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
@@ -8,13 +8,11 @@ aliases:
 tags:
 fc:
   - passements
-  - rotations
 prerequis:
-  - passement de sécurité
+  - split vault arrière
 video:
-  - sS8v9ZMlA1k
 ---
 ## Description
-Passement de sécurité suivi d'une rotation complète.
+Split vault arrière suivi d'une demi-rotation pour termine le mouvement en avant.
 
 ## Remarques
