@@ -4,17 +4,17 @@
 {# <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet"> #}
 {# <script src="/pagefind/pagefind-component-ui.js" type="module"></script> #}
 
-<pagefind-config faceted preload excerpt-length="0"></pagefind-config>
+<pagefind-config instance="explorer" faceted preload excerpt-length="0"></pagefind-config>
 
-<div class="explorer-grid" id="explorer-grid">
+<div class="explorer-grid">
     <div class="box-filter" >
-        <pagefind-input></pagefind-input>
-        <pagefind-summary></pagefind-summary>
-        <pagefind-filter-pane open="catégorie, forme caractéristique"></pagefind-filter-pane>
+        <pagefind-input instance="explorer"></pagefind-input>
+        <pagefind-summary instance="explorer"></pagefind-summary>
+        <pagefind-filter-pane instance="explorer" open="catégorie, forme caractéristique"></pagefind-filter-pane>
     </div>
 
     <div>
-        <pagefind-results hide-sub-results show-images="false" id="explorer"></pagefind-results>
+        <pagefind-results instance="explorer" hide-sub-results show-images="false" id="explorer"></pagefind-results>
     </div>
 </div>
 

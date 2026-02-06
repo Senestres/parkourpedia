@@ -78,15 +78,6 @@ export default async function(eleventyConfig) {
     });
   });
 
-
-/*   fcValues.forEach(fc => {
-    eleventyConfig.addCollection(fc, function (collection) {
-      return collection.getAll().filter(item => item.data.fc === fc);
-    });
-  }); */
-
-
-
 	// add yt embedd
 	eleventyConfig.addPlugin(embedEverything);
 

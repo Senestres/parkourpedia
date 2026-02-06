@@ -298,7 +298,7 @@ svg.nav-icon {
 	list-style-type: none;
 	padding-left: 0;
 }
-.postlist-card, main .pf-result-card {
+.postlist-card {
 	transition: 0.3s;
 	list-style-type: none;
 	align-items: center;
@@ -327,7 +327,7 @@ svg.nav-icon {
 	color: #fff;
 	background-color: #00000080;
 }
-.card-img, .pf-result-image {
+.card-img {
 	position: absolute;
 	z-index: 0;
 	top: 50%;
@@ -350,11 +350,11 @@ svg.nav-icon {
 }
 
 /* Pagefind */
-.pf-results { /* Must be overriden with an id in the <pf-results> etc */
+.explorer-grid .pf-results { /* Must be overriden with an id in the <pf-results> etc */
 	flex-direction: row !important;
 	flex-wrap: wrap !important;
 }
-.pf-result {
+.explorer-grid .pf-result {
 	max-width: 40ch !important;
 }
 /* This seems to be required to avoid the explorer to resize when filtered down */
@@ -382,7 +382,8 @@ main:has(.explorer-grid) {
 
 
 /* Test */
-/* #explore:not(#_):not(#_) .pf-results {
+/* 
+.explorer-grid:not(#_):not(#_) .pf-results {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 	gap: 1.5rem;
@@ -391,7 +392,7 @@ main:has(.explorer-grid) {
 	padding-left: 0;
 }
 
-.postlist-card, #explore:not(#_):not(#_) .pf-result-card {
+.explorer-grid:not(#_):not(#_) .pf-result-card {
 	transition: 0.3s;
 	list-style-type: none;
 	align-items: center;
@@ -406,7 +407,7 @@ main:has(.explorer-grid) {
  	transform: scale(1.05);
   	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
-.card-overlay, #explore:not(#_):not(#_) .pf-result-content {
+.explorer-grid:not(#_):not(#_) .pf-result-content {
 	display: flex;
 	position: absolute;
 	z-index: 1;
@@ -420,11 +421,11 @@ main:has(.explorer-grid) {
 	color: #fff;
 	background-color: #00000080;
 }
-#explore:not(#_):not(#_) .pf-result-link {
+.explorer-grid:not(#_):not(#_) .pf-result-link {
 color: #fff;
 }
 
-.card-img, #explore:not(#_):not(#_) .pf-result-image {
+.explorer-grid:not(#_):not(#_) .pf-result-image {
 	position: absolute;
 	z-index: 0;
 	top: 50%;
@@ -438,9 +439,5 @@ color: #fff;
   #explore:not(#_):not(#_) .pf-result-card {
     width: 100%;
   }
-} */
-
-
-.my-result p.yellow {
-	background-color: yellow;
 }
+ */

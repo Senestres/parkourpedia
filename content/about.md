@@ -26,3 +26,6 @@ Citer le manuel J+S
     {% endfor -%}
  #}
 
+# Comment commencer ?
+[Commencer par les bases !](/tags/base/)
+
