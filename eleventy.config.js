@@ -99,19 +99,17 @@ export default async function(eleventyConfig) {
 		metadata
 	});
 
-	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
-		formats: ["avif", "webp", "auto"],
-
-		// widths: ["auto"],
+		formats: ["webp", "auto"],
+		widths: [300, 800, "auto"],
 
 		failOnError: false,
 		htmlOptions: {
 			imgAttributes: {
-				// e.g. <img loading decoding> assigned on the HTML tag will override these values.
 				loading: "lazy",
 				decoding: "async",
+				sizes: '100vw',
 			}
 		},
 

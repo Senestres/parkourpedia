@@ -16,7 +16,7 @@ Eviter l'écueil du technicisme.
 -> pas seulement une liste de techniques
 -> apprendre = reproduire des mvmts stéréotypés
 
-Citer le manuel J+S
+Citer le manuel J+S^[This is a footnote.]
 
 ## Les formes d'entrainement
 

@@ -19,11 +19,7 @@ const eleventyComputed = {
 	}
 };
 ---
-<h1>Tagged “{{ tag }}”</h1>
-
-{% for post in collections.tag %}
-	<h1>works ?</h1> {{post}}
-{% endfor %}
+<h1>“{{ tag }}”</h1>
 
 {# This should get the long name of a FC #}
 {% for forme in formesCaracteristiques %}
@@ -36,5 +32,3 @@ const eleventyComputed = {
 {% include "postslist.njk" %}
 
 <p>See <a href="tags.njk">all tags</a>.</p>
-
-

@@ -379,7 +379,9 @@ main:has(.explorer-grid) {
 }
 
 
-
+.explorer-grid:not(#_):not(#_) .pf-result {
+	background-image: url();
+}
 
 /* Test */
 /* 
