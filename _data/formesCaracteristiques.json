@@ -1,36 +1,57 @@
-[
-	{
-		"name":"sauts",
-		"description":"Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs"},
-		{
-			"name":"passements",
-		"description":"Franchir des obstacles de manière variée et avec agilité"},
-		{
-			"name":"équilibre",
-		"description":"Garder l'équilibre avec habileté et assurance en toute situation"},
-		{
-			"name":"balancés",
-		"description":"Utiliser différents objets pour se balancer de façon créative et ciblée"},
-		{
-			"name":"rotations",
-		"description":"Rouler et faire tourner son corps de manière variée et ciblée"},
-		{
-			"name":"grimper",
-		"description":"Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout"},
-		{
-			"name":"tricks muraux",
-		"description":"Utiliser le mur de façon variée, habile et ciblée"},
-		{
-			"name":"autoévaluation",
-		"description":"Evaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation"},
-		{
-			"name":"respect",
-		"description":"Faire preuve de respect envers soi-même, les autres et l'environnement"},
-		{
-			"name":"créativité",
-		"description":"Tester et développer une approche créative"},
-		{
-			"name":"flow",
-		"description":"Optimiser la fluidité lors d'un enchaînement"
+{
+	"sauts": {
+		"emoji": "🦘",
+		"short": "Sauts",
+		"long": "Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs"
+	},
+	"passements": {
+		"emoji": "🐈",
+		"short": "Passements",
+		"long": "Franchir des obstacles de manière variée et avec agilité"
+	},
+	"équilibre": {
+		"emoji": "⚖️",
+		"short": "Équilibre",
+		"long": "Garder l'équilibre avec habileté et assurance en toute situation"
+	},
+	"balancés": {
+		"emoji": "🐒",
+		"short": "Balancés",
+		"long": "Utiliser différents objets pour se balancer de façon créative et ciblée"
+	},
+	"rotations": {
+		"emoji": "🤸‍♀️",
+		"short": "Rotations",
+		"long": "Rouler et faire tourner son corps de manière variée et ciblée"
+	},
+	"grimper": {
+		"emoji": "🧗‍♂️",
+		"short": "Grimper",
+		"long": "Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout"
+	},
+	"tricks muraux": {
+		"emoji": "🧱",
+		"short": "Tricks muraux",
+		"long": "Utiliser le mur de façon variée, habile et ciblée"
+	},
+	"autoévaluation": {
+		"emoji": "🦉",
+		"short": "Autoévaluation",
+		"long": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation"
+	},
+	"respect": {
+		"emoji": "🤝",
+		"short": "Respect",
+		"long": "Faire preuve de respect envers soi-même, les autres et l'environnement"
+	},
+	"creativité": {
+		"emoji": "⚗️",
+		"short": "Créativité",
+		"long": "Tester et développer une approche créative"
+	},
+	"flow": {
+		"emoji": "🌊",
+		"short": "Flow",
+		"long": "Optimiser la fluidité lors d'un enchaînement"
 	}
-]
+}

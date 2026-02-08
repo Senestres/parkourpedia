@@ -22,11 +22,13 @@ const eleventyComputed = {
 <h1>“{{ tag }}”</h1>
 
 {# This should get the long name of a FC #}
-{% for forme in formesCaracteristiques %}
+ {{formesCaracteristiques[tag].long}} {{ formesCaracteristiques[tag].emoji }}
+
+{# {% for forme in formesCaracteristiques %}
 	{% if tag == forme.name %}
 	{{forme.description}}
 {% endif %}
-{% endfor %}
+{% endfor %} #}
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}

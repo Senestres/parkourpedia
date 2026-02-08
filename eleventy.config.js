@@ -73,14 +73,14 @@ export default async function(eleventyConfig) {
 	});
 
 	// Create new collections from metadata
-  formesCaracteristiques.forEach(({ name }) => {
-    eleventyConfig.addCollection(name, function (collection) {
+  Object.keys(formesCaracteristiques).forEach((forme) => {
+    eleventyConfig.addCollection(forme, (collection) => {
       return collection.getAll().filter(item => {
 		if (!item.data.fc) return false;
 		if (Array.isArray(item.data.fc)) {
-          return item.data.fc.includes(name);
+          return item.data.fc.includes(forme);
         }
-		return item.data.fc === name;
+		return item.data.fc === forme;
 	  });
     });
   });
