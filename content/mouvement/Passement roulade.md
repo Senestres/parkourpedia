@@ -3,14 +3,14 @@ title: Passement roulade
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - Passement roulade
-coverImage: Passement roulade.jpg
+coverImage:
 aliases:
 tags:
 fc:
   - passements
   - rotations
 prerequis:
-  - roulade assise
+  - passement assis
 ---
 # Vidéo
 https://www.youtube.com/watch?v=DP9DdFl775o

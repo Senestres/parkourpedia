@@ -1,19 +1,19 @@
 ---
-title: Roulade assise hyper
-date: 2026-02-06
+title: Reverse palmspin
+date: 2026-02-08
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 aliases:
 tags:
 fc:
-  - passements
+  - flow
   - rotations
 prerequis:
-  - roulade assise
+  - palmspin
+  - palmspin illusion sécurité
 video:
 ---
 ## Description
-Roulade assise avec sur-rotation pour atterrir sur l'autre jambe.
 
 ## Remarques

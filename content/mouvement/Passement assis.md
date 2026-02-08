@@ -1,10 +1,11 @@
 ---
-title: Roulade assise
+title: Passement assis
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: false
 aliases:
+  - roulade assise
 tags:
   - base
 fc:
