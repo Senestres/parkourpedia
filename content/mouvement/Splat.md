@@ -3,7 +3,7 @@ title: Splat
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: false
+coverImage:
 aliases:
 tags:
 fc:
@@ -14,7 +14,6 @@ video:
   - ZpqDd7Kf6MA
 ---
 ## Description
-Saut contre la surface vertical d'un mur, similaire à un saut de bras mais sans saisir de prise avec les mains.
-
+Saut amorti avec les pieds et les mains contre la surface vertical d'un mur, similaire à un saut de bras mais sans saisir de prise avec les mains.
 
 ## Remarques

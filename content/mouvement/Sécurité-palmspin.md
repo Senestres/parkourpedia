@@ -3,7 +3,7 @@ title: Sécurité-palmspin
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: false
+coverImage:
 aliases:
 tags:
 fc:

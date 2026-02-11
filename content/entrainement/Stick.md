@@ -1,5 +1,5 @@
 ---
-title: Stick
+title: STICK
 date: 2026-02-04
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
@@ -27,16 +27,17 @@ Développer la précision et l'équilibre pour stabiliser (*sticker*) un saut.
 
 👥Participants: groupes de 2-5
 
-⚙️Matériel: obstacles divers
-
+⚙️Matériel: divers obstacles sur lesquels sauter (murets, barres, bancs, haut de caisson, tapis…)
 
 ## Description
-Le premier joueur propose un défi (p.ex. saut d'un point A à un point B) et le démontre.
+Le premier joueur propose un défi se terminant par un stick (atterrissage stable et précis) et le démontre.
 
-- Si il échoue, il prend une lettre du mot S-T-I-C-K et c'est au joueur suivant de proposer un défi.
+- Si il échoue, il prend une lettre du mot S-T-I-C-K et on passe directement au joueur suivant qui propose son défi.
 - Si il y parvient, les autres joueurs doivent réussir le défi. Si ils échouent, ils prennent une lettre.
 
-Un stick est considéré comme réussi lorsque l'aterrissage est fait sur l'avant du pied (voir saut de précision) et que le participant est stable (tenir sur place ~3s)
+Un stick est considéré comme réussi lorsque l'aterrissage est fait sur l'avant du pied (voir saut de précision) et que le participant est stable (tenir sur place ~3s).
+
+Le joueur qui a toutes les lettres du mot est éliminé.
 
 ## Variantes
 ➖/➕Donner des contraintes (mouvements, espace ou obstacles à utiliser)
@@ -47,8 +48,5 @@ Un stick est considéré comme réussi lorsque l'aterrissage est fait sur l'avan
 Expliquer qu'il vaut mieux prendre une lettre que de se blesser: les joueurs ont le droit de passer leur tour si ils pensent qu'ils n'ont pas les capacités pour réaliser un défi !
 
 En général, le groupe décide collectivement quelles sont les conditions de réussite d'un stick. Ne pas hésiter à guider la négociation ou proposer des critères de réussite en cas de conflit.
-
-
-
 
 

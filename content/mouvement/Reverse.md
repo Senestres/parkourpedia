@@ -3,7 +3,7 @@ title: Reverse
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: false
+coverImage:
 aliases:
 tags:
 fc:
@@ -16,7 +16,7 @@ video:
   - 7gpPAbgn_rM
 ---
 ## Description
-Passement avec rotation complète sur l'axe longitudinal.
+Passement avec rotation complète sur l'axe longitudinal durant le vol.
 Contrairement au passement papillon, la rotation implique de tourner le dos à l'obstacle.
 
 ## Remarques

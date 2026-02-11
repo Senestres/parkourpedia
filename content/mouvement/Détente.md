@@ -5,7 +5,7 @@ tags:
   - base
 description: Apprendre et enseigner le parkour - {{ title }}
 authors: Yann Daout
-coverImage: false
+coverImage:
 fc:
   - sauts
 prerequis:

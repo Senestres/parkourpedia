@@ -3,7 +3,7 @@ title: Passement de sécurité
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage: false
+coverImage:
 aliases:
   - step vault
 tags:
@@ -15,6 +15,7 @@ video:
   - qTeYgw-H-UA
 ---
 ## Description
-Passement avec une main et le pied opposé.
+Passement consistant à franchir l’obstacle avec une main et le pied opposé.
 
 ## Remarques
+C'est une des techniques les plus faciles, les plus fondamentales, et pourtant les plus versatiles et les plus efficaces !
