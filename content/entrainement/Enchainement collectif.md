@@ -1,5 +1,5 @@
 ---
-title: Enchaînement en équipe
+title: Enchainement collectif
 date: 2026-02-10
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}

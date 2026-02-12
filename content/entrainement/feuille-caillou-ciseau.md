@@ -3,7 +3,7 @@ title: Feuille-caillou-ciseau
 date: 2026-02-04
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage:
+coverImage: FCC.png
 aliases:
 tags:
 fc:
@@ -32,6 +32,9 @@ Lorsqu'un joueur franchit le dernier obstacle avant d'atteindre la base adverse,
 
 Un joueur qui parvient à la base adverse marque un point pour son équipe. Le jeu continue immédiatement, les deux équipes envoyant un autre joueur.
 Faire une manche au temps, puis les équipes changent de camp pour la deuxième manche.
+
+Exemple de mise en place en salle avec 4 équipes: les deux équipes du haut jouent l'une contre l'autre; les deux équipes du bas jouent l'une contre l'autre.
+![[FCC.png]]
 
 ## Variantes
 ➖/➕Imposer des techniques spécifiques
