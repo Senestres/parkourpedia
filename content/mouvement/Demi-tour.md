@@ -12,7 +12,7 @@ fc:
 prerequis:
   - passement de sécurité
 video:
-  - 6waSRAY8jTU 
+  - 6waSRAY8jTU
 ---
 ## Description
 Passement consistant à faire un demi-tour par-dessus un obstacle pour se retrouver en position de suspension de l'autre côté.
