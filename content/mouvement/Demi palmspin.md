@@ -1,6 +1,6 @@
 ---
-title: Split vault arrière 180
-date: 2026-02-06
+title: Demi palmspin
+date: 2026-02-14
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
@@ -9,11 +9,10 @@ tags:
 fc:
   - passements
 prerequis:
-  - split vault arrière
 video:
-  - t7AB1eE14WM
+  - _IfJVWaFwK0
 ---
 ## Description
-Split vault arrière suivi d'une demi-rotation pour termine le mouvement en avant.
+Demi rotation en appui avec la main extérieur, généralement utilisée pour monter sur un obstacle.
 
 ## Remarques

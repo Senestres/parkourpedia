@@ -10,7 +10,7 @@ fc:
   - passements
   - grimper
 prerequis:
-  - passement de sécurité
+  - demi-tour de sécurité
 video:
   - 6waSRAY8jTU
 ---

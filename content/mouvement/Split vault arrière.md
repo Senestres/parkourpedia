@@ -11,7 +11,7 @@ fc:
 prerequis:
   - split vault
 video:
-  - 6uCJZ6XHAJ0 
+  - 6uCJZ6XHAJ0
 ---
 ## Description
 Split vault en commençant dos à l'obstacle.

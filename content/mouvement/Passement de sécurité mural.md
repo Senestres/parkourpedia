@@ -18,4 +18,4 @@ video:
 Passement de sécurité effectué contre une surface verticale.
 
 ## Remarques
-Selon l'inclinaison de la surface, il est possible de faire une [autre variation du passement de sécurité mural](https://parkourtheory.com/move/wall_safety_step).
+Selon l'inclinaison de la surface, il est possible de faire une [autre variation du passement de sécurité mural](https://youtu.be/618OI0kU8Uw).

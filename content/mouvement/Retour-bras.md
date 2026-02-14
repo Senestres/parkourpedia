@@ -12,7 +12,7 @@ prerequis:
   - retour
   - saut de bras
 video:
-  - IUoXmWePI2Q 
+  - IUoXmWePI2Q
 ---
 ## Description
 Saut entre deux murs, avec la position de départ et d'arrivée en suspension.

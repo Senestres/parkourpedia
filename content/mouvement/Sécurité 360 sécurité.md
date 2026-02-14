@@ -12,7 +12,7 @@ fc:
 prerequis:
   - sécurité 360
 video:
-  - yzMPHMe60FI 
+  - yzMPHMe60FI
 ---
 ## Description
 Un passement de sécurité suivi d'un 360 pour revenir en position de sécurité sur le même obstacle.

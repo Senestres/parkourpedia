@@ -13,7 +13,7 @@ fc:
 prerequis:
   - passement assis
 video:
-  - H-KaZijZuKw 
+  - H-KaZijZuKw
 ---
 ## Description
 Roulade assise avec sur-rotation pour atterrir sur l'autre jambe.
