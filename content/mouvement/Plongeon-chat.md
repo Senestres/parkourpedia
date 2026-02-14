@@ -11,6 +11,8 @@ fc:
   - passements
 prerequis:
   - saut de chat
+video:
+  - BN45wM1G_ec
 ---
 ## Description
 Saut plongé vers l'avant en couvrant une distance avant de poser les mains sur un obstacle, suivi d'un appui pour rétablir le corps et franchir l'obstacle.

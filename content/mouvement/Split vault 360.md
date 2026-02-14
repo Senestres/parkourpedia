@@ -11,6 +11,7 @@ fc:
 prerequis:
   - split vault
 video:
+  - AS0owVrBifc 
 ---
 ## Description
 Split vault suivi d'une rotation complète.

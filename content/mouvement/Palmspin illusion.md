@@ -12,6 +12,7 @@ prerequis:
   - palmspin illusion sécurité
   - reverse palmspin
 video:
+  - TqGmi0jiBFo 
 ---
 ## Description
 Reverse palmspin avec une seule jambe qui passe par-dessus l'obstacle, l'autre restant proche du sol.

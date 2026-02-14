@@ -10,6 +10,7 @@ fc:
   - passements
 prerequis:
 video:
+  - S6pwrDGMps8 
 ---
 ## Description
 Un dash effectué avec un pas sur l'obstacle.

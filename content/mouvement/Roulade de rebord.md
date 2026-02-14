@@ -10,6 +10,7 @@ fc:
   - rotations
 prerequis:
 video:
+  - N9OI5TUrDLM 
 ---
 ## Description
 Une roulade effectuée sur le rebord d'un obstacle.
