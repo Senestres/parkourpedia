@@ -15,5 +15,6 @@ prerequis:
 video:
 ---
 ## Description
+Palmspin commençant avec l'appui de la main extérieure. La main intérieure peut servir à prendre appui à la fin de la rotation pour s'éloigner de l'obstacle.
 
 ## Remarques

@@ -8,6 +8,7 @@ aliases:
 tags:
 fc:
   - passements
+  - flow
 prerequis:
   - passement de sécurité
   - passement de sécurité arrière

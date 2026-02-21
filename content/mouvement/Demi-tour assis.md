@@ -1,21 +1,20 @@
 ---
-title: Demi palmspin roulade
+title: Demi-tour assis
 date: 2026-02-14
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 aliases:
+  - Sit-turn
 tags:
 fc:
   - flow
-  - rotations
+  - passements
 prerequis:
-  - roulade de rebord
-  - demi palmspin
+  - lazy
 video:
-  - 2aKDW-QhyKM
 ---
 ## Description
-Demi palmspin pour terminer en position assise, enchaîné avec une roulade de rebord.
+Lazy pour s'assoir sur un obstacle, suivi d'une rotation assise pour revenir à la position de départ.
 
 ## Remarques

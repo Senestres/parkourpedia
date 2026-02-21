@@ -1,19 +1,17 @@
 ---
-title: Passement latéral
-date: 2026-02-03
+title: Saut de chat inversé
+date: 2026-02-14
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 aliases:
 tags:
-  - base
 fc:
   - passements
 prerequis:
 video:
-  - -hvra5q3NfM
 ---
 ## Description
-Franchir un obstacle avec un appui des deux mains, les pieds passant sur les côtés.
+Saut avec demi-rotation par-dessus un obstacle, suivi d'un appui des deux mains pour se repousser de l'obstacle.
 
 ## Remarques

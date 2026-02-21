@@ -8,6 +8,7 @@ aliases:
 tags:
 fc:
   - passements
+  - flow
 prerequis:
   - passement de sécurité
   - lazy
@@ -18,6 +19,3 @@ video:
 Début d'un lazy, avec demi-rotation pour terminer en passement de sécurité, sans passer par-dessus l'obstacle.
 
 ## Remarques
-
-
-

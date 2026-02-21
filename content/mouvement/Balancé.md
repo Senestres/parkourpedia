@@ -12,5 +12,6 @@ fc:
 prerequis:
 ---
 ## Description
-Comme le nom l'indique, se balancer à une barre ou branche d'arbre, généralement suivi par un lâché.
+Se balancer suspendu à une barre ou branche d'arbre, généralement suivi par un lâché.
+
 ## Remarques

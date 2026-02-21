@@ -29,7 +29,7 @@ Explosivité
 ## Description
 Deux par deux, départ dos à dos comme un duel au pistolet. Choisir qui commence.
 
-Les joueurs s'éloignet l'un de l'autre en marchant. Lorsque le joueur A crie "stop", les deux se retournent et se font face. Le joueur B annonce le nombre de sauts qu'il pense avoir besoin pour parvenir jusqu'à son opposant. Le joueur A peut annoncer un nombre plus petit, ou dire "prouve-le !".
+Les joueurs s'éloignent l'un de l'autre en marchant. Lorsque le joueur A crie "stop", les deux se retournent et se font face. Le joueur B annonce le nombre de sauts qu'il pense avoir besoin pour parvenir jusqu'à son opposant. Le joueur A peut annoncer un nombre plus petit, ou dire "prouve-le !".
 
 L'enchère se poursuit ainsi jusqu'à ce qu'un joueur dise "prouve-le !". Le joueur doit alors le prouver en tentant d'atteindre son opposant avec le nombre de sauts annoncés (ou moins). S'il y parvient, il remporte la manche; autrement, il la perd.
 

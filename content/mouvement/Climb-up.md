@@ -18,4 +18,7 @@ Mouvement consistant à passer de la suspension au sommet d’un mur jusqu’à 
 
 ## Remarques
 Appelé "planche" en France.
+
 Aussi difficile techniquement qu'en termes de force. Avec des enfants le mouvement peut être travaillé si les pieds ont un appui suffisant, permettant de décharger les bras.
+
+Le pied d'appui doit être placé le plus haut possible sur le mur, afin de garder l'appui durant le mouvement.
