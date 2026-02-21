@@ -3,7 +3,7 @@ title: Le château du Shogun
 date: 2026-02-10
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage:
+coverImage: chateau.jpg
 aliases:
   - Le chasseur aveugle
 tags:

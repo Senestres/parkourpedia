@@ -8,26 +8,25 @@ eleventyNavigation:
 {# Test #}
 {% include "layouts/test.njk" %}
 
-# About
+# A propos
 Ce site propose une base de donnée de techniques de parkour ainsi que des formes de jeux, exercices et progressions pour apprendre le parkour.
 
-Adapté du modèle développé pour J+S.
-Eviter l'écueil du technicisme.
--> pas seulement une liste de techniques
--> apprendre = reproduire des mvmts stéréotypés
+Le parkour, ce n'est pas juste une liste de techniques stéréotypées. Vous trouverez donc ici des ressources pour développer d'autres compétences centrales dans cette discipline comme la créativité, le flow ou encore le respect de soi, des autres et de l'environnement.
 
-Citer le manuel J+S^[Dutoit, J. et al., *Manuel Parkour* (2022).]
+Je suggère de [commencer par les bases !](/tags/base/). Vous trouverez ensuite diverses variantes et les prérequis pour ces mouvements.
 
-## Les formes d'entrainement
+## Organisation du site
+Ce site est adapté du modèle développé pour Jeunesse+Sport (J+S)^[Dutoit, J. et al., *Manuel Parkour* (2022).] et propose des:
 
-{# ## Les formes caractéristiques
-    {%- for fc in formesCaracteristiques %}
-    <b>{{ fc.name | capitalize }}:</b> {{fc.description}}
+- Formes d'entrainement: les jeux, exercices ou progressions qui permettent de développer ses compétences en parkour.
+- Formes de mouvement: les mouvements ou techniques utilisées en parkour.
+
+Le tout est catégorisé selon les 11 formes caractéristiques qui représentent selon nous exhaustivement le parkour.
+<ul>
+    {%- for fc, item in formesCaracteristiques %}
+    {{formesCaracteristiques[fc].emoji}} <a href="/tags/{{fc | slugify}}/">{{ formesCaracteristiques[fc].short | capitalize }}</a>: {{formesCaracteristiques[fc].long}}
     {% endfor -%}
- #}
+</ul>
 
-This is an ![image](/img/default.jpg)
-
-## Comment commencer ?
-[Commencer par les bases !](/tags/base/)
-
+## Remerciements
+Le site ainsi que son contenu ont été réalisés en partenariat avec [Parkour Lausanne](https://parkourlausanne.ch) ainsi que l'[Association suisse de parkour (SPKA)](https://www.spka.ch/).
