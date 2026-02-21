@@ -3,7 +3,7 @@ title: Imposer un mouvement
 date: 2026-02-10
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage:
+coverImage: cubes.jpg
 aliases:
 tags:
 fc:
