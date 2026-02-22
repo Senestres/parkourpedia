@@ -10,6 +10,7 @@ fc:
   - passements
 prerequis:
 video:
+  - RtTdU9BSB4s
 ---
 ## Description
 Une main sert d'appui sur une surface horizontale, l'autre sur une surface verticale proche. Les jambes sont ensuite balancées dans l'espace entre les deux appuis.

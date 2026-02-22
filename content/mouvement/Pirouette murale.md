@@ -11,6 +11,7 @@ fc:
   - rotations
 prerequis:
 video:
+  - fbc63tiPst0
 ---
 ## Description
 Appui d'un pied contre un mur pour effectuer une rotation complète sur l'axe longitudinal.

@@ -12,7 +12,7 @@ fc:
 prerequis:
   - passement de sécurité mural
 video:
-  - YSehDtncEvY
+  - JY9BLZzVHlk
 ---
 ## Description
 Passement de sécurité arrière contre une surface verticale.

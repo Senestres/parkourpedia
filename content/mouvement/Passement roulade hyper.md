@@ -13,6 +13,7 @@ prerequis:
   - passement assis hyper
   - passement roulade
 video:
+  - -d6RDcoM810
 ---
 ## Description
 Roulade dorsale avec sur-rotation pour atterrir sur l'autre jambe.

@@ -12,6 +12,8 @@ fc:
   - grimper
 prerequis:
   - traction murale
+video:
+  - Qf3kY6gVLq0
 ---
 ## Description
 Mouvement consistant à passer de la suspension au sommet d’un mur jusqu’à l’appui, en effectuant une traction puis antépulsion des bras, avec aide des pieds contre la surface verticale du mur.
