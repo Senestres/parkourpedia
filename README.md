@@ -1,3 +1,7 @@
-# eleventy-base-blog v9
+# Parkourpedia
+Un librairie de techniques, jeux et progressions pour le parkour.
 
-A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
+
+## License
+- **Code** MIT License — voir LICENSE-CODE.md
+- **Content** CC-BY-NC-SA — voir LICENSE-CONTENT.md
