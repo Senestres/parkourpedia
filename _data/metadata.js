@@ -1,6 +1,6 @@
 export default {
-	title: "PKpedia",
-	url: "https://pkpedia.ch/",
+	title: "parkourpedia",
+	url: "https://parkourpedia.ch/",
 	language: "fr",
 	description: "Bibliothèque de mouvements et exercices pour apprendre et enseigner le parkour.",
 	author: {
