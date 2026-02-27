@@ -32,3 +32,14 @@ Mise en commun: chaque binôme choisit le défi le plus intéressant et le montr
 ➖/➕Définir à l'avance des défis, qui peuvent servir d'exemples avant de lancer les participants dans la création de leurs propres défis.
 
 ## Remarques
+Quelques exemples de challenges d'équilibre:
+
+- [Squats sur barre](https://youtu.be/KKUb5P8gM8k)
+- [Pirouette sur barre](https://youtu.be/jVn3jaOL85c)
+- [Demi pirouette sur barre](https://youtu.be/oq4tQJBxsyU)
+- [Equilibre sur barre](https://youtu.be/-nL0tlijlI4)
+- [Quadrupédie sur barre](https://youtu.be/vFv-UqwlaSY)
+- ...
+
+
+
