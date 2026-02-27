@@ -225,11 +225,14 @@ header {
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
+}
+.logo {
+	font-size: 2em; /* 16px /16 */
+	font-weight: 700;
 }
 
 /* Nav */
@@ -356,6 +359,9 @@ svg.nav-icon {
 }
 .explorer-grid .pf-result {
 	max-width: 40ch !important;
+}
+.explorer-results {
+	overflow-y: auto;
 }
 /* This seems to be required to avoid the explorer to resize when filtered down */
 main:has(.explorer-grid) {
