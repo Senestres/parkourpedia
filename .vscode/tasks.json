@@ -10,7 +10,7 @@
     {
       "label": "Deploy",
       "type": "shell",
-      "command": "rclone sync ./_site infomaniak:sites/pkpedia.parkourlausanne.ch/ --stats 1s --progress",
+      "command": "rclone sync ./_site infomaniak:sites/parkourpedia.ch/ --stats 1s --progress",
       "dependsOn": "Build",
       "problemMatcher": []
     }
