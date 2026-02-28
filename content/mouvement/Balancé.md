@@ -10,6 +10,8 @@ tags:
 fc:
   - balancés
 prerequis:
+video:
+  - xPzBxI1Qr0U
 ---
 ## Description
 Se balancer suspendu à une barre ou branche d'arbre, généralement suivi par un lâché.
