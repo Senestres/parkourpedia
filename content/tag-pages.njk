@@ -1,30 +1,23 @@
----js
-// <script>
-const pagination = {
-	data: "collections",
-	size: 1,
-	alias: "tag",
-	filter: ["all", "posts"],
-	// addAllPagesToCollections: true,
-};
-
-const eleventyExcludeFromCollections = true;
-
-const eleventyComputed = {
-	title: "Tagged '{{ tag }}'",
-	permalink: function(data) {
-		// If DuplicatePermalinkOutputError occurs, check that no tag occurs
-		// with differing case, e.g. "RSS" and "rss".
-		return `/tags/${this.slugify(data.tag)}/`;
-	}
-};
 ---
-<h1>“{{ tag }}”</h1>
+eleventyComputed:
+  title: "Tagged '{{ tag }}'"
+  permalink: "/tags/{{ tag | slugify }}/"
+eleventyExcludeFromCollections: true
+pagination:
+  data: "collections"
+  size: 1
+  alias: "tag"
+  filter: ["all", "posts"]
+---
+
+{% set fc = formesCaracteristiques[page.lang][tag] %}
+
+<h1>“{{ fc.short | lower or tag | lower }}”</h1>
 
 {# This should get the long name of a FC #}
- {{formesCaracteristiques[tag].long}} {{ formesCaracteristiques[tag].emoji }}
+ {{ fc.long }} {{ fc.emoji }}
 
-{% set postslist = collections[ tag ] %}
+{% set postslist = collections[ tag ] | pageLang %}
 {% include "postslist.njk" %}
 
 <p>See <a href="tags.njk">all tags</a>.</p>

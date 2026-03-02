@@ -6,6 +6,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import embedEverything from "eleventy-plugin-embed-everything";
 import markdownItFootnote from 'markdown-it-footnote';
 import { execSync } from 'child_process';
+import { I18nPlugin } from "@11ty/eleventy";
 
 import metadata from "./_data/metadata.js";
 import formesCaracteristiques from "./_data/formesCaracteristiques.json" with { type: "json" } ;
@@ -73,7 +74,7 @@ export default async function(eleventyConfig) {
 	});
 
 	// Create new collections from metadata
-  Object.keys(formesCaracteristiques).forEach((forme) => {
+  Object.keys(formesCaracteristiques.fr).forEach((forme) => {
     eleventyConfig.addCollection(forme, (collection) => {
       return collection.getAll().filter(item => {
 		if (!item.data.fc) return false;
@@ -81,6 +82,7 @@ export default async function(eleventyConfig) {
           return item.data.fc.includes(forme);
         }
 		return item.data.fc === forme;
+
 	  });
     });
   });
@@ -123,6 +125,10 @@ export default async function(eleventyConfig) {
 		sharpOptions: {
 			animated: true,
 		},
+	});
+
+	eleventyConfig.addPlugin(I18nPlugin, {
+		defaultLanguage: "fr"
 	});
 
 	// Filters

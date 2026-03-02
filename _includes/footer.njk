@@ -1,1 +1,6 @@
-<small>{{metadata.title}} {% year %} - {{metadata.author.name}} - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></small>
+<small>
+    {% for link in page.url | locale_links | fix_locale_links  %} {%-if not loop.first %}/{% endif %}
+    <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{ link.lang | upper }}</a> 
+    {% endfor %} {%-if page.url | locale_links | fix_locale_links | length %} -{% endif %}
+    {{metadata.title}} {% year %} - {{metadata.author.name}} - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+</small>

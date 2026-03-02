@@ -41,4 +41,17 @@ export default function(eleventyConfig) {
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
 
+	// Return only pages with same lang as current page
+	eleventyConfig.addFilter("pageLang", function(value) {
+	return value.filter(item => item.page.lang === this.page.lang)
+	});
+	// Fix i18l for pagination, use like this: | locale_links | fix_locale_links
+	eleventyConfig.addFilter ("fix_locale_links", function(links, lang) {
+    if (!this.ctx.pagination) { return links; }
+    if (!lang) lang = this.page.lang || this.ctx.lang;
+    const filtered = links.filter(item => item?.url?.endsWith(this.page.url.replace('/' + lang, '')));
+    return filtered;
+	});
+
+
 };

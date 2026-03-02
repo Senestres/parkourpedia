@@ -1,5 +1,4 @@
 <div class="logo">
-	{# <a href="/" class="home-link"><img eleventy:ignore src="/img/logo-black.png" class="logo-img"/></a> #}
 	🦉 <a href="/" class="home-link"> {{ metadata.title }}</a>
 </div>
 
@@ -7,14 +6,14 @@
 	<nav>
 		<h2 class="visually-hidden">Top level navigation menu</h2>
 		<ul class="nav">
-		{%- for entry in collections.all | eleventyNavigation %}
+		{%- for entry in collections.all | pageLang | eleventyNavigation %}
 			<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 		{%- endfor %}
 
 		</ul>
 	</nav>
 </div>
-<div>
+<div class="socials">
 	<ul class="socials">
 		<li class="nav-item">
 			<a href="https://bsky.app/profile/traces.info" rel="me">
@@ -45,4 +44,19 @@
 			<pagefind-modal instance="navsearch"></pagefind-modal> 
 		</li>
 	</ul>
+	<div class="dropdown">
+		<button>{{ lang | upper }} ▾</button>
+		<ul>
+			{% for link in page.url | locale_links | fix_locale_links %}
+			<li>
+				<a href="{{ link.url }}" lang="{{ link.lang }}" 
+					{% if link.lang == lang %}aria-current="page"{% endif %}>
+					{{ link.lang | upper }}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 </div>
+
+

@@ -11,7 +11,7 @@ eleventyComputed:
 	<meta data-pagefind-filter="catégorie:{{categories or "aucune"}}">
 {# 	<meta data-pagefind-filter="Forme caractéristique:{{fc or "aucune"}}"> #}
 	{%- for f in fc %}
-	<meta data-pagefind-filter="forme caractéristique:{{formesCaracteristiques[f].emoji}} {{f}}">
+	<meta data-pagefind-filter="forme caractéristique:{{formesCaracteristiques.fr[f].emoji}} {{formesCaracteristiques[page.lang][f].short}}">
 	{%- endfor %}
 
 <div class="content">

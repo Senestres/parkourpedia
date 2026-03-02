@@ -1,5 +1,5 @@
 <ol reversed class="postlist-row" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
-	{%- for post in postslist | reverse %}
+	{%- for post in postslist | reverse | pageLang %}
 		<li class="postlist-card">
 			<a href="{{ post.url }}">
 				<div class="card-header">
