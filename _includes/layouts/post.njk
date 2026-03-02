@@ -8,7 +8,7 @@ eleventyComputed:
 <style>{% include "css/prism-diff.css" %}</style>
 
 {# Metadata for pagefind filters #}
-	<meta data-pagefind-filter="catégorie:{{categories or "aucune"}}">
+	<meta data-pagefind-filter="catégorie:{{ i18n[categories][page.lang] | capitalize }}">
 {# 	<meta data-pagefind-filter="Forme caractéristique:{{fc or "aucune"}}"> #}
 	{%- for f in fc %}
 	<meta data-pagefind-filter="forme caractéristique:{{formesCaracteristiques.fr[f].emoji}} {{formesCaracteristiques[page.lang][f].short}}">

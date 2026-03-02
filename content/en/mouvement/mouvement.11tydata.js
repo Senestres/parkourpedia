@@ -1,5 +1,5 @@
 export default {
-	categories: "Forme de mouvement",
+	categories: "forme de mouvement",
 	tags: [
 		"posts",
 		"mouvement",

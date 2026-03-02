@@ -1,5 +1,5 @@
 export default {
-	categories: "Forme d'entrainement",
+	categories: "forme d'entrainement",
 	tags: [
 		"posts",
 		"entrainement"
