@@ -1,7 +1,8 @@
 {
+	"languages": ["fr", "en", "de"],
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
-		"en": "caracteristic form"
+		"en": "training form"
 	},
 	"forme de mouvement": {
 		"fr": "forme de mouvement",

@@ -1,0 +1,25 @@
+---
+eleventyComputed:
+  title: "Tagged '{{ tag }}'"
+  lang: "fr"
+  permalink: "/fr/tags/{{ tag | slugify }}/"
+eleventyExcludeFromCollections: true
+pagination:
+  data: "collections"
+  size: 1
+  alias: "tag"
+  filter: ["all", "posts"]
+---
+
+{% set fc = formesCaracteristiques[page.lang][tag] %}
+
+<h1>“{{ fc.short | lower or tag | lower }}”</h1>
+
+{# This should get the long name of a FC #}
+ {{ fc.long }} {{ fc.emoji }}
+
+{% set postslist = collections[ tag ] | pageLang %}
+{% include "postslist.njk" %}
+
+<p>See <a href="{{ "/tags/" | locale_url }}">all tags</a>.</p>
+

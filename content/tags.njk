@@ -1,9 +1,17 @@
+---
+pagination:
+  data: i18n.languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang }}/tags/"
+---
 <div class="content">
 <h1>Tags</h1>
 
 <ul>
 {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	{# {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %} #}
+	{% set tagUrl %}{{ ("/tags/" + (tag | slugify) + "/") | locale_url }}{% endset %}
 	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}
 </ul>
