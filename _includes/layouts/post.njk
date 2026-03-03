@@ -79,7 +79,7 @@ eleventyComputed:
 	{% endif %}
 
 	<div class="post-metadata">
-		<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
+		<div><b>{{"date" | t | capitalize}}: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
 		{% if authors | length %}
 				<div><b>{{"auteur" | t | capitalize}}: </b>{% for author in authors %}{{author}}{% endfor %}</div> {# should work with mult authors #}
 		{% endif %}

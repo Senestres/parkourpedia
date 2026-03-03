@@ -93,6 +93,10 @@
 		"fr": "auteur",
 		"en": "author"
 	},
+	"date": {
+		"fr": "date",
+		"en": "date"
+	},
 	"variations": {
 		"fr": "variations",
 		"en": "variations"
