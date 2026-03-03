@@ -1,23 +1,23 @@
 ---
 layout: layouts/base.njk
 eleventyComputed:
-  description: "Apprendre et enseigner le parkour - {{ title }}"
+  description: "{{metadata.description[lang]}} - {{ title }}"
 ---
 {# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
 <style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
 <style>{% include "css/prism-diff.css" %}</style>
 
 {# Metadata for pagefind filters #}
-	<meta data-pagefind-filter="catégorie:{{ i18n[categories][page.lang] | capitalize }}">
+	<meta data-pagefind-filter="{{ "catégorie" | t }}:{{ i18n[categories][page.lang] | capitalize }}">
 	{%- for f in fc %}
-	<meta data-pagefind-filter="forme caractéristique:{{formesCaracteristiques.fr[f].emoji}} {{formesCaracteristiques[page.lang][f].short}}">
+	<meta data-pagefind-filter="{{ "forme caractéristique"| t }}:{{formesCaracteristiques.fr[f].emoji}} {{formesCaracteristiques[page.lang][f].short}}">
 	{%- endfor %}
 
 <div class="content">
 <h1>{{ title }}</h1>
-<div><b>Formes caractéristiques:</b> {% for f in fc %} <a href="{{ ("/tags/" + (f | slugify) + "/") | locale_url }}">{{f}}</a>{%- if not loop.last %}, {% endif %} {% endfor %}</div>
+<div><b>{{"formes caractéristiques" | t | capitalize }}:</b> {% for f in fc %} <a href="{{ ("/tags/" + (f | slugify) + "/") | locale_url }}">{{f}}</a>{%- if not loop.last %}, {% endif %} {% endfor %}</div>
 {% if aliases %}
-	<div data-pagefind-body><b>Alias: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
+	<div data-pagefind-body><b>{{"alias" | t | capitalize}}: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
 {% endif %}
 
 {# Add an if check for img or video ? and img needs styling #}
@@ -25,7 +25,7 @@ eleventyComputed:
 	<img src="/img/{{title | slugify}}.jpg" alt="No image">	
 {% endif %}
 {% if video %}
-	<h2>Vidéo</h2>
+	<h2>{{"vidéo" | t | capitalize}}</h2>
 	<div class="eleventy-plugin-youtube-embed">
 		<iframe  width="100%" height="100%" 
 		frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/{{video}}"
@@ -40,53 +40,53 @@ eleventyComputed:
 </article>
 
 <section class="variations">
-{# Check if there are variations and foundations #}
-{% set foundations = [] %}
-{% set variations = [] %}
+	{# Check if there are variations and foundations #}
+	{% set foundations = [] %}
+	{% set variations = [] %}
 
-{%- for move in collections.mouvement %}
-  	{% if prerequis %} {# creates problems if a file has no prerequis but has variations #}
-		{% for requis in prerequis %}
-			{% if move.data.title | slugify == requis | slugify %}
-				{% set foundations = foundations.concat([move]) %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-	{% if move.data.prerequis %}
-			{% for requis in move.data.prerequis %}
-		{% if title | slugify == requis | slugify %}
-			{% set variations = variations.concat([move]) %}
+	{%- for move in collections.mouvement %}
+		{% if prerequis %} {# creates problems if a file has no prerequis but has variations #}
+			{% for requis in prerequis %}
+				{% if move.data.title | slugify == requis | slugify %}
+					{% set foundations = foundations.concat([move]) %}
+				{% endif %}
+			{% endfor %}
 		{% endif %}
-		{% endfor %}
+		{% if move.data.prerequis %}
+				{% for requis in move.data.prerequis %}
+			{% if title | slugify == requis | slugify %}
+				{% set variations = variations.concat([move]) %}
+			{% endif %}
+			{% endfor %}
+		{% endif %}
+	{%- endfor %}
+
+	{# build list of foundations #}
+	{% if foundations | length %}
+		<h2>{{"prérequis" | t | capitalize}}</h2>
+		{% set postslist = foundations %}
+		{% include "postslist.njk" %}
 	{% endif %}
-{%- endfor %}
 
-{# build list of foundations #}
-{% if foundations | length %}
-	<h2>Prérequis</h2>
-	{% set postslist = foundations %}
-	{% include "postslist.njk" %}
-{% endif %}
-
-{# build list of variations #}
-{% if variations | length %}
-  <h2>Variations</h2>
-	{% set postslist = variations %}
-	{% include "postslist.njk" %}
-{% endif %}
-
-<div class="post-metadata">
-	<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
-	{% if authors | length %}
-			<div><b>Auteur: </b>{% for author in authors %}{{author}}{% endfor %}</div> {# should work with mult authors #}
+	{# build list of variations #}
+	{% if variations | length %}
+	<h2>{{"variations" | t | capitalize}}</h2>
+		{% set postslist = variations %}
+		{% include "postslist.njk" %}
 	{% endif %}
-	<div><b>Tags: </b>
-		{%- for tag in tags | filterTagList %}
-		{%- set tagUrl %}{{ ("/tags/" + (tag | slugify) + "/") | locale_url }}{% endset %}
-		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-		{%- endfor %}
+
+	<div class="post-metadata">
+		<div><b>Date: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("dd LLLL yyyy") }}</time></div>
+		{% if authors | length %}
+				<div><b>{{"auteur" | t | capitalize}}: </b>{% for author in authors %}{{author}}{% endfor %}</div> {# should work with mult authors #}
+		{% endif %}
+		<div><b>Tags: </b>
+			{%- for tag in tags | filterTagList %}
+			{%- set tagUrl %}{{ ("/tags/" + (tag | slugify) + "/") | locale_url }}{% endset %}
+			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+			{%- endfor %}
+		</div>
 	</div>
-</div>
 
 </section>
 

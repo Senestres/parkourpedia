@@ -1,4 +1,5 @@
 import { DateTime } from "luxon";
+import i18n from "../_data/i18n.json" with { type: "json" } ;
 
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -43,15 +44,22 @@ export default function(eleventyConfig) {
 
 	// Return only pages with same lang as current page
 	eleventyConfig.addFilter("pageLang", function(value) {
-	return value.filter(item => item.page.lang === this.page.lang)
+		return value.filter(item => item.page.lang === this.page.lang)
 	});
 	// Fix i18l for pagination, use like this: | locale_links | fix_locale_links
 	eleventyConfig.addFilter ("fix_locale_links", function(links, lang) {
-    if (!this.ctx.pagination) { return links; }
-    if (!lang) lang = this.page.lang || this.ctx.lang;
-    const filtered = links.filter(item => item?.url?.endsWith(this.page.url.replace('/' + lang, '')));
-    return filtered;
+		if (!this.ctx.pagination) { return links; }
+		if (!lang) lang = this.page.lang || this.ctx.lang;
+		const filtered = links.filter(item => item?.url?.endsWith(this.page.url.replace('/' + lang, '')));
+		return filtered;
 	});
 
-
+	eleventyConfig.addFilter("t", function(key, lang) {
+		if (!i18n[key]) {
+			console.warn(`Missing translation key: ${key}`)
+		};
+  		lang = lang || this?.page?.lang || "fr"; 
+  		return i18n[key]?.[lang] || key;
+	});
+	
 };

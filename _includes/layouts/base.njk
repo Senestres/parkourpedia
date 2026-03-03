@@ -4,17 +4,19 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
-		<meta name="description" content="{{ description or metadata.description }}">
+		<meta name="description" content="{{ description or metadata.description[page.lang] }}">
 		<meta name="author" content="{{author or metadata.author.name}}">
 		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
 
 		<link rel="canonical" href="{{ page.url | htmlBaseUrl(metadata.url) }}">
+		<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | htmlBaseUrl(metadata.url) }}" />
+		{% for link in page.url | locale_links %} <link rel="alternate" hreflang="{{ link.lang }}" href="{{ metadata.url }}{{ link.url }}"/>{% endfor %}
 
 		{# open graph #}
 		<meta property="og:url" content="{{ page.url | htmlBaseUrl(metadata.url) }}">
 		<meta property="og:title" content="{{ title or metadata.title }}">
-		<meta property="og:description" content="{{ description or metadata.description }}">
+		<meta property="og:description" content="{{ description or metadata.description[page.lang] }}">
 		{% set ogImage = metadata.url + "img/" + (coverImage if coverImage else "logo-socials.png") %}
 		<meta property="og:image" content="{{ ogImage }}">
 		<meta property="og:type" content="article">

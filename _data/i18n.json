@@ -7,5 +7,37 @@
 	"forme de mouvement": {
 		"fr": "forme de mouvement",
 		"en": "movement form"
+	},
+	"forme caractéristique": {
+		"fr": "forme caractéristique",
+		"en": "caracteristic form"
+	},
+	"formes caractéristiques": {
+		"fr": "formes caractéristiques",
+		"en": "caracteristic forms"
+	},
+	"catégorie": {
+		"fr": "catégorie",
+		"en": "category"
+	},
+	"alias": {
+		"fr": "alias",
+		"en": "alias"
+	},
+	"vidéo": {
+		"fr": "vidéo",
+		"en": "video"
+	},
+	"prérequis": {
+		"fr": "prérequis",
+		"en": "prerequisites"
+	},
+	"auteur": {
+		"fr": "auteur",
+		"en": "author"
+	},
+	"variations": {
+		"fr": "variations",
+		"en": "variations"
 	}
 }

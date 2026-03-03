@@ -1,5 +1,5 @@
 <div class="logo">
-	🦉 <a href="/" class="home-link"> {{ metadata.title }}</a>
+	🦉 <a href="/{% if page.lang != "fr" %}{{ lang }}/{%endif%}" class="home-link"> {{ metadata.title }}</a>
 </div>
 
 <div>

@@ -403,20 +403,33 @@ main:has(.explorer-grid) {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	background: white;
-	border: 1px solid #ccc;
+	background: var(--pf-background);
+	border: 1px solid var(--pf-border);
+	border-radius: var(--pf-border-radius);
 }
 .dropdown:hover ul {
 	display: block;
+}
+.dropdown li {
+	line-height: 1;
 }
 .dropdown li a {
 	padding: 0.4rem 0.8rem;
 	text-decoration: none;
 	display: block;
 	font-size: large;
+
 }
 .dropdown button {
-	background-color: white;
+	background: var(--pf-background);
 	border: none;
 	font-size: large;
+	border: 1px solid var(--pf-border);
+	border-radius: var(--pf-border-radius);
+	height: var(--pf-input-height);
+	cursor: pointer;
+}
+
+pagefind-modal-trigger {
+	contain: style;
 }
