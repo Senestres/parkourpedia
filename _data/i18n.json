@@ -1,5 +1,6 @@
 {
 	"languages": ["fr", "en", "de"],
+	"locales": {"fr": "fr-CH", "en": "en-GB", "de": "de-CH"},
 	"formesCaracteristiques": {
 		"sauts": {
 			"emoji": "🦘",

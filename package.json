@@ -40,6 +40,7 @@
 		"zod-validation-error": "^3.5.2"
 	},
 	"dependencies": {
+		"@11ty/parse-date-strings": "^2.0.6",
 		"@zachleat/heading-anchors": "^1.0.5",
 		"markdown-it-footnote": "^4.0.0"
 	}
