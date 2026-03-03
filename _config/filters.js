@@ -1,19 +1,15 @@
-import { DateTime } from "luxon"; // deprecated
 import { parse } from "@11ty/parse-date-strings";
 import i18n from "../_data/i18n.json" with { type: "json" } ;
 
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, lang) => {
-		const locale = i18n.locales.lang
+		const locale = i18n.locales[lang]
 		return dateObj.toLocaleDateString(locale, {year: "numeric", month: "long", day: "numeric"})
 	});
 
 	eleventyConfig.addFilter("htmlDateString", (dateObj, lang) => {
-		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return dateObj.toLocaleDateString(lang)
 	});
-
-
 
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
