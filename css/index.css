@@ -387,9 +387,11 @@ main:has(.explorer-grid) {
 	margin-top: 3em;
 }
 
-
 .explorer-grid:not(#_):not(#_) .pf-result {
 	background-image: url();
+}
+pagefind-modal-trigger {
+	contain: style;
 }
 
 /* i18l dropdown */
@@ -430,6 +432,3 @@ main:has(.explorer-grid) {
 	cursor: pointer;
 }
 
-pagefind-modal-trigger {
-	contain: style;
-}

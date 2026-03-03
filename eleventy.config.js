@@ -9,7 +9,7 @@ import { execSync } from 'child_process';
 import { I18nPlugin } from "@11ty/eleventy";
 
 import metadata from "./_data/metadata.js";
-import formesCaracteristiques from "./_data/formesCaracteristiques.json" with { type: "json" } ;
+import i18n from "./_data/i18n.json" with { type: "json" } ;
 
 import pluginFilters from "./_config/filters.js";
 
@@ -74,7 +74,7 @@ export default async function(eleventyConfig) {
 	});
 
 	// Create new collections from metadata
-  Object.keys(formesCaracteristiques.fr).forEach((forme) => {
+  Object.keys(i18n["formesCaracteristiques"]).forEach((forme) => {
     eleventyConfig.addCollection(forme, (collection) => {
       return collection.getAll().filter(item => {
 		if (!item.data.fc) return false;
@@ -82,7 +82,6 @@ export default async function(eleventyConfig) {
           return item.data.fc.includes(forme);
         }
 		return item.data.fc === forme;
-
 	  });
     });
   });

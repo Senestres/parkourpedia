@@ -1,5 +1,62 @@
 {
 	"languages": ["fr", "en", "de"],
+	"formesCaracteristiques": {
+		"sauts": {
+			"emoji": "🦘",
+			"fr": { "short": "sauts", "long": "Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs" },
+			"en": { "short": "jumps", "long": "Perform efficient jumps as well as precise and safe landings" }
+		},
+		"passements": {
+			"emoji": "🐈",
+			"fr": { "short": "passements", "long": "Franchir des obstacles de manière variée et avec agilité" },
+			"en": { "short": "vaults", "long": "Overcome obstacles in a varied manner and with agility" }
+		},
+		"équilibre": {
+			"emoji": "⚖️",
+			"fr": { "short": "équilibre", "long": "Garder l'équilibre avec habileté et assurance en toute situation" },
+			"en": { "short": "balance", "long": "Maintain balance with skill and confidence in all situations" }
+		},
+		"balancés": {
+			"emoji": "🐒",
+			"fr": { "short": "balancés", "long": "Utiliser différents objets pour se balancer de façon créative et ciblée" },
+			"en": { "short": "swings", "long": "Use different objects to swing in creative and purposeful ways" }
+		},
+		"rotations": {
+			"emoji": "🤸‍♀️",
+			"fr": { "short": "rotations", "long": "Rouler et faire tourner son corps de manière variée et ciblée" },
+			"en": { "short": "Rotations", "long": "Roll and rotate your body in varied and purposeful ways" }
+		},
+		"grimper": {
+			"emoji": "🧗‍♂️",
+			"fr": { "short": "grimper", "long": "Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout" },
+			"en": { "short": "climbing", "long": "Safely make dynamic transitions between hanging, support and standing positions" }
+		},
+		"tricks muraux": {
+			"emoji": "🧱",
+			"fr": { "short": "tricks muraux", "long": "Utiliser le mur de façon variée, habile et ciblée" },
+			"en": { "short": "wall tricks", "long": "Use the wall in a varied, skillful and targeted way" }
+		},
+		"autoévaluation": {
+			"emoji": "🦉",
+			"fr": { "short": "autoévaluation", "long": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation" },
+			"en": { "short": "self-assessment", "long": "Realistically assess your personal abilities and act appropriately to the situation" }
+		},
+		"respect": {
+			"emoji": "🤝",
+			"fr": { "short": "respect", "long": "Faire preuve de respect envers soi-même, les autres et l'environnement" },
+			"en": { "short": "respect", "long": "Show respect for yourself, others and the environment" }
+		},
+		"créativité": {
+			"emoji": "⚗️",
+			"fr": { "short": "créativité", "long": "Tester et développer une approche créative" },
+			"en": { "short": "creativity", "long": "Test and develop a creative approach" }
+		},
+		"flow": {
+			"emoji": "🌊",
+			"fr": { "short": "flow", "long": "Optimiser la fluidité lors d'un enchaînement" },
+			"en": { "short": "flow", "long": "Optimize fluidity during a sequence" }
+		}
+	},
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
 		"en": "training form"

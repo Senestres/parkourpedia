@@ -24,9 +24,9 @@ Ce site est adapté du modèle développé pour Jeunesse+Sport (J+S)^[Dutoit, J.
 Le tout est catégorisé selon les 11 formes caractéristiques qui représentent selon nous exhaustivement le parkour.
 
 <ul>
-  {% set fcs = formesCaracteristiques[page.lang] %}
+  {% set fcs = i18n.formesCaracteristiques %}
     {%- for fc, item in fcs %}
-    {{fcs[fc].emoji}} <a href="/tags/{{fc | slugify}}/">{{ fcs[fc].short | capitalize }}</a>: {{fcs[fc].long}}
+    {{fcs[fc].emoji}} <a href="{{ ("/tags/" + (fc | slugify) + "/") | locale_url }}">{{ fcs[fc][page.lang].short | capitalize }}</a>: {{fcs[fc][page.lang].long}}
     {% endfor -%}
 </ul>
 

@@ -11,12 +11,12 @@ pagination:
   filter: ["all", "posts"]
 ---
 
-{% set fc = formesCaracteristiques[page.lang][tag] %}
+{% set fc = i18n.formesCaracteristiques[tag] %}
 
-<h1>“{{ fc.short | lower or tag | lower }}”</h1>
+<h1>“{{ fc[page.lang].short | lower or tag | lower }}”</h1>
 
 {# This should get the long name of a FC #}
- {{ fc.long }} {{ fc.emoji }}
+ {{ fc[page.lang].long }} {{ fc.emoji }}
 
 {% set postslist = collections[ tag ] | pageLang %}
 {% include "postslist.njk" %}
