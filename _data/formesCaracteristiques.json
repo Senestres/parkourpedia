@@ -57,60 +57,60 @@
 		}
 	},
 	"en": {
-		"sauts": {
-			"emoji": "🦘",
-			"short": "Jumps",
-			"long": "Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs"
-		},
-		"passements": {
-			"emoji": "🐈",
-			"short": "Vaults",
-			"long": "Franchir des obstacles de manière variée et avec agilité"
-		},
-		"équilibre": {
-			"emoji": "⚖️",
-			"short": "Balance",
-			"long": "Garder l'équilibre avec habileté et assurance en toute situation"
-		},
-		"balancés": {
-			"emoji": "🐒",
-			"short": "Swings",
-			"long": "Utiliser différents objets pour se balancer de façon créative et ciblée"
-		},
-		"rotations": {
-			"emoji": "🤸‍♀️",
-			"short": "Rotations",
-			"long": "Rouler et faire tourner son corps de manière variée et ciblée"
-		},
-		"grimper": {
-			"emoji": "🧗‍♂️",
-			"short": "Climbing",
-			"long": "Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout"
-		},
-		"tricks muraux": {
-			"emoji": "🧱",
-			"short": "Wall tricks",
-			"long": "Utiliser le mur de façon variée, habile et ciblée"
-		},
-		"autoévaluation": {
-			"emoji": "🦉",
-			"short": "Self evaluation",
-			"long": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation"
-		},
-		"respect": {
-			"emoji": "🤝",
-			"short": "Respect",
-			"long": "Faire preuve de respect envers soi-même, les autres et l'environnement"
-		},
-		"créativité": {
-			"emoji": "⚗️",
-			"short": "Creativity",
-			"long": "Tester et développer une approche créative"
-		},
-		"flow": {
-			"emoji": "🌊",
-			"short": "Flow",
-			"long": "Optimiser la fluidité lors d'un enchaînement"
-		}
-	}
+    "sauts": {
+      "emoji": "🦘",
+      "short": "Jumps",
+      "long": "Perform efficient jumps as well as precise and safe landings"
+    },
+    "passements": {
+      "emoji": "🐈",
+      "short": "Vaults",
+      "long": "Overcome obstacles in a varied manner and with agility"
+    },
+    "équilibre": {
+      "emoji": "⚖️",
+      "short": "Balance",
+      "long": "Maintain balance with skill and confidence in all situations"
+    },
+    "balancés": {
+      "emoji": "🐒",
+      "short": "Swings",
+      "long": "Use different objects to swing in creative and purposeful ways"
+    },
+    "rotations": {
+      "emoji": "🤸‍♀️",
+      "short": "Rotations",
+      "long": "Roll and rotate your body in varied and purposeful ways"
+    },
+    "grimper": {
+      "emoji": "🧗‍♂️",
+      "short": "Climbing",
+      "long": "Safely make dynamic transitions between hanging, support and standing positions"
+    },
+    "tricks muraux": {
+      "emoji": "🧱",
+      "short": "Wall tricks",
+      "long": "Use the wall in a varied, skillful and targeted way"
+    },
+    "autoévaluation": {
+      "emoji": "🦉",
+      "short": "Self-assessment",
+      "long": "Realistically assess your personal abilities and act appropriately to the situation"
+    },
+    "respect": {
+      "emoji": "🤝",
+      "short": "Respect",
+      "long": "Show respect for yourself, others and the environment"
+    },
+    "créativité": {
+      "emoji": "⚗️",
+      "short": "Creativity",
+      "long": "Test and develop a creative approach"
+    },
+    "flow": {
+      "emoji": "🌊",
+      "short": "Flow",
+      "long": "Optimize fluidity during a sequence"
+    }
+  }
 }
