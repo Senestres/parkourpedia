@@ -98,7 +98,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
 	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
+		type: "atom",
 		outputPath: "/feed.xml",
 		collection: {
 			name: "posts",
@@ -108,7 +108,6 @@ export default async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		// Output formats for each image.
 		formats: ["webp", "auto"],
 		widths: [300, 800, "auto"],
 
