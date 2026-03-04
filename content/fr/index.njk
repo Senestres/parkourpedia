@@ -4,18 +4,5 @@ eleventyNavigation:
   key: "Home"
   order: 1
 ---
-
+{# Permalink should be specified in frontmatter only for default language #}
 	{% include "explorer.njk" %}
-
-
-{# <pagefind-input placeholder="Recherche"></pagefind-input> #}
-
-
-{# {% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-
-<h1>Contenu récent</h1>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %} #}

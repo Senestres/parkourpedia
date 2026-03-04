@@ -1,0 +1,13 @@
+---
+eleventyComputed:
+  title: "Tagged '{{ tag }}'"
+  permalink: "/{{ lang }}/tags/{{ tag | slugify }}/"
+eleventyExcludeFromCollections: true
+pagination:
+  data: "collections"
+  size: 1
+  alias: "tag"
+  filter: ["all", "posts"]
+---
+
+{% include "_includes/tag-pages.njk" %}

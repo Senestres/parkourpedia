@@ -5,5 +5,5 @@ export default {
 		"mouvement",
 	],
 	"layout": "layouts/post.njk",
-	"permalink": "{{ lang }}/mouvement/{{ title | slugify }}/",
+	"permalink": "{{ lang }}/{{ 'mouvement' | t(lang) }}/{{ title | slugify }}/",
 };

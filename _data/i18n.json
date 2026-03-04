@@ -98,8 +98,20 @@
 		"fr": "date",
 		"en": "date"
 	},
+	"entrainement": {
+		"fr": "entrainement",
+		"en": "training"
+	},
+	"mouvement": {
+		"fr": "mouvement",
+		"en": "movement"
+	},
 	"variations": {
 		"fr": "variations",
 		"en": "variations"
+	},
+	"Voir tous les tags": {
+		"fr": "Voir tous les tags",
+		"en": "See all tags"
 	}
 }

@@ -1,0 +1,11 @@
+
+{% set fc = i18n.formesCaracteristiques[tag] %}
+
+<h1>“{{ fc[page.lang].short | lower or tag | lower }}”</h1>
+
+ {{ fc[page.lang].long }} {{ fc.emoji }}
+
+{% set postslist = collections[ tag ] | pageLang %}
+{% include "postslist.njk" %}
+
+<p><a href="{{ "/tags/" | locale_url }}">{{ "Voir tous les tags" | t}}</a>.</p>
