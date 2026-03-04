@@ -36,7 +36,7 @@ Lorsqu’un joueur pense avoir suffisamment de points, il les met à la « banq
 
 Après 2 passages de chaque attaquant, les équipes changent de rôle.
 
-![[ballecasino.png]]
+![Diagramme pour la mise en place du jeu balle casino en salle](/img/ballecasino.png)
 
 ## Variantes
 ➖Pour une charge cognitive plus faible, franchir un caisson vaut 10 points.

@@ -34,7 +34,8 @@ Un joueur qui parvient à la base adverse marque un point pour son équipe. Le j
 Faire une manche au temps, puis les équipes changent de camp pour la deuxième manche.
 
 Exemple de mise en place en salle avec 4 équipes: les deux équipes du haut jouent l'une contre l'autre; les deux équipes du bas jouent l'une contre l'autre.
-![[FCC.png]]
+
+![Diagramme pour la mise en place du jeu FCC en salle de gym](/img/FCC.png)
 
 ## Variantes
 ➖/➕Imposer des techniques spécifiques
