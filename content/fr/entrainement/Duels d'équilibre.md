@@ -3,7 +3,7 @@ title: Duels d'équilibre
 date: 2026-02-11
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
-coverImage:
+coverImage: equilibre.jpg
 aliases:
 tags:
 fc:
