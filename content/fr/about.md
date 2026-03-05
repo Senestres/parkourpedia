@@ -33,4 +33,4 @@ Le tout est catégorisé selon les 11 formes caractéristiques qui représentent
 ## Sponsors
 Le site ainsi que son contenu ont été réalisés en partenariat avec 
 
-    {% for sponsor, item in metadata.sponsors %}<a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="sponsor logo" class="sponsor-logo"></a> {% endfor %}
+    {% for sponsor, item in metadata.sponsors %}<a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="sponsor logo" class="sponsor-logo" sizes="300px"></a> {% endfor %}

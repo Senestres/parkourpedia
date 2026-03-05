@@ -23,10 +23,11 @@ eleventyComputed:
 	<div data-pagefind-body><b>{{"alias" | t | capitalize}}: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
 {% endif %}
 
-{# Add an if check for img or video ? and img needs styling #}
-{% if coverImage == true %}
-	<img src="/img/{{title | slugify}}.jpg" alt="No image">	
-{% endif %}
+{# We can use coverImage here; but should distinguish cosmetic from useful images #}
+{# {% if coverImage %}
+	<p><img src="/img/{{ coverImage }}" alt="Cover image"></p>
+{% endif %} #}
+
 {% if video %}
 	<h2>{{"vidéo" | t | capitalize}}</h2>
 	<div class="eleventy-plugin-youtube-embed">

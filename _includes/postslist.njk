@@ -5,9 +5,9 @@
 				<div class="card-header">
 					<div class="card-overlay">{% if post.data.title %}{{ post.data.title }}{% else %} <code>{{ post.url }}</code>{% endif %}</div>
 					{% if post.data.coverImage %}
-						<img class="card-img" src="/img/{{post.data.coverImage}}/" alt="">
+						<img class="card-img" src="/img/{{post.data.coverImage}}/" alt="Cover image" sizes="300px">
 					{% elif post.data.video %} {# Should be adapted if video =/= youtube #}
-						<img class="card-img" src="https://img.youtube.com/vi/{{ post.data.video }}/maxresdefault.jpg" onerror="https://img.youtube.com/vi/{{ post.data.video }}/hqdefault.jpg" alt="youtube thumbnail">
+						<img class="card-img" src="https://img.youtube.com/vi/{{ post.data.video }}/maxresdefault.jpg" onerror="https://img.youtube.com/vi/{{ post.data.video }}/hqdefault.jpg" alt="Cover image" sizes="300px">
 					{% endif %}
 					
 				</div>

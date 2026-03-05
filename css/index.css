@@ -144,10 +144,12 @@ footer {
 	align-items: center;
 	justify-content: space-around;
 	gap: 4rem;
+/* 	height: 35px; */
 }
 footer img {
 	vertical-align: middle;
 	width: 35px;
+	height: 35px;
 }
 
 header {

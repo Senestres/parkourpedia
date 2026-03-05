@@ -109,14 +109,14 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		formats: ["webp", "auto"],
-		widths: [300, 800, "auto"],
+		widths: [300, 800, 1440, "auto"],
 
-		failOnError: false,
+		failOnError: true,
 		htmlOptions: {
 			imgAttributes: {
 				loading: "lazy",
 				decoding: "async",
-				sizes: '100vw',
+				sizes: "auto, (width <= 620px) 100vw, 75vw",
 			}
 		},
 

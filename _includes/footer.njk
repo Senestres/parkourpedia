@@ -1,7 +1,7 @@
 <small>
     {{ "avec le soutien de" | t | capitalize }}&nbsp   
     {% for sponsor, item in metadata.sponsors %}
-        <a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" alt="sponsor logo"></a>
+        <a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" alt="sponsor logo" sizes="300px" title="{{ metadata.sponsors[sponsor].name }}"></a>
     {% endfor %}
 </small>
 
