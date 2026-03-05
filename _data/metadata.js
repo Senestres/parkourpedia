@@ -13,5 +13,17 @@ export default {
 		url: "https://traces.info/"
 	},
 	robots: "/robots.txt",
-	sitemap: "/sitemap.xml"
+	sitemap: "/sitemap.xml",
+	sponsors: {
+		parkourlausanne: {
+			name: "Parkour Lausanne",
+			link: "parkourlausanne.ch",
+			logo: "pkl.png",
+		},
+		spka: {
+			name: "Swiss Parkour Association",
+			link: "spka.ch",
+			logo: "spka.webp"
+		}
+	}
 }

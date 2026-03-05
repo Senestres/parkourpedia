@@ -140,8 +140,14 @@ footer {
 footer {
 	margin-top: auto;
 	padding: 1rem 2rem;
-	margin-right: 0;
-	margin-left: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 4rem;
+}
+footer img {
+	vertical-align: middle;
+	width: 35px;
 }
 
 header {
@@ -343,12 +349,7 @@ svg.nav-icon {
 	object-fit: cover;
 	transform: translateY(-50%);
 }
-/* Responsive media queries for cards */
-/* @media screen and (max-width: 1000px) {
-  .postlist-card {
-    width: 40%;
-  }
-} */
+
 @media screen and (max-width: 620px) {
   .postlist-card {
     width: 100%;
@@ -429,3 +430,6 @@ pagefind-modal-trigger {
 	
 }
 
+.sponsor-logo {
+	width: 5rem;
+}

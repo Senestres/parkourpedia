@@ -30,5 +30,7 @@ Le tout est catégorisé selon les 11 formes caractéristiques qui représentent
     {% endfor -%}
 </ul>
 
-## Remerciements
-Le site ainsi que son contenu ont été réalisés en partenariat avec [Parkour Lausanne](https://parkourlausanne.ch) ainsi que l'[Association suisse de parkour (SPKA)](https://www.spka.ch/).
+## Sponsors
+Le site ainsi que son contenu ont été réalisés en partenariat avec 
+
+    {% for sponsor, item in metadata.sponsors %}<a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="sponsor logo" class="sponsor-logo"></a> {% endfor %}
