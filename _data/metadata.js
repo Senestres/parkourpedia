@@ -18,7 +18,7 @@ export default {
 		parkourlausanne: {
 			name: "Parkour Lausanne",
 			link: "parkourlausanne.ch",
-			logo: "pkl.png",
+			logo: "pkl.webp",
 		},
 		spka: {
 			name: "Swiss Parkour Association",
