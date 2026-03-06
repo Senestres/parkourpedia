@@ -1,4 +1,4 @@
-import { parse } from "@11ty/parse-date-strings";
+/* import { parse } from "@11ty/parse-date-strings"; */
 import i18n from "../_data/i18n.json" with { type: "json" } ;
 
 export default function(eleventyConfig) {
