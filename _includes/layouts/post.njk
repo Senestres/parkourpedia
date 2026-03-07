@@ -14,10 +14,10 @@ eleventyComputed:
 	{%- endfor %}
 	{% if level | length %}
 		{%- for l in level %}
-			<meta data-pagefind-filter="{{ "niveau"| t }}:{{ i18n.niveaux[l] | upper }}">
+			<meta data-pagefind-filter="{{ "niveau"| t }}:{{ i18n.niveaux[l].emoji }} {{ i18n.niveaux[l].short | upper }}">
 		{%- endfor %} 
 	{% else %}
-		<meta data-pagefind-filter="{{ "niveau"| t }}:{{ i18n.niveaux["f2"] | upper }}">
+		<meta data-pagefind-filter="{{ "niveau"| t }}:{{ i18n.niveaux["f2"].emoji }} {{ i18n.niveaux["f2"].short | upper }}">
 	{% endif %}
 
 <div class="content">

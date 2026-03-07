@@ -38,7 +38,7 @@
 			"en": { "short": "wall tricks", "long": "Use the wall in a varied, skillful and targeted way" }
 		},
 		"autoévaluation": {
-			"emoji": "🦉",
+			"emoji": "🧠",
 			"fr": { "short": "autoévaluation", "long": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation" },
 			"en": { "short": "self-assessment", "long": "Realistically assess your personal abilities and act appropriately to the situation" }
 		},
@@ -59,10 +59,10 @@
 		}
 	},
 	"niveaux": {
-		"f1": "f1",
-		"f2": "f2-f3",
-		"f3": "f2-f3",
-		"t": "t+"
+		"f1": {"short": "f1", "emoji": "🐣"},
+		"f2": {"short": "f2-f3", "emoji": "🐥"},
+		"f3": {"short": "f2-f3", "emoji": "🐥"},
+		"t": {"short": "t+", "emoji": "🦉"}
 	},
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
@@ -127,6 +127,10 @@
 	"tous": {
 		"fr": "tous",
 		"en": "all"
+	},
+		"explorer": {
+		"fr": "explorer",
+		"en": "explore"
 	},
 	"Voir tous les tags": {
 		"fr": "Voir tous les tags",
