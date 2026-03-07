@@ -398,18 +398,23 @@ svg.nav-icon {
 .explorer-grid .pf-results { /* Can't seem to overwrite without important */
 	flex-direction: row !important;
 	flex-wrap: wrap !important;
+/* 	font-weight: normal !important; */
+}
+.explorer-grid .pf-result-title { /* Required for Chrome */
+	font-weight: normal !important;
 }
 
 .explorer-results {
-	overflow-y: auto; /* this prevents unloaded skeletons outside viewport */
+	height: auto;
+	overflow-y: clip;
 }
-/* This was required to avoid the explorer to resize when filtered down, but seems fixed (?) */
-/* main:has(.explorer-grid) {
-	width: 100vw;
-} */
-/* .explorer-grid .pf-result {
-	max-width: 40ch !important;
-} */
+@media screen and (min-width: 620px) {
+  .explorer-results {
+	max-height: 100vh;
+	/* this prevents unloaded skeletons outside viewport */
+	overflow-y: auto;
+  }
+}
 .explorer-grid {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
@@ -421,6 +426,13 @@ svg.nav-icon {
     grid-template-columns: 1fr;
   }
 }
+.pf-filter-checkbox {
+	font-size: 15px !important;
+}
+.pf-filter-group-title {
+	font-size: 12px !important;
+}
+
 
 /* Misc. */
 .sponsor-logo {
