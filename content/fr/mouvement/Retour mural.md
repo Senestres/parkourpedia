@@ -1,6 +1,6 @@
 ---
-title: Wallrun
-date: 2026-02-14
+title: Retour mural
+date: 2026-03-07
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
@@ -11,10 +11,10 @@ fc:
 prerequis:
   - tic-tac
 video:
-  - WIJQO3s_1Ko
+  - SrD4ELwFncc
 level:
 ---
 ## Description
-Plusieurs appuis successifs contre la paroi verticale d'un mur. Généralement, le déplacement est horizontal.
+Retour effectué uniquement depuis la surface verticale d'un mur, sans traction des bras.
 
 ## Remarques
