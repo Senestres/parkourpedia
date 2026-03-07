@@ -281,6 +281,40 @@ svg.nav-icon {
 .socials {
 	display: flex;
 }
+/* i18l dropdown */
+.dropdown {
+	position: relative;
+	align-self: center;
+}
+.dropdown ul {
+	display: none;
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: var(--pf-background);
+	border: 1px solid var(--pf-border);
+	border-radius: var(--pf-border-radius);
+}
+.dropdown:hover ul {
+	display: block;
+}
+.dropdown li a {
+	padding: 0.4rem 0.8rem;
+	text-decoration: none;
+	display: block;
+}
+.dropdown button {
+	background: var(--pf-background);
+	border: none;
+	border: 1px solid var(--pf-border);
+	border-radius: var(--pf-border-radius);
+	height: var(--pf-input-height);
+	cursor: pointer;
+	font-family: inherit;
+    font-size: inherit;
+	
+}
 
 /* Tags */
 .post-tag {
@@ -369,9 +403,9 @@ svg.nav-icon {
 .explorer-results {
 	overflow-y: auto;
 }
-/* This seems to be required to avoid the explorer to resize when filtered down */
+/* This was required to avoid the explorer to resize when filtered down, but seems fixed (?) */
 main:has(.explorer-grid) {
-	width: 100%;
+	width: 100vw;
 }
 .explorer-grid {
 	display: grid;
@@ -395,41 +429,6 @@ main:has(.explorer-grid) {
 }
 pagefind-modal-trigger {
 	contain: style;
-}
-
-/* i18l dropdown */
-.dropdown {
-	position: relative;
-	align-self: center;
-}
-.dropdown ul {
-	display: none;
-	position: absolute;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	background: var(--pf-background);
-	border: 1px solid var(--pf-border);
-	border-radius: var(--pf-border-radius);
-}
-.dropdown:hover ul {
-	display: block;
-}
-.dropdown li a {
-	padding: 0.4rem 0.8rem;
-	text-decoration: none;
-	display: block;
-}
-.dropdown button {
-	background: var(--pf-background);
-	border: none;
-	border: 1px solid var(--pf-border);
-	border-radius: var(--pf-border-radius);
-	height: var(--pf-input-height);
-	cursor: pointer;
-	font-family: inherit;
-    font-size: inherit;
-	
 }
 
 .sponsor-logo {
