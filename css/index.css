@@ -137,6 +137,9 @@ footer {
 	padding: 1rem 2rem;
 	background-color: var(--background-color); 
 }
+.variations {
+	margin-top: 3em;
+}
 footer {
 	margin-top: auto;
 	padding: 1rem 2rem;
@@ -144,7 +147,6 @@ footer {
 	align-items: center;
 	justify-content: space-around;
 	gap: 4rem;
-/* 	height: 35px; */
 }
 footer img {
 	vertical-align: middle;
@@ -393,26 +395,26 @@ svg.nav-icon {
 }
 
 /* Pagefind */
-.explorer-grid .pf-results { /* Must be overriden with an id in the <pf-results> etc */
+.explorer-grid .pf-results { /* Can't seem to overwrite without important */
 	flex-direction: row !important;
 	flex-wrap: wrap !important;
 }
-.explorer-grid .pf-result {
-	max-width: 40ch !important;
-}
+
 .explorer-results {
-	overflow-y: auto;
+	overflow-y: auto; /* this prevents unloaded skeletons outside viewport */
 }
 /* This was required to avoid the explorer to resize when filtered down, but seems fixed (?) */
-main:has(.explorer-grid) {
+/* main:has(.explorer-grid) {
 	width: 100vw;
-}
+} */
+/* .explorer-grid .pf-result {
+	max-width: 40ch !important;
+} */
 .explorer-grid {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	gap: 10px;
 }
-
 @media screen and (max-width: 620px) {
   .explorer-grid {
     display: grid;
@@ -420,17 +422,8 @@ main:has(.explorer-grid) {
   }
 }
 
-.variations {
-	margin-top: 3em;
-}
-
-.explorer-grid:not(#_):not(#_) .pf-result {
-	background-image: url();
-}
-pagefind-modal-trigger {
-	contain: style;
-}
-
+/* Misc. */
 .sponsor-logo {
 	width: 5rem;
 }
+
