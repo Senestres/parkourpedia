@@ -8,10 +8,17 @@ eleventyComputed:
 <style>{% include "css/prism-diff.css" %}</style>
 
 {# Metadata for pagefind filters #}
-	<meta data-pagefind-filter="{{ "catégorie" | t }}:{{ i18n[categories][page.lang] | capitalize }}">
+	<meta data-pagefind-filter="{{ "catégorie" | t }}:{{ i18n[categories][page.lang] | capitalize}}">
 	{%- for f in fc %}
-	<meta data-pagefind-filter="{{ "forme caractéristique"| t }}:{{i18n.formesCaracteristiques[f].emoji}} {{i18n.formesCaracteristiques[f][page.lang].short | capitalize}}">
-	{%- endfor %} 
+		<meta data-pagefind-filter="{{ "forme caractéristique"| t }}:{{i18n.formesCaracteristiques[f].emoji}} {{i18n.formesCaracteristiques[f][page.lang].short | capitalize}}">
+	{%- endfor %}
+	{% if level | length %}
+		{%- for l in level %}
+			<meta data-pagefind-filter="{{ "niveau"| t }}:{{ i18n.niveaux[l] | upper }}">
+		{%- endfor %} 
+	{% else %}
+		<meta data-pagefind-filter="{{ "niveau"| t }}:{{ i18n.niveaux["f2"] | upper }}">
+	{% endif %}
 
 <div class="content">
 <h1>{{ title }}</h1>

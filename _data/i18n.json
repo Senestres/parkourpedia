@@ -58,6 +58,12 @@
 			"en": { "short": "flow", "long": "Optimize fluidity during a sequence" }
 		}
 	},
+	"niveaux": {
+		"f1": "f1",
+		"f2": "f2-f3",
+		"f3": "f2-f3",
+		"t": "t+"
+	},
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
 		"en": "training form"
@@ -113,6 +119,14 @@
 	"avec le soutien de": {
 		"fr": "avec le soutien de",
 		"en": "with support from"
+	},
+	"niveau": {
+		"fr": "niveau",
+		"en": "level"
+	},
+	"tous": {
+		"fr": "tous",
+		"en": "all"
 	},
 	"Voir tous les tags": {
 		"fr": "Voir tous les tags",
