@@ -18,4 +18,4 @@ level:
 ## Description
 Split vault suivi d'une rotation complète.
 
-## Remarques
+## Notes

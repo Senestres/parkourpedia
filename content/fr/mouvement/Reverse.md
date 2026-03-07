@@ -20,7 +20,7 @@ level:
 Passement avec rotation complète sur l'axe longitudinal durant le vol.
 Contrairement au passement papillon, la rotation implique de tourner le dos à l'obstacle.
 
-## Remarques
+## Notes
 Le passement peut être effectué au sol (quadrupédie latérale avec demi-tour)
 Au sol (quadrupédie latérale avec demi tour).
 

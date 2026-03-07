@@ -18,4 +18,4 @@ level:
 ## Description
 Lazy effectué en partant face à l'obstacle, avec appui des deux mains. Autrement dit, le départ d'un saut de chat combiné avec la fin d'un lazy.
 
-## Remarques
+## Notes

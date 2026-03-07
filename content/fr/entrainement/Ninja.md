@@ -35,7 +35,7 @@ Chaque joueur a une action (p.ex. faire un pas en avant en levant le bras) pour 
 
 ➕Attaquer également les jambes, et perdre lorsque les 4 membres sont coupés.
 
-## Remarques
+## Notes
 Prévoir une activité pour les élèves éliminés très tôt dans le jeu.
 
 Soyons francs: c'est un jeu que les élèves apprécient, mais qui n'est spécifique au parkour que par l'univers des ninjas qu'il évoque. De plus, l'intensité est relativement faible et ne peut suffire à échauffer les élèves.

@@ -37,5 +37,5 @@ Le premier qui parvient à toucher le compteur prend sa place pour la manche sui
 
 ➕Effectuer les déplacements en quadrupédie. Lorsque le compteur se retourne, les traceurs restent en équilibre sur deux appuis (pied et main opposés).
 
-## Remarques
+## Notes
 N'hésitez pas à inventer vos propres variations en incluant les mouvements que vous utilisez dans votre leçon !

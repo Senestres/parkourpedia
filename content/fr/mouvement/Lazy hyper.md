@@ -19,5 +19,5 @@ level:
 ## Description
 Lazy avec une demi-rotation pour atterrir en position hyper.
 
-## Remarques
+## Notes
 Est très similaire au lazy reverse.

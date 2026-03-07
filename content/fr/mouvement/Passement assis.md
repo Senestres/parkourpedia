@@ -20,5 +20,5 @@ level:
 ## Description
 Passement consistant à rouler sur les fesses sur l'obstacle. 
 
-## Remarques
+## Notes
 La forme la plus esthétique implique une rotation complète, plus proche d'un reverse que d'un lazy.

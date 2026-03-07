@@ -18,4 +18,4 @@ level:
 ## Description
 Technique visant à prendre appui avec un pied contre une paroi verticale pour s’en repousser, généralement dans le but de franchir des distances horizontales.
 
-## Remarques
+## Notes

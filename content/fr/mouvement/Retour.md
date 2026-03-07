@@ -18,5 +18,5 @@ level:
 ## Description
 Rotation de 180° sur l'axe longitudinal après un appui contre une paroi verticale, pour s'éloigner de la paroi. Généralement une traction des bras accompagne le mouvement pour gagner en distance et/ou en hauteur.
 
-## Remarques
+## Notes
 Des pas alternés contre le mur permettent de monter le centre de gravité avant de se propulser, et donc d'augmenter la distance ou de se projeter vers un obstacle plus haut.

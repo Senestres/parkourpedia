@@ -17,4 +17,4 @@ level:
 ## Description
 Appui d'un pied contre un mur pour effectuer une rotation complète sur l'axe longitudinal.
 
-## Remarques
+## Notes

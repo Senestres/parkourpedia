@@ -21,4 +21,4 @@ video:
 Sauter avec une demi rotation pour saisir la barre en prise mixte.
 Si le mouvement est exécuté correctement, le pratiquant se retrouve face à la barre, barre dans les mains.
 
-## Remarques
+## Notes

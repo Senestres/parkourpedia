@@ -18,5 +18,5 @@ level:
 ## Description
 Mouvement quadrupédique réalisé sur une barre.
 
-## Remarques
+## Notes
 La quadrupédie est utile pour se déplacer sur certaines surfaces, mais également pour entrainer l'équilibre et le renforcement du haut du corps.

@@ -46,7 +46,7 @@ Exemple de mise en place en salle avec 4 équipes: les deux équipes du haut jou
 
 +Jouer à FCC avec les pieds: les joueurs sautent en même temps et choisissent leur position d'atterissage (pieds écartés = feuille; pieds joints = caillou; jambes croisées = ciseaux)
 
-## Remarques
+## Notes
 Attention à utiliser des obstacles qui présentent peu de danger en situation de stress: hauteur adaptée et zone de chute appropriée.
 
 Le FCC joué avec les pieds (voir variantes) est une forme très intéressante pour le parkour, mais est *très* couteuse cognitivement. 

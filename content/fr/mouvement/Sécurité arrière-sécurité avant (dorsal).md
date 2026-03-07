@@ -19,5 +19,5 @@ level:
 ## Description
 Passement de sécurité arrière enchaîné avec un passement de sécurité avant, en tournant le dos à l'obstacle (pont).
 
-## Remarques
+## Notes
 Similaire à une roulade assise.

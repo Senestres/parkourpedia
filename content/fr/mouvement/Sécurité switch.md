@@ -18,6 +18,6 @@ level:
 ## Description
 Un passement de sécurité enchaîné avec un passement de sécurité du côté opposé.
 
-## Remarques
+## Notes
 
 

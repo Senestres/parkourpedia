@@ -20,4 +20,4 @@ level: t
 ## Description
 Saut de précision avec une rotation complète.
 
-## Remarques
+## Notes

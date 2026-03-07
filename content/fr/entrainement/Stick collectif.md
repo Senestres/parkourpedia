@@ -33,7 +33,7 @@ Les traceurs choisissent individuellement un saut qu'ils sont capables de réali
 ## Variantes
 ➕Augmenter le nombre de sauts à réussir (jusqu'à 10+ pour des pratiquants avancés)
 
-## Remarques
+## Notes
 L'exercice fonctionne parce que les conséquences d'un échec augmentent progressivement,  simulant (très approximativement) le stress d'un saut en hauteur. C'est l'occasion de mettre l'accent sur deux points:
 
 - Il est plus difficile de sticker un saut quand il y a des conséquences en cas d'échec.

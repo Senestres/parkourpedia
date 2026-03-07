@@ -33,7 +33,7 @@ Mettre l'accent sur le fait de respecter son corps et ses limites pour garantir 
 ## Variantes
 ➖/➕Binômes avec évaluation par les pairs: A observe B faire son saut et lui indique si il remplit les critères d'un bon atterrissage, puis inversion des rôles.
 
-## Remarques
+## Notes
 Cette forme d'entrainement est tirée du manuel J+S parkour.
 
 

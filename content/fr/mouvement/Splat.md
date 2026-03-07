@@ -17,4 +17,4 @@ level:
 ## Description
 Saut amorti avec les pieds et les mains contre la surface vertical d'un mur, similaire à un saut de bras mais sans saisir de prise avec les mains.
 
-## Remarques
+## Notes

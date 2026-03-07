@@ -18,5 +18,5 @@ level:
 ## Description
 Demi-tour réalisé en prenant appui avec le pied extérieur sur l'obstacle.
 
-## Remarques
+## Notes
 La main d'appui doit être placée en supination afin de pouvoir effectuer la rotation complète sans déplacer la main, et ainsi conserver une prise à tout moment.

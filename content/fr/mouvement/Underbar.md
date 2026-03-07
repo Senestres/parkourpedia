@@ -19,5 +19,5 @@ level:
 ## Description
 Passer sous une barre ou branche d'arbre avec une prise en pronation. 
 
-## Remarques
+## Notes
 Relativement similaire à une sortie filée/fusée en gymnastique.

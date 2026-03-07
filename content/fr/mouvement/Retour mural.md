@@ -17,4 +17,4 @@ level:
 ## Description
 Retour effectué uniquement depuis la surface verticale d'un mur, sans traction des bras.
 
-## Remarques
+## Notes

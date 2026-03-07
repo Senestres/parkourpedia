@@ -19,5 +19,5 @@ level:
 ## Description
 Un passement de sécurité arrière suivi d'un passement de sécurité avant du côté opposé.
 
-## Remarques
+## Notes
 A des similarités avec le reverse palmspin.

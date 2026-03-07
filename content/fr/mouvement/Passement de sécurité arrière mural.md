@@ -19,5 +19,5 @@ level:
 ## Description
 Passement de sécurité arrière contre une surface verticale.
 
-## Remarques
+## Notes
 Le plus facile est d'effectuer le passement après un passemuraille. 

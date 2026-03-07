@@ -20,5 +20,5 @@ level:
 ## Description
 Lazy effectué immédiatement après un hélicoptère (mouvement de breakdance).
 
-## Remarques
+## Notes
 Une progression consiste à remplacer le lazy par un passement de sécurité.

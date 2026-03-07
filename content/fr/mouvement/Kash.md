@@ -17,5 +17,5 @@ level:
 ## Description
 Passement hybride avec le début d'un saut de chat (kong) et la fin d'un dash, les jambes passant entre les bras.
 
-## Remarques
+## Notes
 Les mains peuvent temporairement quitter l'appui pour laisser passer les jambes ou pour franchir une plus grande distance.

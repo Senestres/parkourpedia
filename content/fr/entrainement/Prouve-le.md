@@ -42,6 +42,6 @@ Jouer sur trois manches puis changer d'adversaire.
 
 ➕Jouer avec des obstacles (un passement = un saut)
 
-## Remarques
+## Notes
 Pour éviter les collisions, expliquer qu'il faut atterrir à côté de l'adversaire ou à une distance qui permet de le toucher avec la main.
 

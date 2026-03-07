@@ -23,5 +23,5 @@ Dans la plupart des cas, l'atterissage se fait sur la moitié antérieure du pie
 
 Lorsque l'atterrissage est précis et stable, que le pratiquant tient en équilibre sur la surface d'atterrissage, on parle d'un saut stabilisé, bloqué ou d'un *stick*.
 
-## Remarques
+## Notes
 Le bruit à l'aterrissage est un des meilleurs indicateurs de la qualité de la technique: trop de bruit = mauvaise ou insuffisante flexion des jambes = choc.

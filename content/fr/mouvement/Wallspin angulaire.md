@@ -18,5 +18,5 @@ level:
 ## Description
 Wallspin avec assistance d'un appui pour la main inférieure.
 
-## Remarques
+## Notes
 Fonctionne très bien avec les bancs, mais également avec une main au sol et l'autre contre un mur. C'est donc une bonne progression pour le wallspin.

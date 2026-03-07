@@ -18,5 +18,5 @@ level:
 ## Description
 Macaco avec appui sur une barre.
 
-## Remarques
+## Notes
 Les deux mains peuvent être utilisées pour saisir la barre au début du mouvement.

@@ -20,5 +20,5 @@ level:
 ## Description
 Saut de précision 180 enchaîné avec un passement de sécurité.
 
-## Remarques
+## Notes
 Il est possible d'atterir à pieds joints ou à un pied.

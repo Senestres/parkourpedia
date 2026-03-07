@@ -17,5 +17,5 @@ level:
 ## Description
 Mouvement de breakdance consistant à balayer une jambe devant soi depuis une position accroupie. 
 
-## Remarques
+## Notes
 Peut aisément être intégré avant ou après différents passements.

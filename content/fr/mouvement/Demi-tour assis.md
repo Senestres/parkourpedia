@@ -19,4 +19,4 @@ level:
 ## Description
 Lazy pour s'assoir sur un obstacle, suivi d'une rotation assise avec un mouvement de ciseau des jambes pour revenir à la position de départ devant l'obstacle.
 
-## Remarques
+## Notes

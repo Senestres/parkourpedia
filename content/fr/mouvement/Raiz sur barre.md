@@ -20,5 +20,5 @@ level:
 ## Description
 Raiz (rotation sur l'axe longitudinal) effectué avec appui du dos sur une barre, avant de prendre appui sur la main, de manière similaire à un scoot.
 
-## Remarques
+## Notes
 Pour être effectué efficacement, la barre doit être placée en diagonale dans le dos, d'une épaule à la hanche opposée, afin de pouvoir atteindre le sol rapidement avec la main.

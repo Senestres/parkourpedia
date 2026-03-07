@@ -19,5 +19,5 @@ level:
 ## Description
 Passement latéral à une main. 
 
-## Remarques
+## Notes
 Peut être considéré comme un passement de sécurité sans poser le pied.

@@ -17,4 +17,4 @@ level:
 ## Description
 Saut de précision avec élan et une rotation complète.
 
-## Remarques
+## Notes

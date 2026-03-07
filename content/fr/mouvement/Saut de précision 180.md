@@ -19,4 +19,4 @@ level:
 ## Description
 Saut de précision avec une demi-rotation. Selon la situation, peut être commencé face ou dos au point d'aterrissage.
 
-## Remarques
+## Notes

@@ -18,5 +18,5 @@ level:
 ## Description
 Saut effectué en contrebas. Selon la situation, suivi d'une roulade pour dissiper l'impact.
 
-## Remarques
+## Notes
 Il est recommandé d'apprendre la roulade et de développer la force des jambes avant d'effectuer des sauts de fond.

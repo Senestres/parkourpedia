@@ -47,7 +47,7 @@ Le joueur qui a toutes les lettres du mot est éliminé.
 
 ➖Autoriser 2-3 tentatives pour chaque défi
 
-## Remarques
+## Notes
 Expliquer qu'il vaut mieux prendre une lettre que de se blesser: les joueurs ont le droit de passer leur tour si ils pensent qu'ils n'ont pas les capacités pour réaliser un défi !
 
 En général, le groupe décide collectivement quelles sont les conditions de réussite d'un stick. Ne pas hésiter à guider la négociation ou proposer des critères de réussite en cas de conflit.

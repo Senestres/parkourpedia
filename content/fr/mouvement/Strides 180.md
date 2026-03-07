@@ -18,4 +18,4 @@ level:
 ## Description
 Strides avec une demi-rotation entre chaque pas.
 
-## Remarques
+## Notes

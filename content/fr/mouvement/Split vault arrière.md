@@ -17,4 +17,4 @@ level:
 ## Description
 Split vault en commençant dos à l'obstacle.
 
-## Remarques
+## Notes

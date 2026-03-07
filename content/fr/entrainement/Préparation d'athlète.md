@@ -32,7 +32,7 @@ Une fois que l'athlète a suffisamment préparé le saut, il peut l'effectuer s'
 ## Variantes
 ➖/➕Préparer à l'avance des postes qui peuvent être utilisés comme progressions.
 
-## Remarques
+## Notes
 
 
 

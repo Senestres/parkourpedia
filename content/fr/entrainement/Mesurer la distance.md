@@ -37,7 +37,7 @@ Le jeu continue jusqu'à ce que personne ne parvient à repousser sa limite.
 
 ➕Le traceur doit réussir à sticker un saut 3x de suite pour avoir le droit de reculer d'un pied.
 
-## Remarques
+## Notes
 Les traceurs peuvent utiliser un objet à déplacer pour marquer le point de départ de leur saut: gourde, bout de bois, feuille morte...
 
 

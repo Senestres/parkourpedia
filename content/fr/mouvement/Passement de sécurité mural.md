@@ -18,5 +18,5 @@ level:
 ## Description
 Passement de sécurité effectué contre une surface verticale.
 
-## Remarques
+## Notes
 Selon l'inclinaison de la surface, il est possible de faire une [autre variation du passement de sécurité mural](https://youtu.be/618OI0kU8Uw).

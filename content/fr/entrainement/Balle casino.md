@@ -45,5 +45,5 @@ Après 2 passages de chaque attaquant, les équipes changent de rôle.
 
 ➕Variante baseball: trois éliminations = changement de rôle des équipes.
 
-## Remarques
+## Notes
 Les attaquants doivent être organisés pour que l'attaquant suivant compte les points de celui qui est dans le jeu. Il est nécessaire de pouvoir noter les points après chaque passage afin de faire le décompte à la fin de la manche.

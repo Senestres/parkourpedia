@@ -19,4 +19,4 @@ level:
 ## Description
 Passement de sécurité enchaîné avec un lazy.
 
-## Remarques
+## Notes

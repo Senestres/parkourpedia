@@ -39,4 +39,4 @@ Les participants traversent l'espace d'un point A à un point B sans toucher le 
 
 ➕Au deuxième passage, les participants perdent un membre (faire la traversée à une main ou à un pied).
 
-## Remarques
+## Notes

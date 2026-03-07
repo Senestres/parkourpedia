@@ -19,4 +19,4 @@ level:
 ## Description
 Franchissement d'un obstacle en commençant par un passement de sécurité arrière et en terminant avec un passement de sécurité avant, en passant par un appui facial.
 
-## Remarques
+## Notes

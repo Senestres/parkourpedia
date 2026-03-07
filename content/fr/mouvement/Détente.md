@@ -19,4 +19,4 @@ level:
 ## Description
 Saut de précision réalisé avec de l'élan.
 
-## Remarques
+## Notes

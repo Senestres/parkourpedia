@@ -35,4 +35,4 @@ En extérieur, on peut également utiliser des couleurs ou dire des types de sur
 ## Variantes
 ➕Lorsqu'un saut n'est pas stické, donner un gage (faire 5 squats...)
 
-## Remarques
+## Notes

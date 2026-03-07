@@ -18,4 +18,4 @@ level:
 ## Description
 Saut entre deux murs, avec la position de départ et d'arrivée en suspension.
 
-## Remarques
+## Notes

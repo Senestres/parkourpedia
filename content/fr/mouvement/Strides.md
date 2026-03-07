@@ -18,4 +18,4 @@ level:
 ## Description
 Enchaînement de sauts avec alternance de la jambe d’appui.
 
-## Remarques
+## Notes

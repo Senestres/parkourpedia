@@ -18,5 +18,5 @@ level:
 ## Description
 Reverse où l'appui de la main est effectué après une phase de vol.
 
-## Remarques
+## Notes
 L'appui se fait souvent à une main afin de pouvoir enclencher la rotation durant la phase de vol.

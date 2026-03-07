@@ -18,4 +18,4 @@ level:
 ## Description
 Saut plongé vers l'avant en couvrant une distance avant de poser les mains sur un obstacle, suivi d'un appui pour rétablir le corps et franchir l'obstacle.
 
-## Remarques
+## Notes

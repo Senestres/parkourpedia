@@ -19,4 +19,4 @@ level:
 ## Description
 Underbar avec une rotation complète.
 
-## Remarques
+## Notes

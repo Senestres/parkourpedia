@@ -16,4 +16,4 @@ level:
 ## Description
 Un dash effectué avec un pas sur l'obstacle.
 
-## Remarques
+## Notes

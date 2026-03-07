@@ -29,7 +29,7 @@ Chaque groupe se voit attribuer une technique de parkour. Ils disposent alors de
 ## Variantes
 ➕Mettre les groupes deux par deux. Chaque groupe choisit un mouvement qu'il impose à l'autre.
 
-## Remarques
+## Notes
 Le mouvement imposé peut être une technique apprise durant la leçon ou tirée au sort. Il s'agit cependant de s'assurer que ces techniques sont maitrisées par tous les participants.
 
 On peut également donner d'autres contraintes: transition (roue), position (départ assis), membre (avec un seul bras), etc.

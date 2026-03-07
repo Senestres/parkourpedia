@@ -19,4 +19,4 @@ level:
 ## Description
 Début d'un lazy, avec demi-rotation pour terminer en passement de sécurité, sans passer par-dessus l'obstacle.
 
-## Remarques
+## Notes

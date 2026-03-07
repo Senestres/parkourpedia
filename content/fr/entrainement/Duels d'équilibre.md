@@ -31,5 +31,5 @@ Les binômes se mettent face à face, proche l'un de l'autre, mains à hauteur d
 
 ➖/➕En position latérale, comme en escrime, en se tenant la main. Le but est de réussir à tirer l'autre pour lui faire déplacer les pieds.
 
-## Remarques
+## Notes
 Prévoir assez d'espace autour de chacun pour éviter de chuter sur autrui ou sur un obstacle.

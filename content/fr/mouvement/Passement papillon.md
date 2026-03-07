@@ -18,5 +18,5 @@ level:
 ## Description
 Franchir l'obstacle avec une rotation complète analogue à un coup de pied papillon (ou une roue horizontale).
 
-## Remarques
+## Notes
 Peut être utilisé comme progression pour la roue.

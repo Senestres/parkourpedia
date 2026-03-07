@@ -33,7 +33,7 @@ Si nécessaire, on peut attribuer des points selon la hauteur des post-its à la
 ## Variantes
 ➖/➕Variante en groupe: former un nombre pair d'équipes. Les joueurs tentent de coller des post-its le plus haut possible. Après un temps donné, les équipes vont tenter d'aller décoller les post-it de l'équipe adverse. Pratique pour avoir moins à nettoyer après le cours !
 
-## Remarques
+## Notes
 
 
 

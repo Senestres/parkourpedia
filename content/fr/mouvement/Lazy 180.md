@@ -18,5 +18,5 @@ level:
 ## Description
 Lazy suivi d'une demi rotation vers l'intérieur sur l'axe longitudinal. 
 
-## Remarques
+## Notes
 Peut être utilisé à la place d'un demi-tour pour franchir un mur ou une barrière et se suspendre de l'autre côté, mais est bien plus risqué.

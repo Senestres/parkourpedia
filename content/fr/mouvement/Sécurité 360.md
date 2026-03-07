@@ -18,4 +18,4 @@ level:
 ## Description
 Passement de sécurité suivi d'une rotation complète.
 
-## Remarques
+## Notes

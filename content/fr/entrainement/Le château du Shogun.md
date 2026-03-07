@@ -32,7 +32,7 @@ Un joueur au centre (le Shogun) a les yeux bandés. Les ninjas se répartissent 
 
 ➕Les ninjas se déplacent obligatoirement en faisant deux sauts consécutifs ("rebond", plyo).
 
-## Remarques
+## Notes
 Le jeu fonctionne comme forme d'entrainement parce que le bruit des atterrissages est inversement corrélé à la qualité de la technique. Essayer de faire moins de bruit, c'est le meilleur moyen d'améliorer sa technique !
 
 

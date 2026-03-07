@@ -33,7 +33,7 @@ Mise en commun: chaque binôme choisit le défi le plus intéressant et le montr
 ## Variantes
 ➖/➕Définir à l'avance des défis, qui peuvent servir d'exemples avant de lancer les participants dans la création de leurs propres défis.
 
-## Remarques
+## Notes
 Quelques exemples de challenges d'équilibre:
 
 - [Squats sur barre](https://youtu.be/KKUb5P8gM8k)

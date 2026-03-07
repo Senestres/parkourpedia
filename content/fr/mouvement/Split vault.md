@@ -17,4 +17,4 @@ level:
 ## Description
 Passement latéral avec un écart frontal^[Sur l'axe antéro-postérieur. Je respecte ici l'usage anglais, moins confus qu'un usage francophone répandu.]. L'obstacle est passé d'une main à l'autre entre les jambes, comme un ballon de basket.
 
-## Remarques
+## Notes

@@ -17,4 +17,4 @@ level:
 ## Description
 Passement consistant à lancer les jambes par-dessus l'obstacle avant de prendre appui sur les mains (en L-sit).
 
-## Remarques
+## Notes

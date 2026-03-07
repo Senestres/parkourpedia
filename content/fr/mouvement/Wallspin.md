@@ -19,5 +19,5 @@ level:
 ## Description
 Rotation sur l'axe antéro-postérieur autour d'un point d'appui contre une surface verticale.
 
-## Remarques
+## Notes
 La rotation est similaire à une roue avec les jambes pliées.

@@ -33,7 +33,7 @@ Recommencer l'exercice jusqu'à ce que les participants arrivent à une évaluat
 ## Variantes
 ➖/➕Varier les mouvements à travailler: passemuraille, tic-tac, saut de précision...
 
-## Remarques
+## Notes
 Certains mouvements présentent moins de risques que d'autres: un pied qui glisse lors d'un tic-tac ou d'un passemuraille depuis le sol aura peu de conséquences, mais ce n'est évidemment pas le cas de toutes les techniques. Prévoir des situations adaptées au niveau des pratiquants et un assurage si nécessaire.
 
 

@@ -18,4 +18,4 @@ level:
 ## Description
 Franchir un obstacle avec un appui des deux mains, les pieds passant sur les côtés.
 
-## Remarques
+## Notes

@@ -38,7 +38,7 @@ Ensuite, chaque groupe montre et enseigne son enchainement à un autre groupe, d
 
 ➕Exclure certaines techniques (p.ex. passement de sécurité) pour pousser les traceurs à explorer au-delà de ces solutions trop évidentes ou faciles.
 
-## Remarques
+## Notes
 Cette forme d'entrainement nécessite de trouver le bon équilibre entre contraintes et ouverture: suffisamment de contraintes pour ne pas être perdu, suffisamment d'ouverture pour que les élèves chorégraphient quelque chose qui leur est propre.
 
 Il existe différents modes d'organisation, à choisir judicieusement selon les élèves en question:

@@ -45,7 +45,7 @@ Idées de stratégies:
 
 ➕Utiliser un mur que tous les membres du groupe ne peuvent pas atteindre en passemuraille
 
-## Remarques
+## Notes
 Vérifier l'assurage et les techniques utilisées. Notamment, la prise pour aider quelqu'un depuis en haut se fait en saisissant son poignet, et non ses doigts.
 
 

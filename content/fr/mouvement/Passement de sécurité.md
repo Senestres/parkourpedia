@@ -19,5 +19,5 @@ level:
 ## Description
 Passement consistant à franchir l’obstacle avec une main et le pied opposé.
 
-## Remarques
+## Notes
 C'est une des techniques les plus faciles, les plus fondamentales, et pourtant les plus versatiles et les plus efficaces !

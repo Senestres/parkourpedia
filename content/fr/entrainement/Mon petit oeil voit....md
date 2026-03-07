@@ -31,7 +31,7 @@ Un participant annonce un mouvement à réaliser, par exemple: "mon petit oeil v
 
 ➕L'annonceur donne un enchainement (2-5 mouvements), par exemple "mon petit oeil voit... un tic-tac préc', saut de chat-bras !"
 
-## Remarques
+## Notes
 Les participants doivent avoir en tête le nom d'au moins cinq ou six techniques pour que le jeu fonctionne.
 
 

@@ -17,4 +17,4 @@ level:
 ## Description
 Déplacement en équilibre sur une surface restreinte.
 
-## Remarques
+## Notes

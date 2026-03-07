@@ -32,5 +32,5 @@ Echanger les rôles avant d'être trop fatigué et de prendre le risque de gliss
 ➖ Commencer sans balle. Chacun à son tour donne du feedback à l'autre.
 ➕ Le partenaire lance la balle dans les jambes de celui qui se balance, qui tente de renvoyer la balle en shootant dedans.
 
-## Remarques
+## Notes
 Toujours bien assurer les balancés, car le balancé vers l'avant entraîne une rotation vers l'arrière qui est très accidentogène en cas de glissade des mains. Avertir les pratiquants qu'ils doivent cesser de se balancer dès qu'ils sentent leurs mains glisser ou la moindre fatigue.

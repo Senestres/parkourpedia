@@ -20,5 +20,5 @@ level:
 ## Description
 Wallspin commençant avec l'appui de la main extérieure. La main intérieure peut servir à prendre appui à la fin de la rotation.
 
-## Remarques
+## Notes
 Similaire à une roue à une main avec la main extérieure.

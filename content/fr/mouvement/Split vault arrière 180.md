@@ -18,4 +18,4 @@ level:
 ## Description
 Split vault arrière suivi d'une demi-rotation pour termine le mouvement en avant.
 
-## Remarques
+## Notes

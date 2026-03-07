@@ -17,4 +17,4 @@ level:
 ## Description
 Plusieurs appuis successifs contre la paroi verticale d'un mur. Généralement, le déplacement est horizontal.
 
-## Remarques
+## Notes

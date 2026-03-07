@@ -19,4 +19,4 @@ level:
 ## Description
 Début d'un lazy suivi d'une rotation complète.
 
-## Remarques
+## Notes

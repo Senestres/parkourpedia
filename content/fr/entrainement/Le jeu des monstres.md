@@ -31,7 +31,7 @@ Les joueurs se déplacent à quatre pattes, et doivent toucher les mains (ou les
 ## Variantes
 ➖/➕Tous les participants sont des monstres se déplaçant en quadrupédie. Ils doivent toucher la main des autres sans se faire toucher. Celui qui se fait toucher devient un monstre de l'espèce qui l'a touché.
 
-## Remarques
+## Notes
 Ce jeu est extrêmement intense, il faut prévoir des manches courtes, quitte à en faire plusieurs avec des pauses.
 
 
