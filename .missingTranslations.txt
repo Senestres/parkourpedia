@@ -1,0 +1,113 @@
+
+🌍 Translation report
+❌ Missing in en:
+   entrainement\1-2-3 parkour.md
+   entrainement\Balle casino.md
+   entrainement\Coup de pied à la lune.md
+   entrainement\Duels d'équilibre.md
+   entrainement\Défis d’équilibre.md
+   entrainement\Enchainement collectif.md
+   entrainement\Escalade en groupe.md
+   entrainement\Feuille-caillou-ciseau.md
+   entrainement\Jeu des post-its.md
+   entrainement\L'eau ça mouille.md
+   entrainement\Le château du Shogun.md
+   entrainement\Le jeu des monstres.md
+   entrainement\Le sol est de la lave.md
+   entrainement\L’eau monte.md
+   entrainement\Mesurer la distance.md
+   entrainement\Mon petit oeil voit....md
+   entrainement\Mouvement imposé.md
+   entrainement\Mur de la fatigue.md
+   entrainement\Ninja.md
+   entrainement\Peinture antilave.md
+   entrainement\Prouve-le.md
+   entrainement\Préparation d'athlète.md
+   entrainement\Sir dropalot.md
+   entrainement\Stick collectif.md
+   entrainement\STICK.md
+   mouvement\180 Sécurité.md
+   mouvement\Balancé.md
+   mouvement\Climb-up.md
+   mouvement\Crane.md
+   mouvement\Dash.md
+   mouvement\Demi palmspin roulade.md
+   mouvement\Demi palmspin.md
+   mouvement\Demi-tour assis.md
+   mouvement\Demi-tour de sécurité.md
+   mouvement\Demi-tour.md
+   mouvement\Double saut de chat.md
+   mouvement\Dyno.md
+   mouvement\Détente 360.md
+   mouvement\Détente.md
+   mouvement\Equilibre sur barre.md
+   mouvement\Hélicoptère lazy.md
+   mouvement\Hélicoptère.md
+   mouvement\Kash.md
+   mouvement\Lazy 180.md
+   mouvement\Lazy hyper.md
+   mouvement\Lazy reverse.md
+   mouvement\Lazy sécurité.md
+   mouvement\Lazy.md
+   mouvement\Lâché.md
+   mouvement\Macaco sur barre.md
+   mouvement\Muscle-up.md
+   mouvement\Palmspin illusion sécurité.md
+   mouvement\Palmspin illusion.md
+   mouvement\Palmspin.md
+   mouvement\Passe portail.md
+   mouvement\Passement assis hyper.md
+   mouvement\Passement assis.md
+   mouvement\Passement d'angle.md
+   mouvement\Passement de sécurité arrière mural.md
+   mouvement\Passement de sécurité mural.md
+   mouvement\Passement de sécurité.md
+   mouvement\Passement latéral.md
+   mouvement\Passement papillon.md
+   mouvement\Passement rapide.md
+   mouvement\Passement roulade hyper.md
+   mouvement\Passement roulade.md
+   mouvement\Passemuraille.md
+   mouvement\Pirouette murale.md
+   mouvement\Plongeon-chat.md
+   mouvement\Quadrupédie sur barre.md
+   mouvement\Raiz sur barre.md
+   mouvement\Retour-bras.md
+   mouvement\Retour.md
+   mouvement\Reverse palmspin.md
+   mouvement\Reverse underbar 180.md
+   mouvement\Reverse underbar.md
+   mouvement\Reverse wallspin.md
+   mouvement\Reverse.md
+   mouvement\Roulade de rebord.md
+   mouvement\Roulade.md
+   mouvement\Saut de bras.md
+   mouvement\Saut de chat inversé.md
+   mouvement\Saut de chat.md
+   mouvement\Saut de fond.md
+   mouvement\Saut de précision 180.md
+   mouvement\Saut de précision 360.md
+   mouvement\Saut de précision.md
+   mouvement\Splat.md
+   mouvement\Split vault 360.md
+   mouvement\Split vault arrière 180.md
+   mouvement\Split vault arrière.md
+   mouvement\Split vault.md
+   mouvement\Step-dash.md
+   mouvement\Strides 180.md
+   mouvement\Strides.md
+   mouvement\Sécurité 360 sécurité.md
+   mouvement\Sécurité 360.md
+   mouvement\Sécurité arrière switch.md
+   mouvement\Sécurité arrière-sécurité avant (dorsal).md
+   mouvement\Sécurité arrière-sécurité avant (ventral).md
+   mouvement\Sécurité arrière.md
+   mouvement\Sécurité lazy.md
+   mouvement\Sécurité switch.md
+   mouvement\Sécurité-palmspin.md
+   mouvement\Tic-tac inversé.md
+   mouvement\Tic-tac.md
+   mouvement\Underbar.md
+   mouvement\Wallrun.md
+   mouvement\Wallspin angulaire.md
+   mouvement\Wallspin.md

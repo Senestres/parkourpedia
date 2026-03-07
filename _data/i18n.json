@@ -1,5 +1,5 @@
 {
-	"languages": ["fr", "en", "de"],
+	"languages": ["fr", "en"],
 	"locales": {"fr": "fr-CH", "en": "en-GB", "de": "de-CH"},
 	"formesCaracteristiques": {
 		"sauts": {

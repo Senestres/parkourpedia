@@ -7,6 +7,7 @@ import embedEverything from "eleventy-plugin-embed-everything";
 import markdownItFootnote from 'markdown-it-footnote';
 import { execSync } from 'child_process';
 import { I18nPlugin } from "@11ty/eleventy";
+/* import { checkTranslations } from "./_config/checkTranslations.js"; */
 
 import metadata from "./_data/metadata.js";
 import i18n from "./_data/i18n.json" with { type: "json" } ;
@@ -131,6 +132,8 @@ export default async function(eleventyConfig) {
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
+
+
 
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 		// by default we use Eleventy’s built-in `slugify` filter
