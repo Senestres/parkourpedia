@@ -13,6 +13,7 @@ prerequis:
 video:
   - xPzBxI1Qr0U
 level:
+  - f1
 ---
 ## Description
 Se balancer suspendu à une barre ou branche d'arbre, généralement suivi par un lâché.

@@ -13,6 +13,7 @@ prerequis:
 video:
   - t7AB1eE14WM
 level:
+  - t
 ---
 ## Description
 Split vault arrière suivi d'une demi-rotation pour termine le mouvement en avant.

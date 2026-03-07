@@ -13,6 +13,7 @@ prerequis:
   - saut de chat
   - plongeon-chat
 level:
+  - t
 ---
 ## Description
 Le double (triple, etc.) saut de chat consiste à prendre appui deux (trois…) fois avec les mains sur un obstacle (ou des obstacles différents) avant d’atterrir.

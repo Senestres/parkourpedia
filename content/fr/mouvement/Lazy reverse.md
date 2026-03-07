@@ -14,6 +14,7 @@ prerequis:
 video:
   - 1BhiI4uyIUQ
 level:
+  - t
 ---
 ## Description
 Début d'un lazy suivi d'une rotation complète.

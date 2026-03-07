@@ -14,6 +14,7 @@ prerequis:
 video:
   - TqGmi0jiBFo
 level:
+  - t
 ---
 ## Description
 Reverse palmspin avec une seule jambe qui passe par-dessus l'obstacle, l'autre restant proche du sol.

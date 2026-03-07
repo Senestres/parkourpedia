@@ -15,6 +15,7 @@ prerequis:
 video:
   - -d6RDcoM810
 level:
+  - t
 ---
 ## Description
 Roulade dorsale avec sur-rotation pour atterrir sur l'autre jambe.

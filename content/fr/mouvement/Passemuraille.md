@@ -12,7 +12,7 @@ fc:
   - grimper
 prerequis:
 video:
-  - KiNljAXh2jI 
+  - KiNljAXh2jI
 level:
 ---
 ## Description

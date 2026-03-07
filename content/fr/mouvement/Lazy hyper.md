@@ -14,6 +14,7 @@ prerequis:
 video:
   - gAgpO0axNgQ
 level:
+  - t
 ---
 ## Description
 Lazy avec une demi-rotation pour atterrir en position hyper.

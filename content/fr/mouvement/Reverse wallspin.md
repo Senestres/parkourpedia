@@ -15,6 +15,7 @@ prerequis:
 video:
   - wINaOgF3jmU
 level:
+  - t
 ---
 ## Description
 Wallspin commençant avec l'appui de la main extérieure. La main intérieure peut servir à prendre appui à la fin de la rotation.

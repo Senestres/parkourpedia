@@ -13,6 +13,7 @@ prerequis:
 video:
   - PnU5S6mSp9U
 level:
+  - f3
 ---
 ## Description
 Mouvement dynamique consistant à sauter d'une prise à une autre en position de suspension, généralement avec un mouvement simultané des deux mains.

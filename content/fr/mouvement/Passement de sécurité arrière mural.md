@@ -14,6 +14,7 @@ prerequis:
 video:
   - JY9BLZzVHlk
 level:
+  - t
 ---
 ## Description
 Passement de sécurité arrière contre une surface verticale.

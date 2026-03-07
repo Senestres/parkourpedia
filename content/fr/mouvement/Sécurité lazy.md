@@ -14,6 +14,7 @@ prerequis:
 video:
   - jSJpj406LA0
 level:
+  - t
 ---
 ## Description
 Passement de sécurité enchaîné avec un lazy.

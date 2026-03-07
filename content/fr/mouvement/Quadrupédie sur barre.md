@@ -13,6 +13,7 @@ prerequis:
 video:
   - vFv-UqwlaSY
 level:
+  - f3
 ---
 ## Description
 Mouvement quadrupédique réalisé sur une barre.

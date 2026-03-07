@@ -15,6 +15,7 @@ aliases:
 video:
   - 1oH-soF96ag
 level:
+  - f1
 ---
 ## Description
 Saut entre deux points différents, généralement avec atterrissage sur une surface réduite.
