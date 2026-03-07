@@ -10,8 +10,10 @@ fc:
   - balancés
 prerequis:
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Développer un balancé efficace
 
 ## Organisation

@@ -12,8 +12,10 @@ fc:
 prerequis:
   - saut de précision
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Entrainer les sauts et/ou le grimper (selon obstacles utilisés)
 
 Réaliser des challenges

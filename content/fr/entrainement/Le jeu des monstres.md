@@ -10,8 +10,10 @@ fc:
   - passements
 prerequis:
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Préparer des mouvements similaires aux passements, s'échauffer.
 
 ## Organisation

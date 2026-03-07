@@ -13,6 +13,7 @@ aliases:
   - saut avec élan
 video:
   - VPrdpKBt918
+level:
 ---
 ## Description
 Saut de précision réalisé avec de l'élan.

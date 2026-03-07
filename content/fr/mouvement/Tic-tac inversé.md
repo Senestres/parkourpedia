@@ -13,6 +13,7 @@ prerequis:
   - tic-tac
 video:
   - LjuW-4HFAMw
+level:
 ---
 ## Description
 Tic-tac avec une rotation pour se propulser avec le "mauvais" pied par rapport à la direction de la course.

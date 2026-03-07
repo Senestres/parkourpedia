@@ -14,6 +14,7 @@ fc:
 prerequis:
 video:
   - MAU4NDmrKic
+level:
 ---
 ## Description
 Passement consistant à rouler sur les fesses sur l'obstacle. 

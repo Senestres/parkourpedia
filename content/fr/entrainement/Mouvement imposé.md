@@ -10,8 +10,10 @@ fc:
   - créativité
 prerequis:
 video:
+level:
+  - f3
 ---
-## Objectifs
+## Description
 Créer un enchainement incluant un mouvement spécifique.
 
 ## Organisation

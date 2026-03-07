@@ -11,8 +11,10 @@ fc:
 prerequis:
   - passement de sécurité
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Entrainer l'endurance et les passements.
 
 ## Organisation

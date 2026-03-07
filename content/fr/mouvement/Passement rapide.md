@@ -14,6 +14,7 @@ prerequis:
   - passement de sécurité
 video:
   - 1gTjn0dsaFc
+level:
 ---
 ## Description
 Passement latéral à une main. 

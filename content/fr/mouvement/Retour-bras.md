@@ -13,6 +13,7 @@ prerequis:
   - saut de bras
 video:
   - IUoXmWePI2Q
+level:
 ---
 ## Description
 Saut entre deux murs, avec la position de départ et d'arrivée en suspension.

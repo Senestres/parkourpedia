@@ -13,8 +13,10 @@ prerequis:
   - strides
 category: Forme d'entrainement
 layout: layouts/post.njk
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Evaluer de manière réaliste sa capacité de saut
 
 Explosivité

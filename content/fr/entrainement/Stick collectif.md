@@ -12,8 +12,10 @@ fc:
 prerequis:
   - saut de précision
 video:
+level:
+  - f3
 ---
-## Objectifs
+## Description
 Identifier ses limites en saut de précision.
 
 Réaliser des sauts en condition de "pas le droit" à l'erreur.

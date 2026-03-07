@@ -12,6 +12,7 @@ prerequis:
   - saut de précision
 video:
   - 9qda8bzufqA
+level:
 ---
 ## Description
 Saut de précision avec élan et une rotation complète.

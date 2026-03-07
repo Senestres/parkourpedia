@@ -13,6 +13,7 @@ prerequis:
   - passement de sécurité mural
 video:
   - JY9BLZzVHlk
+level:
 ---
 ## Description
 Passement de sécurité arrière contre une surface verticale.

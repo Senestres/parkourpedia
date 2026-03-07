@@ -14,6 +14,7 @@ prerequis:
   - demi palmspin
 video:
   - 2aKDW-QhyKM
+level:
 ---
 ## Description
 Demi palmspin pour terminer en position assise, enchaîné avec une roulade de rebord.

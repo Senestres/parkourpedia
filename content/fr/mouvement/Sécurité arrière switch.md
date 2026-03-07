@@ -14,6 +14,7 @@ prerequis:
   - passement de sécurité arrière
 video:
   - giRBfKSTWaA
+level:
 ---
 ## Description
 Un passement de sécurité arrière suivi d'un passement de sécurité avant du côté opposé.

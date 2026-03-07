@@ -13,6 +13,7 @@ prerequis:
   - passement de sécurité
 video:
   - LMKBZeEE5JA
+level:
 ---
 ## Description
 Palmspin réalisé depuis le milieu d'un passement de sécurité.

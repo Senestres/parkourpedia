@@ -13,6 +13,7 @@ prerequis:
   - balancé
 video:
   - h_rsiD4-W_U
+level:
 ---
 ## Description
 Mouvement consistant à se propulser d'une barre après s'être balancé.

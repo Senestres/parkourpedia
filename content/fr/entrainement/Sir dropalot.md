@@ -10,8 +10,11 @@ fc:
   - respect
 prerequis:
 video:
+level:
+  - f2
+  - f3
 ---
-## Objectifs
+## Description
 Comprendre et respecter sa limite en sauts de fond.
 
 ## Organisation

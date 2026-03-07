@@ -12,6 +12,7 @@ prerequis:
   - saut de chat
 video:
   - k4JkaPqFKQ4
+level:
 ---
 ## Description
 Passement hybride avec le début d'un saut de chat (kong) et la fin d'un dash, les jambes passant entre les bras.

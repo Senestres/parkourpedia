@@ -13,6 +13,7 @@ prerequis:
   - sécurité switch
 video:
   - jSJpj406LA0
+level:
 ---
 ## Description
 Passement de sécurité enchaîné avec un lazy.

@@ -15,6 +15,7 @@ fc:
 prerequis:
 video:
   - R6SCKLax-aU
+level:
 ---
 ## Description
 Saut dont l’atterrissage se fait avec les pieds sur la surface verticale d’un mur, les mains saisissant le sommet.

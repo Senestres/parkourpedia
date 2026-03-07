@@ -14,6 +14,7 @@ prerequis:
   - passement de sécurité
 video:
   - o37cVSzB7FQ
+level:
 ---
 ## Description
 Passement de sécurité arrière enchaîné avec un passement de sécurité avant, en tournant le dos à l'obstacle (pont).

@@ -12,6 +12,7 @@ prerequis:
   - passement de sécurité
 video:
   - Mgs0yJsGmkU
+level:
 ---
 ## Description
 Passement de sécurité effectué en sens inverse, en commençant dos à l'obstacle.

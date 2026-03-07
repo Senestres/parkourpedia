@@ -11,6 +11,7 @@ fc:
 prerequis:
 video:
   - JRH-8qgb77M
+level:
 ---
 ## Description
 Saut avec demi-rotation par-dessus un obstacle, suivi d'un appui des deux mains pour se repousser de l'obstacle.

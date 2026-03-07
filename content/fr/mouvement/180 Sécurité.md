@@ -15,6 +15,7 @@ prerequis:
   - saut de précision 180
 video:
   - _kM1nJJrwag
+level:
 ---
 ## Description
 Saut de précision 180 enchaîné avec un passement de sécurité.

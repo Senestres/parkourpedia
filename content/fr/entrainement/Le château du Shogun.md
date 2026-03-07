@@ -11,8 +11,10 @@ fc:
   - sauts
 prerequis:
 video:
+level:
+
 ---
-## Objectifs
+## Description
 Améliorer la technique d'amorti pour les sauts.
 
 ## Organisation

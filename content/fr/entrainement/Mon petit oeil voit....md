@@ -10,8 +10,10 @@ fc:
   - créativité
 prerequis:
 video:
+level:
+  - f3
 ---
-## Objectifs
+## Description
 Lire les possibilités de mouvement dans l'environnement
 
 ## Organisation

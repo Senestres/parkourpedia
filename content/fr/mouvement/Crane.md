@@ -11,6 +11,7 @@ fc:
 prerequis:
 video:
   - wCVQy6kwCzg
+level:
 ---
 ## Description
 Atterrissage avec un pied au sommet de l'obstacle, l'autre jambe servant d'appui contre sa surface verticale.

@@ -13,6 +13,7 @@ prerequis:
   - passement de sécurité
 video:
   - ejn6cknZAew
+level:
 ---
 ## Description
 Passement de sécurité effectué contre une surface verticale.

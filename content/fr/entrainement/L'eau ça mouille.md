@@ -10,8 +10,10 @@ fc:
   - autoévaluation
 prerequis:
 video:
+level:
+  - t
 ---
-## Objectifs
+## Description
 Etre capable d'évaluer sa capacité à réaliser des mouvements en cas de pluie
 
 ## Organisation

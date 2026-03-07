@@ -13,6 +13,7 @@ prerequis:
   - demi-tour
 video:
   - rNCCystHoQ8
+level:
 ---
 ## Description
 Lazy suivi d'une demi rotation vers l'intérieur sur l'axe longitudinal. 

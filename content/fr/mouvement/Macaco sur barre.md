@@ -13,6 +13,7 @@ prerequis:
   - macaco
 video:
   - Sz6UltfA77o
+level:
 ---
 ## Description
 Macaco avec appui sur une barre.

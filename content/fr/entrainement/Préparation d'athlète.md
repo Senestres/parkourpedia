@@ -10,8 +10,11 @@ fc:
   - autoévaluation
 prerequis:
 video:
+level:
+  - f2
+  - f3
 ---
-## Objectifs
+## Description
 Développer des stratégies pour la préparation mentale et technique.
 
 ## Organisation

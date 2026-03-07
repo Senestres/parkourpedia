@@ -13,6 +13,7 @@ prerequis:
   - wallspin angulaire
 video:
   - cT8YU2RH2EE
+level:
 ---
 ## Description
 Rotation sur l'axe antéro-postérieur autour d'un point d'appui contre une surface verticale.

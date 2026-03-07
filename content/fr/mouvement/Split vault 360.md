@@ -12,6 +12,7 @@ prerequis:
   - split vault
 video:
   - AS0owVrBifc
+level:
 ---
 ## Description
 Split vault suivi d'une rotation complète.

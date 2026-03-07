@@ -10,8 +10,10 @@ fc:
   - équilibre
 prerequis:
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Retour au calme
 
 ## Organisation

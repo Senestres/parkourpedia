@@ -11,8 +11,11 @@ fc:
   - grimper
 prerequis:
 video:
+level:
+  - f2
+  - f3
 ---
-## Objectifs
+## Description
 Coopérer pour franchir des obstacles
 
 ## Organisation

@@ -13,6 +13,7 @@ fc:
 prerequis:
 video:
   - njzaZ-dndfI
+level:
 ---
 ## Description
 Roulade similaire à celle effectuée dans les arts martiaux, commençant à une épaule et se terminant à la hanche opposée. La tête ne devrait pas entrer en contact avec le sol, et il s'agit de trouver un chemin sur le corps qui passe par les zones de muscles ou de graisse et évite les os et articulations.

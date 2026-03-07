@@ -13,6 +13,7 @@ prerequis:
   - passement assis
 video:
   - DP9DdFl775o
+level:
 ---
 ## Description
 Franchir un obstacle avec une rotation complète sur l'axe longitudinal, le dos plaqué contre l'obstacle.

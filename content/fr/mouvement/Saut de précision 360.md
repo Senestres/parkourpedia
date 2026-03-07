@@ -14,6 +14,8 @@ prerequis:
   - précision 180
 video:
   - BC00Ernq6y0
+level: t
+
 ---
 ## Description
 Saut de précision avec une rotation complète.

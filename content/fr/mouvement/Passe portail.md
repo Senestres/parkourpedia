@@ -13,6 +13,7 @@ fc:
 prerequis:
 video:
   - 7P9eCKcEOhQ
+level:
 ---
 ## Description
 Une main est placée au sommet de l'obstacle, l'autre sur la surface verticale opposée afin d'effectuer une rotation pour passer les jambes par-dessus l'obstacle.

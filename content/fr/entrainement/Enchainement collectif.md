@@ -10,8 +10,11 @@ fc:
   - créativité
 prerequis:
 video:
+level:
+  - f2
+  - f3
 ---
-## Objectifs
+## Description
 Créer un enchainement en équipe.
 
 ## Organisation

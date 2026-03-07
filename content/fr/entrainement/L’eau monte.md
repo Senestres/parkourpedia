@@ -11,8 +11,10 @@ fc:
 prerequis:
   - saut de précision
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 S'échauffer.
 
 ## Organisation

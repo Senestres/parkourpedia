@@ -11,8 +11,10 @@ fc:
   - sauts
 prerequis:
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Entrainer l'équilibre et s'échauffer.
 
 ## Organisation

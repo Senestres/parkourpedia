@@ -11,8 +11,10 @@ fc:
 prerequis:
   - passement de sécurité
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Effectuer un parcours d'obstacles le plus rapidement possible.
 
 ## Organisation

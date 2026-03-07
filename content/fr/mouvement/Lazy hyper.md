@@ -13,6 +13,7 @@ prerequis:
   - passement assis hyper
 video:
   - gAgpO0axNgQ
+level:
 ---
 ## Description
 Lazy avec une demi-rotation pour atterrir en position hyper.

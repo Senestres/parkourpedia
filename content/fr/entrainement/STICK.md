@@ -14,8 +14,11 @@ fc:
 prerequis:
   - saut de précision
 video:
+level:
+  - f2
+  - f3
 ---
-## Objectifs
+## Description
 Imaginer et réaliser des défis collectifs.
 
 Evaluer de manière réaliste sa capacité à réaliser ces défis.

@@ -12,6 +12,7 @@ fc:
 prerequis:
 video:
   - zxMKsJZZ_EA
+level:
 ---
 ## Description
 Enchaînement de sauts avec alternance de la jambe d’appui.

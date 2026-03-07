@@ -14,6 +14,7 @@ prerequis:
   - passement assis
 video:
   - H-KaZijZuKw
+level:
 ---
 ## Description
 Roulade assise avec sur-rotation pour atterrir sur l'autre jambe.

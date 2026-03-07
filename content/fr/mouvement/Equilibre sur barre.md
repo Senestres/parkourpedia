@@ -11,6 +11,7 @@ fc:
 prerequis:
 video:
   - -nL0tlijlI4
+level:
 ---
 ## Description
 Déplacement en équilibre sur une surface restreinte.

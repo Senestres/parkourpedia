@@ -14,6 +14,7 @@ prerequis:
   - lazy
 video:
   - t5IgvA1_XFE
+level:
 ---
 ## Description
 Début d'un lazy, avec demi-rotation pour terminer en passement de sécurité, sans passer par-dessus l'obstacle.

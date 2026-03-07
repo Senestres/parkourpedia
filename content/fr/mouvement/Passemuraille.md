@@ -13,6 +13,7 @@ fc:
 prerequis:
 video:
   - O1YmbwIj6Gk
+level:
 ---
 ## Description
 Technique visant à atteindre le sommet d’un mur par une course d’élan et un appui d’un pied contre la surface verticale du mur.

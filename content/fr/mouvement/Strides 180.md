@@ -13,6 +13,7 @@ prerequis:
   - strides
 video:
   - xFggri56Gkg
+level:
 ---
 ## Description
 Strides avec une demi-rotation entre chaque pas.

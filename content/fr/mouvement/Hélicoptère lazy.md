@@ -14,6 +14,7 @@ prerequis:
   - hélicoptère
 video:
   - MyQW0A90csA
+level:
 ---
 ## Description
 Lazy effectué immédiatement après un hélicoptère (mouvement de breakdance).

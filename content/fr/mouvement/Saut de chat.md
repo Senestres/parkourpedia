@@ -15,6 +15,7 @@ prerequis:
   - passement latéral
 video:
   - Lxo0DjqOUls
+level:
 ---
 ## Description
 Passement consistant à franchir un obstacle en plongeant en avant puis en poussant simultanément avec les deux mains afin de rétablir le corps. Contrairement à d'autres passements, il n'y a pas de bascule latérale, et le corps reste toujours penché vers l'avant.

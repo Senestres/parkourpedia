@@ -10,8 +10,10 @@ fc:
   - équilibre
 prerequis:
 video:
+level:
+  - f1
 ---
-## Objectifs
+## Description
 Créer et réaliser des défis d'équilibre
 
 ## Organisation

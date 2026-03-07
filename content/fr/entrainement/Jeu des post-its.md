@@ -9,9 +9,13 @@ tags:
 fc:
   - tricks muraux
 prerequis:
+  - passemuraille
 video:
+level:
+  - f2
+  - f3
 ---
-## Objectifs
+## Description
 Améliorer la technique de passemuraille
 
 ## Organisation
@@ -22,7 +26,7 @@ Améliorer la technique de passemuraille
 ⚙️Matériel: post-its ou scotch de carrossier, murs avec suffisamment d'espace autour
 
 ## Description
-Les participants sautent ou effectuent un passemuraille contre une paroi et tentent de coller un post-it le plus haut possible. Ils tentent alors à nouveau leur chance pour aller de plus en plus haut !
+Les participants effectuent un passemuraille contre une paroi et tentent de coller un post-it le plus haut possible. Ils tentent alors à nouveau leur chance pour aller de plus en plus haut !
 
 Si nécessaire, on peut attribuer des points selon la hauteur des post-its à la fin du temps de pratique.
 

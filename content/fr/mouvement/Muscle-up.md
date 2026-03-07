@@ -12,6 +12,7 @@ prerequis:
   - climb-up
 video:
   - D82HEPwRZGU
+level:
 ---
 ## Description
 Passage de la position de suspension à la position d'appui sur une barre, sans utilisation des pieds.

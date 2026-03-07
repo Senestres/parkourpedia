@@ -13,6 +13,7 @@ prerequis:
   - passement de sécurité
 video:
   - c_q0cyrHzio
+level:
 ---
 ## Description
 Un passement de sécurité enchaîné avec un passement de sécurité du côté opposé.

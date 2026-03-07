@@ -13,6 +13,7 @@ prerequis:
   - passement de sécurité
 video:
   - Gvtzn0zlB3o
+level:
 ---
 ## Description
 Demi-tour réalisé en prenant appui avec le pied extérieur sur l'obstacle.

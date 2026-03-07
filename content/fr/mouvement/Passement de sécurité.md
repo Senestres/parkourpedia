@@ -13,6 +13,7 @@ fc:
 prerequis:
 video:
   - qTeYgw-H-UA
+level:
 ---
 ## Description
 Passement consistant à franchir l’obstacle avec une main et le pied opposé.

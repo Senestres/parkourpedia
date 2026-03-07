@@ -13,6 +13,7 @@ prerequis:
   - passement de sécurité
 video:
   - sS8v9ZMlA1k
+level:
 ---
 ## Description
 Passement de sécurité suivi d'une rotation complète.

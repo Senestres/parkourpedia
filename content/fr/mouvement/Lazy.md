@@ -12,6 +12,7 @@ fc:
 prerequis:
 video:
   - eF4tEv8fZNI
+level:
 ---
 ## Description
 Passement commençant avec l'appui de la main la plus proche du mur. Les jambes sont projetées en avant avec un mouvement de ciseau. Une fois que les jambes sont passées, la deuxième main prend appui pour se repousser de l'obstacle. 

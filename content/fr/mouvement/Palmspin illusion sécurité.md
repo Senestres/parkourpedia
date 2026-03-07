@@ -12,6 +12,7 @@ prerequis:
   - passement de sécurité
 video:
   - T24XVmPnhfk
+level:
 ---
 ## Description
 Appui avec une main sur le bord d'un obstacle et appui du pied du même côté, avant de changer de main pour effectuer un passement de sécurité. Rotation complète similaire à un reverse palmspin.

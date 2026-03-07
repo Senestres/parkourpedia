@@ -13,6 +13,7 @@ prerequis:
   - palmspin
 video:
   - IRgh-QfgQSA
+level:
 ---
 ## Description
 Wallspin avec assistance d'un appui pour la main inférieure.

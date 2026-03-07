@@ -14,6 +14,7 @@ prerequis:
   - roulade assise
 video:
   - 7gpPAbgn_rM
+level:
 ---
 ## Description
 Passement avec rotation complète sur l'axe longitudinal durant le vol.

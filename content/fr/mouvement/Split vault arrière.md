@@ -12,6 +12,7 @@ prerequis:
   - split vault
 video:
   - 6uCJZ6XHAJ0
+level:
 ---
 ## Description
 Split vault en commençant dos à l'obstacle.

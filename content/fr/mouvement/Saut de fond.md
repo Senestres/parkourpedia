@@ -13,6 +13,7 @@ prerequis:
   - saut de précision
 video:
   - CXC7Ut7PSmI
+level:
 ---
 ## Description
 Saut effectué en contrebas. Selon la situation, suivi d'une roulade pour dissiper l'impact.

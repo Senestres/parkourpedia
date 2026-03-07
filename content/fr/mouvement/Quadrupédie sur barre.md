@@ -12,6 +12,7 @@ prerequis:
   - quadrupédie
 video:
   - vFv-UqwlaSY
+level:
 ---
 ## Description
 Mouvement quadrupédique réalisé sur une barre.

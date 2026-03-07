@@ -12,6 +12,8 @@ fc:
 prerequis:
 video:
   - -hvra5q3NfM
+level:
+  - f1
 ---
 ## Description
 Franchir un obstacle avec un appui des deux mains, les pieds passant sur les côtés.

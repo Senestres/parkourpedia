@@ -14,6 +14,7 @@ prerequis:
   - saut de précision
 video:
   - W6xaBhWy4CY
+level:
 ---
 ## Description
 Saut de précision avec une demi-rotation. Selon la situation, peut être commencé face ou dos au point d'aterrissage.
