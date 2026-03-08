@@ -127,6 +127,7 @@ main {
 }
 
 main,
+.tag-page,
 footer {
 	padding: 1rem;
 
@@ -220,11 +221,7 @@ svg.nav-icon {
 	min-width: 25px;
 }
 
-/* i18l dropdown */
-.dropdown {
-/* 	position: relative;
-	align-self: center; */
-}
+/* i18n dropdown */
 .dropdown ul {
 	display: none;
 	position: absolute;

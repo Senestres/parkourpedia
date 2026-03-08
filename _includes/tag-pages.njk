@@ -1,10 +1,12 @@
-<h1>“{{ tag | t | lower }}”</h1>
+<div class="tag-page">
+    <h1>“{{ tag | t | lower }}”</h1>
 
-{% set fc = tag %}
+    {% set fc = tag %}
 
- {{ i18n[fc]["long"][page.lang] }} {{ i18n[fc].emoji }}
+    {{ i18n[fc]["long"][page.lang] }} {{ i18n[fc].emoji }}
 
-{% set postslist = collections[ tag ] | pageLang %}
-{% include "postslist.njk" %}
+    {% set postslist = collections[ tag ] | pageLang %}
+    {% include "postslist.njk" %}
 
-<p><a href="{{ "/tags/" | locale_url }}">{{ "Voir tous les tags" | t}}</a>.</p>
+    <p><a href="{{ "/tags/" | locale_url }}">{{ "Voir tous les tags" | t}}</a>.</p>
+</div>
