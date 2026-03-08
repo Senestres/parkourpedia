@@ -1,9 +1,8 @@
+<h1>“{{ tag | t | lower }}”</h1>
 
-{% set fc = i18n.formesCaracteristiques[tag] %}
+{% set fc = tag %}
 
-<h1>“{{ fc[page.lang].short | lower or tag | t | lower }}”</h1>
-
- {{ fc[page.lang].long }} {{ fc.emoji }}
+ {{ i18n[fc]["long"][page.lang] }} {{ i18n[fc].emoji }}
 
 {% set postslist = collections[ tag ] | pageLang %}
 {% include "postslist.njk" %}

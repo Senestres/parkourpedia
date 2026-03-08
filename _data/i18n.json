@@ -1,69 +1,114 @@
 {
 	"languages": ["fr", "en"],
 	"locales": {"fr": "fr-CH", "en": "en-GB", "de": "de-CH"},
-	"formesCaracteristiques": {
-		"sauts": {
-			"emoji": "🦘",
-			"fr": { "short": "sauts", "long": "Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs" },
-			"en": { "short": "jumps", "long": "Perform efficient jumps as well as precise and safe landings" }
-		},
-		"passements": {
-			"emoji": "🐈",
-			"fr": { "short": "passements", "long": "Franchir des obstacles de manière variée et avec agilité" },
-			"en": { "short": "vaults", "long": "Overcome obstacles in a varied manner and with agility" }
-		},
-		"équilibre": {
-			"emoji": "⚖️",
-			"fr": { "short": "équilibre", "long": "Garder l'équilibre avec habileté et assurance en toute situation" },
-			"en": { "short": "balance", "long": "Maintain balance with skill and confidence in all situations" }
-		},
-		"balancés": {
-			"emoji": "🐒",
-			"fr": { "short": "balancés", "long": "Utiliser différents objets pour se balancer de façon créative et ciblée" },
-			"en": { "short": "swings", "long": "Use different objects to swing in creative and purposeful ways" }
-		},
-		"rotations": {
-			"emoji": "🤸‍♀️",
-			"fr": { "short": "rotations", "long": "Rouler et faire tourner son corps de manière variée et ciblée" },
-			"en": { "short": "Rotations", "long": "Roll and rotate your body in varied and purposeful ways" }
-		},
-		"grimper": {
-			"emoji": "🧗‍♂️",
-			"fr": { "short": "grimper", "long": "Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout" },
-			"en": { "short": "climbing", "long": "Safely make dynamic transitions between hanging, support and standing positions" }
-		},
-		"tricks muraux": {
-			"emoji": "🧱",
-			"fr": { "short": "tricks muraux", "long": "Utiliser le mur de façon variée, habile et ciblée" },
-			"en": { "short": "wall tricks", "long": "Use the wall in a varied, skillful and targeted way" }
-		},
-		"autoévaluation": {
-			"emoji": "🧠",
-			"fr": { "short": "autoévaluation", "long": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation" },
-			"en": { "short": "self-assessment", "long": "Realistically assess your personal abilities and act appropriately to the situation" }
-		},
-		"respect": {
-			"emoji": "🤝",
-			"fr": { "short": "respect", "long": "Faire preuve de respect envers soi-même, les autres et l'environnement" },
-			"en": { "short": "respect", "long": "Show respect for yourself, others and the environment" }
-		},
-		"créativité": {
-			"emoji": "⚗️",
-			"fr": { "short": "créativité", "long": "Tester et développer une approche créative" },
-			"en": { "short": "creativity", "long": "Test and develop a creative approach" }
-		},
-		"flow": {
-			"emoji": "🌊",
-			"fr": { "short": "flow", "long": "Optimiser la fluidité lors d'un enchaînement" },
-			"en": { "short": "flow", "long": "Optimize fluidity during a sequence" }
-		}
-	},
 	"niveaux": {
 		"f1": {"short": "f1", "emoji": "🐣"},
 		"f2": {"short": "f2-f3", "emoji": "🐥"},
 		"f3": {"short": "f2-f3", "emoji": "🐥"},
 		"t": {"short": "t+", "emoji": "🦉"}
 	},
+
+	"formesCaracteristiques": {"sauts": "sauts", "passements": "passements", "équilibre": "équilibre", "balancés": "balancés", "rotations": "rotations", "grimper": "grimper", "tricks muraux": "tricks muraux", "autoévaluation": "autoévaluation", "respect": "respect", "créativité": "créativité", "flow": "flow"},
+	"sauts": {
+		"emoji": "🦘",
+		"fr": "sauts",
+		"en": "jumps",
+		"long": {
+		"fr": "Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs",
+		"en": "Perform efficient jumps as well as precise and safe landings"
+		}
+	},
+	"passements": {
+		"emoji": "🐈",
+		"fr": "passements",
+		"en": "vaults",
+		"long": {
+		"fr": "Franchir des obstacles de manière variée et avec agilité",
+		"en": "Overcome obstacles in a varied manner and with agility"
+		}
+	},
+	"équilibre": {
+		"emoji": "⚖️",
+		"fr": "équilibre",
+		"en": "balance",
+		"long": {
+		"fr": "Garder l'équilibre avec habileté et assurance en toute situation",
+		"en": "Maintain balance with skill and confidence in all situations"
+		}
+	},
+	"balancés": {
+		"emoji": "🐒",
+		"fr": "balancés",
+		"en": "swings",
+		"long": {
+		"fr": "Utiliser différents objets pour se balancer de façon créative et ciblée",
+		"en": "Use different objects to swing in creative and purposeful ways"
+		}
+	},
+	"rotations": {
+		"emoji": "🤸‍♀️",
+		"fr": "rotations",
+		"en": "rotations",
+		"long": {
+		"fr": "Rouler et faire tourner son corps de manière variée et ciblée",
+		"en": "Roll and rotate your body in varied and purposeful ways"
+		}
+	},
+	"grimper": {
+		"emoji": "🧗‍♂️",
+		"fr": "grimper",
+		"en": "climbing",
+		"long": {
+		"fr": "Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout",
+		"en": "Safely make dynamic transitions between hanging, support and standing positions"
+		}
+	},
+	"tricks muraux": {
+		"emoji": "🧱",
+		"fr": "tricks muraux",
+		"en": "wall tricks",
+		"long": {
+		"fr": "Utiliser le mur de façon variée, habile et ciblée",
+		"en": "Use the wall in a varied, skillful and targeted way"
+		}
+	},
+	"autoévaluation": {
+		"emoji": "🧠",
+		"fr": "autoévaluation",
+		"en": "self-assessment",
+		"long": {
+		"fr": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation",
+		"en": "Realistically assess your personal abilities and act appropriately to the situation"
+		}
+	},
+	"respect": {
+		"emoji": "🤝",
+		"fr": "respect",
+		"en": "respect",
+		"long": {
+		"fr": "Faire preuve de respect envers soi-même, les autres et l'environnement",
+		"en": "Show respect for yourself, others and the environment"
+		}
+	},
+	"créativité": {
+		"emoji": "⚗️",
+		"fr": "créativité",
+		"en": "creativity",
+		"long": {
+		"fr": "Tester et développer une approche créative",
+		"en": "Test and develop a creative approach"
+		}
+	},
+	"flow": {
+		"emoji": "🌊",
+		"fr": "flow",
+		"en": "flow",
+		"long": {
+		"fr": "Optimiser la fluidité lors d'un enchaînement",
+		"en": "Optimize fluidity during a sequence"
+		}
+	},
+
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
 		"en": "training form"
@@ -135,5 +180,9 @@
 	"Voir tous les tags": {
 		"fr": "Voir tous les tags",
 		"en": "See all tags"
+	},
+	"base": {
+		"fr": "base",
+		"en": "foundation"
 	}
 }
