@@ -17,7 +17,7 @@
 		<meta property="og:url" content="{{ page.url | htmlBaseUrl(metadata.url) }}">
 		<meta property="og:title" content="{{ title or metadata.title }}">
 		<meta property="og:description" content="{{ description or metadata.description[page.lang] }}">
-		{% set ogImage = metadata.url + "/img/" + (coverImage if coverImage else "socials.png") %}
+		{% set ogImage = metadata.url + "/img/" + (coverImage if coverImage else "logo-socials.png") %}
 		<meta property="og:image" content="{{ ogImage }}">
 		<meta property="og:type" content="article">
 		
