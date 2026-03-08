@@ -164,7 +164,6 @@ header {
 	gap: 1em;
 	justify-content: center;
 	text-align: center;
-
 }
 @media (max-width: 620px){
 	header {
@@ -172,7 +171,6 @@ header {
     	grid-template-rows: auto auto auto; /* three rows */
 	}
 }	
-
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
@@ -185,7 +183,6 @@ header {
 .menu {
 	font-size: large;
 }
-
 .nav {
 	display: flex;
 	font-size: large;
@@ -204,32 +201,29 @@ header {
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
 }
+
 /* Social icons*/
-.socials {
+ul.socials,
+ul.nav {
+	list-style: none;
 	display: flex;
 	justify-content: center;
-}
-nav ul,
-ul.socials {
 	padding: 0;
-	line-height: 0;
 }
+
 .nav-icon:hover path {
 	fill: var(--accent);
 }
 svg.nav-icon {
 	width: 100%;
 	height: 30px;
+	min-width: 25px;
 }
-pagefind-modal-trigger {
-/* 	vertical-align: sub; */
-}
-
 
 /* i18l dropdown */
 .dropdown {
-	position: relative;
-	align-self: center;
+/* 	position: relative;
+	align-self: center; */
 }
 .dropdown ul {
 	display: none;
@@ -258,7 +252,7 @@ pagefind-modal-trigger {
 	cursor: pointer;
 	font-family: inherit;
     font-size: inherit;
-	
+	min-width: 50px;
 }
 
 

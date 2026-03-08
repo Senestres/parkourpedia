@@ -43,22 +43,28 @@
 			<pagefind-modal-trigger instance="navsearch" compact="true" hide-shortcut="true"></pagefind-modal-trigger>
 			<pagefind-modal instance="navsearch"></pagefind-modal> 
 		</li>
+		{% if page.url | locale_links | fix_locale_links | length %} {# Only allow dropdown when there are multiple lang for the page #}
+		<li class="nav-item dropdown">
+			<button>{{ lang | upper }} ▾</button>
+			<ul>
+				{% for link in page.url | locale_links | fix_locale_links %}
+				<li>
+					<a href="{{ link.url }}" lang="{{ link.lang }}" 
+						{% if link.lang == lang %}aria-current="page"{% endif %}>
+						{{ link.lang | upper }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</li>
+		{%endif%}
 	</ul>
-	{% if page.url | locale_links | fix_locale_links | length %} {# Only allow dropdown when there are multiple lang for the page #}
-	<div class="dropdown">
-		<button>{{ lang | upper }} ▾</button>
-		<ul>
-			{% for link in page.url | locale_links | fix_locale_links %}
-			<li>
-				<a href="{{ link.url }}" lang="{{ link.lang }}" 
-					{% if link.lang == lang %}aria-current="page"{% endif %}>
-					{{ link.lang | upper }}
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-	{%endif%}
+
+{# 	<div class="dropdown">
+
+		
+	</div> #}
+
 </div>
 
 
