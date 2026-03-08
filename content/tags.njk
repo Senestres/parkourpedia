@@ -12,7 +12,7 @@ permalink: "/{{ lang }}/tags/"
 {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
 	{# {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %} #}
 	{% set tagUrl %}{{ ("/tags/" + (tag | slugify) + "/") | locale_url }}{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag | t }}</a></li>
 {% endfor %}
 </ul>
 

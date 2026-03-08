@@ -1,7 +1,7 @@
 
 {% set fc = i18n.formesCaracteristiques[tag] %}
 
-<h1>“{{ fc[page.lang].short | lower or tag | lower }}”</h1>
+<h1>“{{ fc[page.lang].short | lower or tag | t | lower }}”</h1>
 
  {{ fc[page.lang].long }} {{ fc.emoji }}
 
