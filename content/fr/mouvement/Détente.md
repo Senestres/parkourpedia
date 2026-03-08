@@ -14,7 +14,7 @@ aliases:
 video:
   - VPrdpKBt918
 level:
-  - f1
+  - f2
 ---
 ## Description
 Saut de précision réalisé avec de l'élan.

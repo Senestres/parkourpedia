@@ -13,6 +13,7 @@ prerequis:
 video:
   - 9qda8bzufqA
 level:
+  - t
 ---
 ## Description
 Saut de précision avec élan et une rotation complète.

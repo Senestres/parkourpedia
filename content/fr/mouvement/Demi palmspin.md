@@ -12,7 +12,7 @@ prerequis:
 video:
   - _IfJVWaFwK0
 level:
-  - f1
+  - f2
 ---
 ## Description
 Demi rotation en appui avec la main extérieur, généralement utilisée pour monter sur un obstacle.
