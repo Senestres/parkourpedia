@@ -13,109 +13,133 @@
 		"emoji": "🦘",
 		"fr": "sauts",
 		"en": "jumps",
+		"de": "sauts",
 		"long": {
 		"fr": "Effectuer des sauts efficaces ainsi que des atterrissages précis et sûrs",
-		"en": "Perform efficient jumps as well as precise and safe landings"
+		"en": "Perform efficient jumps as well as precise and safe landings",
+		"de": "Effektiv abspringen sowie präzis und sicher landen"
 		}
 	},
 	"passements": {
 		"emoji": "🐈",
 		"fr": "passements",
 		"en": "vaults",
+		"de": "passements",
 		"long": {
 		"fr": "Franchir des obstacles de manière variée et avec agilité",
-		"en": "Overcome obstacles in a varied manner and with agility"
+		"en": "Overcome obstacles in a varied manner and with agility",
+		"de": "Unterschiedliche Hindernisse vielseitig und geschmeidig überwinden"
 		}
 	},
 	"équilibre": {
 		"emoji": "⚖️",
 		"fr": "équilibre",
 		"en": "balance",
+		"de": "équilibre",
 		"long": {
 		"fr": "Garder l'équilibre avec habileté et assurance en toute situation",
-		"en": "Maintain balance with skill and confidence in all situations"
+		"en": "Maintain balance with skill and confidence in all situations",
+		"de": "Den Körper in jeder Situation geschickt und sicher im Gleichgewicht halten"
 		}
 	},
 	"balancés": {
 		"emoji": "🐒",
 		"fr": "balancés",
 		"en": "swings",
+		"de": "balancés",
 		"long": {
 		"fr": "Utiliser différents objets pour se balancer de façon créative et ciblée",
-		"en": "Use different objects to swing in creative and purposeful ways"
+		"en": "Use different objects to swing in creative and purposeful ways",
+		"de": "Unterschiedliche Objekte kreativ und zielorientiert zum Schwingen nutzen"
 		}
 	},
 	"rotations": {
 		"emoji": "🤸‍♀️",
 		"fr": "rotations",
 		"en": "rotations",
+		"de": "rotations",
 		"long": {
 		"fr": "Rouler et faire tourner son corps de manière variée et ciblée",
-		"en": "Roll and rotate your body in varied and purposeful ways"
+		"en": "Roll and rotate your body in varied and purposeful ways",
+		"de": "Den eigenen Körper vielseitig und zielgerichtet rollen und drehen"
 		}
 	},
 	"grimper": {
 		"emoji": "🧗‍♂️",
 		"fr": "grimper",
 		"en": "climbing",
+		"de": "grimper",
 		"long": {
 		"fr": "Effectuer en toute sécurité des transitions dynamiques entre la position suspendue, la position d'appui et la position debout",
-		"en": "Safely make dynamic transitions between hanging, support and standing positions"
+		"en": "Safely make dynamic transitions between hanging, support and standing positions",
+		"de": "Dynamisch und sicher zwischen hängender, stützender und stehender Position wechseln"
 		}
 	},
 	"tricks muraux": {
 		"emoji": "🧱",
 		"fr": "tricks muraux",
 		"en": "wall tricks",
+		"de": "tricks muraux",
 		"long": {
 		"fr": "Utiliser le mur de façon variée, habile et ciblée",
-		"en": "Use the wall in a varied, skillful and targeted way"
+		"en": "Use the wall in a varied, skillful and targeted way",
+		"de": "Die Wand vielseitig, clever und zielgerichtet nutzen"
 		}
 	},
 	"autoévaluation": {
 		"emoji": "🧠",
 		"fr": "autoévaluation",
 		"en": "self-assessment",
+		"de": "autoévaluation",
 		"long": {
 		"fr": "Évaluer avec réalisme ses aptitudes personnelles et agir de manière adaptée à la situation",
-		"en": "Realistically assess your personal abilities and act appropriately to the situation"
+		"en": "Realistically assess your personal abilities and act appropriately to the situation",
+		"de": "Sich selbst realistisch einschätzen und situationsangepasst agieren"
 		}
 	},
 	"respect": {
 		"emoji": "🤝",
 		"fr": "respect",
 		"en": "respect",
+		"de": "respect",
 		"long": {
 		"fr": "Faire preuve de respect envers soi-même, les autres et l'environnement",
-		"en": "Show respect for yourself, others and the environment"
+		"en": "Show respect for yourself, others and the environment",
+		"de": "Sich respektvoll gegenüber sich selbst, seinen Mitmenschen und der Umwelt verhalten"
 		}
 	},
 	"créativité": {
 		"emoji": "⚗️",
 		"fr": "créativité",
 		"en": "creativity",
+		"de": "créativité",
 		"long": {
 		"fr": "Tester et développer une approche créative",
-		"en": "Test and develop a creative approach"
+		"en": "Test and develop a creative approach",
+		"de": "Kreative Herangehensweisen ausprobieren und weiterentwickeln"
 		}
 	},
 	"flow": {
 		"emoji": "🌊",
 		"fr": "flow",
 		"en": "flow",
+		"de": "flow",
 		"long": {
 		"fr": "Optimiser la fluidité lors d'un enchaînement",
-		"en": "Optimize fluidity during a sequence"
+		"en": "Optimize fluidity during a sequence",
+		"de": "Den Flow in einem Run maximal optimieren"
 		}
 	},
 
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
-		"en": "training form"
+		"en": "training form",
+		"de": "trainingsformen"
 	},
 	"forme de mouvement": {
 		"fr": "forme de mouvement",
-		"en": "movement form"
+		"en": "movement form",
+		"de": "bewegungsformen"
 	},
 	"forme caractéristique": {
 		"fr": "forme caractéristique",
@@ -123,7 +147,8 @@
 	},
 	"formes caractéristiques": {
 		"fr": "formes caractéristiques",
-		"en": "caracteristic forms"
+		"en": "caracteristic forms",
+		"de": "erscheinungsform"
 	},
 	"catégorie": {
 		"fr": "catégorie",
