@@ -5,9 +5,6 @@ eleventyNavigation:
   order: 4
 ---
 
-{# Test #}
-{% include "layouts/test.njk" %}
-
 # A propos
 Ce site propose une base de donnée de techniques de parkour ainsi que des formes de jeux, exercices et progressions pour apprendre le parkour.
 
@@ -24,9 +21,14 @@ Ce site est adapté du modèle développé pour Jeunesse+Sport (J+S)^[Dutoit, J.
 Le tout est catégorisé selon les 11 formes caractéristiques qui représentent selon nous exhaustivement le parkour.
 
 <ul>
-    {%- for fc, item in i18n.formesCaracteristiques %}
-      {{i18n[fc].emoji}} <a href="{{ ("/tags/" + (fc | slugify) + "/") | locale_url }}">{{ i18n[fc][page.lang] | capitalize }}</a>: {{i18n[fc]["long"][page.lang]}}
-    {% endfor -%}
+    {% for fc, item in i18n.formesCaracteristiques %}
+      <li>
+        {{i18n[fc].emoji}}
+        <a href="{{ ("/tags/" + (fc | slugify) + "/") | locale_url }}">
+          {{ i18n[fc][page.lang] | capitalize }}
+        </a>: {{i18n[fc]["long"][page.lang]}}
+      </li>
+    {% endfor %}
 </ul>
 
 Le système de niveaux est adapté du modèle [FTEM](https://www.swissolympic.ch/{{ lang }}/federations/ftem-developpement-du-sport-et-des-athletes):
@@ -37,4 +39,8 @@ Le système de niveaux est adapté du modèle [FTEM](https://www.swissolympic.ch
 ## Sponsors
 Le site ainsi que son contenu ont été réalisés en partenariat avec 
 
-{% for sponsor, item in metadata.sponsors %}<a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="sponsor logo" class="sponsor-logo" sizes="300px"></a> {% endfor %}
+{% for sponsor, item in metadata.sponsors %}
+  <a href="https://{{ metadata.sponsors[sponsor].link }}">
+  <img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="sponsor logo" class="sponsor-logo" sizes="300px">
+  </a>
+{% endfor %}
