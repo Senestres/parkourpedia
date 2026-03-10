@@ -1,0 +1,13 @@
+[
+{% for post in posts %}
+{
+  "url": "{{ post.url }}",
+  "title": "{{ post.data.title | escape | replace("&#39;", "'") }}",
+  "coverImage": "{% if post.data.coverImage %}{% imageUrl post.data.coverImage, 300 %}{% endif %}",
+  "video": "{% if post.data.video %}{% imageUrl post.data.video, 300, "external" %}{% endif %}"
+}{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+
+
+{#  #}

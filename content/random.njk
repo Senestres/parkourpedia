@@ -11,42 +11,25 @@ eleventyNavigation:
 eleventyComputed:
     title: '{{ lang }}'
 layout: layouts/page.njk
+script: "/random.js"
 ---
 <noscript>
   Javascript is necessary to use this site. Alternatively, try <a href="/{{ lang }}/tags/">browsing manually</a>.
 </noscript>
 
-
 <script id="move-posts" type="application/json" eleventy:ignore>
-  [
-    {% for post in collections.mouvement | pageLang %}
-    {
-      "url": "{{ post.url }}",
-      "title": "{{ post.data.title | escape | replace("&#39;", "'")}}",
-      "coverImage": "{% if post.data.coverImage %}{% imageUrl post.data.coverImage, 300 %}{% endif %}",
-      "video": "{% if post.data.video %}{% imageUrl post.data.video, 300, "external" %}{% endif %}"
-    }{% if not loop.last %},{% endif %}
-    {% endfor %}
-  ]
+  {% set posts = collections.mouvement | pageLang %}
+  {% include "posts-json.njk" %}
 </script>
 
 <script id="training-posts" type="application/json" eleventy:ignore>
-  [
-    {% for post in collections.entrainement | pageLang %}
-    {
-      "url": "{{ post.url }}",
-      "title": "{{ post.data.title | escape | replace("&#39;", "'")}}",
-      "coverImage": "{% if post.data.coverImage %}{% imageUrl post.data.coverImage, 300 %}{% endif %}",
-      "video": "{{ post.data.video }}"
-    }{% if not loop.last %},{% endif %}
-    {% endfor %}
-  ]
+  {% set posts = collections.entrainement | pageLang %}
+  {% include "posts-json.njk" %}
 </script>
-
 
 <div class="postlist-row">
   <div>
-    <h2>{{"mouvement" | t | capitalize}} 🎲</h2>
+    <h2>{{"mouvement" | t | capitalize}} <button class="randomize" data-source="#move-posts" data-target="#random-move-card">🎲</button>{# <a href="{{page.url}}" aria-label="Click to randomize">🎲</a> #}</h2>
       <div class="postlist-card" id="random-move-card">
           <a href="" id="random-move-link">
           <div class="card-header">
@@ -57,7 +40,7 @@ layout: layouts/page.njk
       </div>
   </div>
   <div>
-    <h2>{{"entrainement" | t | capitalize}} 🎲</h2>
+    <h2>{{"entrainement" | t | capitalize}} <button class="randomize" data-source="#training-posts" data-target="#random-training-card">🎲</button>{# <a href="{{page.url}}" aria-label="Click to randomize">🎲</a> #}</h2>
       <div class="postlist-card" id="random-training-card">
         <a href="" id="random-training-link">
           <div class="card-header">
@@ -70,26 +53,4 @@ layout: layouts/page.njk
 </div>
 
 
-<script eleventy:ignore>
-  function renderRandomPost(data, card) {
-    const posts = JSON.parse(document.querySelector(data).textContent);
-    const post = posts[Math.floor(Math.random() * posts.length)];
-    card = document.querySelector(card);
-
-    card.querySelector("a").setAttribute("href", post.url);
-    card.querySelector(".card-overlay").textContent = post.title || post.url;
-
-    const img = card.querySelector(".card-img");
-    if (post.coverImage) {
-      img.src = post.coverImage;
-      img.style.display = "";
-
-    } else if (post.video) {
-    img.src = post.video;
-    img.style.display = "";
-    }
-  }
-
-  renderRandomPost("#move-posts", "#random-move-card");
-  renderRandomPost("#training-posts", "#random-training-card");
-</script>
+<script src="{{ script }}"></script>
