@@ -1,5 +1,5 @@
 {
-	"languages": ["fr", "en"],
+	"languages": ["fr"],
 	"locales": {"fr": "fr-CH", "en": "en-GB", "de": "de-CH"},
 	"niveaux": {
 		"f1": {"short": "f1", "emoji": "🐣"},
