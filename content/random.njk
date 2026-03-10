@@ -17,6 +17,7 @@ script: "/random.js"
   Javascript is necessary to use this site. Alternatively, try <a href="/{{ lang }}/tags/">browsing manually</a>.
 </noscript>
 
+ {# It is possible to filter the collections further using  "| filterBy("level", ["f3", t])" #}
 <script id="move-posts" type="application/json" eleventy:ignore>
   {% set posts = collections.mouvement | pageLang %}
   {% include "posts-json.njk" %}
