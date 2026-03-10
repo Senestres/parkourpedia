@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import Image from "@11ty/eleventy-img";
 import embedEverything from "eleventy-plugin-embed-everything";
 import markdownItFootnote from 'markdown-it-footnote';
 import { execSync } from 'child_process';
@@ -143,6 +144,22 @@ export default async function(eleventyConfig) {
 		return (new Date()).toISOString();
 	});
 
+	/* This is used to get an img url for the random page */
+	eleventyConfig.addShortcode("imageUrl", async function(src, width, external) {
+	if (!src) return "";
+	if (external == "external") {
+		src = "https://img.youtube.com/vi/" + src + "/hqdefault.jpg"
+	} else {
+		src = "./content/img/" + src
+	}
+	const metadata = await Image(src, {
+		widths: [width || 300],
+		formats: ["webp"],
+		outputDir: "./_site/img/",
+		urlPath: "/img/",
+	});
+	return metadata.webp[0].url;
+	});
 	// If your passthrough copy gets heavy and cumbersome, add this line
 	// to emulate the file copy on the dev server. Learn more:
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
