@@ -206,6 +206,10 @@
 		"fr": "Voir tous les tags",
 		"en": "See all tags"
 	},
+	"aléatoire": {
+		"fr": "aléatoire",
+		"en": "random"
+	},
 	"base": {
 		"fr": "base",
 		"en": "foundation"
