@@ -165,11 +165,13 @@ header {
 	gap: 1em;
 	justify-content: center;
 	text-align: center;
+	min-height: 107px;
 }
 @media (max-width: 620px){
 	header {
 		grid-template-columns: 1fr; /* single column */
     	grid-template-rows: auto auto auto; /* three rows */
+		min-height: 209px;
 	}
 }	
 .home-link:link:not(:hover) {
