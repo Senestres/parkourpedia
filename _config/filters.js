@@ -41,6 +41,24 @@ export default function(eleventyConfig) {
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
 
+	// Frontmatter data filter
+	eleventyConfig.addFilter('filterBy', function(collection, key, values) {
+		if (!collection || !key) return collection;
+
+			const filterValues = Array.isArray(values) ? values : [values]
+
+			return collection.filter(item => {
+			const dataValue = item.data?.[key];
+
+			// support arrays (tags, categories, etc.)
+			if (Array.isArray(dataValue)) {
+			return filterValues.some(v => dataValue. includes(v))
+			}
+
+			return values.includes(dataValue);
+		});
+	});
+
 	// Return only pages with same lang as current page
 	eleventyConfig.addFilter("pageLang", function(value) {
 		return value.filter(item => item.page.lang === this.page.lang)
