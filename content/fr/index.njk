@@ -1,8 +1,8 @@
 ---
-permalink: /index.html
+eleventyComputed:
+  permalink: "{%- if lang === i18n.languages[0] -%}{{'/index.html'}}{% endif %}"
 eleventyNavigation:
   key: "Home"
   order: 1
+layout: layouts/home.njk
 ---
-{# Permalink should be specified in frontmatter only for default language #}
-	{% include "explorer.njk" %}
