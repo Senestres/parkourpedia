@@ -5,6 +5,9 @@ layout: layouts/base.njk
 <pagefind-config instance="explorer" faceted preload excerpt-length="0"></pagefind-config>
 
 <div class="explorer-grid">
+    <noscript>
+        Javascript is necessary to use this site. But if necessary, you can try <a href="/{{ lang }}/tags/">browsing manually</a>.
+    </noscript>
     <div class="box-filter" >
         <pagefind-input instance="explorer"></pagefind-input>
         <pagefind-summary instance="explorer"></pagefind-summary>
