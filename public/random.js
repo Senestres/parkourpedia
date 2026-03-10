@@ -17,12 +17,16 @@ renderRandomPost("#training-posts", "#random-training-card");
 
 document.addEventListener("click", (e) => {
   const btn = e.target.closest(".randomize");
-  if (!btn) return;
+  if (!btn || btn.disabled) return;
+  btn.disabled = true;
 
   renderRandomPost(
     btn.dataset.source,
     btn.dataset.target
   );
+    setTimeout(() => {
+    btn.disabled = false;
+  }, 400);
 });
   
 
