@@ -13,7 +13,7 @@ Le parkour, ce n'est pas juste une liste de techniques stéréotypées. Vous tro
 Je suggère de [commencer par les bases !](/{{ lang }}/tags/base/). Vous trouverez ensuite diverses variantes et les prérequis pour ces mouvements.
 
 ## Organisation du site
-Ce site est adapté du modèle développé pour Jeunesse+Sport (J+S)^[Dutoit, J. et al., *Manuel Parkour* (2022).] et propose des:
+Ce site est adapté du modèle développé pour Jeunesse+Sport (J+S) et propose des:
 
 - Formes d'entrainement: les jeux, exercices ou progressions qui permettent de développer ses compétences en parkour.
 - Formes de mouvement: les mouvements ou techniques utilisées en parkour.
@@ -37,10 +37,12 @@ Le système de niveaux est adapté du modèle [FTEM](https://www.swissolympic.ch
 - {{ i18n["niveaux"]["t"].emoji }} T: pour *talent* (ou traceur 😉), représente les pratiquants autonomes qui peuvent gérer leur prise de risque et combiner les formes caractéristiques entre elles de manière complexe (double saut de chat, saut de précision 360...)
 
 ## Sponsors
-Le site ainsi que son contenu ont été réalisés en partenariat avec 
+Parkourpedia a été créé en partenariat avec 
 
 {% for sponsor, item in metadata.sponsors %}
-  <a href="https://{{ metadata.sponsors[sponsor].link }}">
-  <img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="sponsor logo" class="sponsor-logo" sizes="300px">
+  <a href="https://{{ metadata.sponsors[sponsor].link }}" class="sponsor">
+  <img src="/img/{{ metadata.sponsors[sponsor].logo }}" title="{{ metadata.sponsors[sponsor].name }}" alt="{{ metadata.sponsors[sponsor].name }}" class="sponsor-logo" sizes="300px">
   </a>
 {% endfor %}
+
+{% include "_includes/support.njk" %}
