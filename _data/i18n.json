@@ -152,66 +152,98 @@
 	},
 	"catégorie": {
 		"fr": "catégorie",
-		"en": "category"
+		"en": "category",
+		"de": "catégorie"
 	},
 	"alias": {
 		"fr": "alias",
-		"en": "alias"
+		"en": "alias",
+		"de": "alias"
 	},
 	"vidéo": {
 		"fr": "vidéo",
-		"en": "video"
+		"en": "video",
+		"de": "vidéo"
 	},
 	"prérequis": {
 		"fr": "prérequis",
-		"en": "prerequisites"
+		"en": "prerequisites",
+		"de": "prérequis"
 	},
 	"auteur": {
 		"fr": "auteur",
-		"en": "author"
+		"en": "author",
+		"de": "auteur"
 	},
 	"date": {
 		"fr": "date",
-		"en": "date"
+		"en": "date",
+		"de": "date"
 	},
 	"entrainement": {
 		"fr": "entrainement",
-		"en": "training"
+		"en": "training",
+		"de": "entrainement"
 	},
 	"mouvement": {
 		"fr": "mouvement",
-		"en": "movement"
+		"en": "movement",
+		"de": "mouvement"
 	},
 	"variations": {
 		"fr": "variations",
-		"en": "variations"
+		"en": "variations",
+		"de": "variations"
 	},
 	"avec le soutien de": {
 		"fr": "avec le soutien de",
-		"en": "with support from"
+		"en": "with support from",
+		"de": "avec "
 	},
 	"niveau": {
 		"fr": "niveau",
-		"en": "level"
+		"en": "level",
+		"de": "niveau"
 	},
 	"tous": {
 		"fr": "tous",
-		"en": "all"
+		"en": "all",
+		"de": "tous"
 	},
 		"explorer": {
 		"fr": "explorer",
-		"en": "explore"
+		"en": "explore",
+		"de": "explorer"
 	},
 	"Voir tous les tags": {
 		"fr": "Voir tous les tags",
-		"en": "See all tags"
+		"en": "See all tags",
+		"de": "Voir "
 	},
 	"aléatoire": {
 		"fr": "aléatoire",
-		"en": "random"
+		"en": "random",
+		"de": "aléatoire"
 	},
 	"base": {
 		"fr": "base",
-		"en": "foundation"
+		"en": "foundation",
+		"de": "base"
+	},
+	"support": {
+		"fr": "support",
+		"en": "support",
+		"de": "support"
+	},
+	"Soutenez ce projet": {
+		"fr": "Soutenez ce projet",
+		"en": "Support this project",
+		"de": "Soutenez ce projet"
+	},
+	"support_string": {
+		"fr": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme.",
+		"en": "Parkourpedia is free and open to everyone. You can support the project individualy to help it's long term development.",
+		"de": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme."
+
 	}
 }

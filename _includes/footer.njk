@@ -1,8 +1,15 @@
 <small>
-    {{ "avec le soutien de" | t | capitalize }}&nbsp   
+    {{ "avec le soutien de" | t | capitalize }}
     {% for sponsor, item in metadata.sponsors %}
-        <a href="https://{{ metadata.sponsors[sponsor].link }}"><img src="/img/{{ metadata.sponsors[sponsor].logo }}" alt="sponsor logo" sizes="300px" title="{{ metadata.sponsors[sponsor].name }}"></a>
+        <a href="https://{{ metadata.sponsors[sponsor].link }}" class="sponsor">
+          <img src="/img/{{ metadata.sponsors[sponsor].logo }}" alt="{{ metadata.sponsors[sponsor].name }}" sizes="300px" title="{{ metadata.sponsors[sponsor].name }}" class="sponsor-logo">
+        </a>
     {% endfor %}
+
+</small>
+
+<small>
+    🦉 <a href="/{{ lang }}/support/">{{ "Soutenez ce projet" | t }}</a>
 </small>
 
 <small>
@@ -11,4 +18,3 @@
     {% endfor %} {%-if page.url | locale_links | fix_locale_links | length %} -{% endif %}
     {{metadata.title}} {% year %} - {{metadata.author.name}} - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0</a>
 </small>
-

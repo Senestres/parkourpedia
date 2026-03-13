@@ -1,0 +1,16 @@
+---
+pagination:
+  data: i18n.languages
+  size: 1
+  alias: lang
+  addAllPagesToCollections: true
+permalink: "/{{ lang }}/support/"
+eleventyComputed:
+    title: '{{ "support" | t | capitalize }}'
+layout: layouts/page.njk
+title: support
+---
+Parkourpedia mérite d'être développé sur le lo
+
+
+{% include "_includes/support.njk" %}
