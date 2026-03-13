@@ -420,9 +420,41 @@ code {
 	font-size: 12px !important;
 }
 
-
-/* Misc. */
-.sponsor-logo {
-	width: 5rem;
+/* donation */
+.sponsor {
+	text-decoration: none;
+	padding: 0.1rem;
+}
+.support-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--card-bg);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.donate-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .7rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.support-note {
+  font-size: .85rem;
+  opacity: .7;
+  margin-top: .5rem;
 }
 
+/* Sponsor logos */
+.sponsor-logo {
+	filter: grayscale(100%);
+	opacity: .6;
+}
+.sponsor-logo:hover {
+  filter: none;
+  opacity: 1;
+}
+.content .sponsor-logo {
+	width: 5rem;
+}
