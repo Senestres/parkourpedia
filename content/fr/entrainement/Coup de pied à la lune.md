@@ -12,6 +12,7 @@ prerequis:
 video:
 level:
   - f1
+vimeo: "745708045"
 ---
 ## Description
 Développer un balancé efficace
