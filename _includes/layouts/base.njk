@@ -23,10 +23,7 @@
 			<meta property="og:image:height" content="630">
 			<meta property="og:image:type" content="image/png" />
 		{% set ogImageSquare = metadata.url + "/img/favicon/" + (coverImage if coverImage else "android-chrome-512x512.png") %}		
-			<meta property="og:image" content="{{ ogImageSquare }}">
-			<meta property="og:image:width" content="512">
-			<meta property="og:image:height" content="512">
-			<meta property="og:image:type" content="image/png" />
+			<meta property="twitter:image" content="{{ ogImageSquare }}">
 		<meta property="og:type" content="article">
 		
 		{#- favicons #}
