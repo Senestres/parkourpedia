@@ -52,7 +52,7 @@ eleventyComputed:
 
 {% if video %}
 <div class="video-wrapper" data-src="https://www.youtube-nocookie.com/embed/{{ video }}?autoplay=1&rel=0">
-	<img src="https://img.youtube.com/vi/{{ video }}/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/{{ video }}/hqdefault.jpg'" alt="{{ title }}" >
+	<img src="https://img.youtube.com/vi/{{ video }}/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/{{ video }}/hqdefault.jpg'" alt="{{ title }}" size="800">
 	<div data-pagefind-meta="image[src], image_alt[alt]" src="https://img.youtube.com/vi/{{ video }}/hqdefault.jpg" alt=""cover image></div>
 	{{ consentOverlay() }}
 </div>
