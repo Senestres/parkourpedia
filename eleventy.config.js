@@ -4,7 +4,6 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import Image from "@11ty/eleventy-img";
-import embedEverything from "eleventy-plugin-embed-everything";
 import markdownItFootnote from 'markdown-it-footnote';
 import { execSync } from 'child_process';
 import { I18nPlugin } from "@11ty/eleventy";
