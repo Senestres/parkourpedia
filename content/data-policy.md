@@ -1,6 +1,5 @@
 ---
 eleventyExcludeFromCollections: true
-permalink: data-policy.html
 layout: "layouts/page.njk"
 ---
 # Politique de confidentialité
