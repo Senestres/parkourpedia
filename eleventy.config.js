@@ -136,6 +136,9 @@ export default async function(eleventyConfig) {
 		sharpOptions: {
 			animated: true,
 		},
+		cacheOptions: {
+			duration: "4w",
+		},
 	});
 
 	eleventyConfig.addPlugin(I18nPlugin, {
