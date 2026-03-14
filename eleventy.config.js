@@ -88,20 +88,6 @@ export default async function(eleventyConfig) {
     });
   });
 
-	// add yt embedd
-	eleventyConfig.addPlugin(embedEverything, {
-		youtube: {
-			options: {
-			allowFullscreen: false,
-			recommendSelfOnly: true,
-			noCookie: true,
-			modestBranding: true,
-			lazy: true,
-			allowAttrs: "width: 100%; height: 100% accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
-			}
-		}
-	});
-
 	// Official plugins
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 }
