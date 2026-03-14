@@ -46,3 +46,6 @@ Parkourpedia a été créé en partenariat avec
 {% endfor %}
 
 {% include "_includes/support.njk" %}
+
+## Politique de confidentialité
+Notre politique de confidentialité est disponible [ici](/data-policy/).
