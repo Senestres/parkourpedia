@@ -7,8 +7,6 @@ function loadIframe(wrapper) {
   wrapper.replaceWith(iframe);
 }
 
-
-
 document.querySelectorAll(".video-wrapper").forEach(wrapper => {
   if (localStorage.getItem("video-consent") === "true") {
     loadIframe(wrapper);
@@ -26,5 +24,3 @@ document.querySelectorAll(".video-wrapper").forEach(wrapper => {
   });
 
 });
-
-console.log("load script")
