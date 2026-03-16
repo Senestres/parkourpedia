@@ -19,5 +19,5 @@ level:
 ## Description
 Wallrun avec deux appuis successif sur le mur et une rotation complète.
 
-## Remarques
+## Notes
 Le premier appui est similaire à un tic-tac, et le second à un tic-tac inversé.

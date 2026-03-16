@@ -19,5 +19,5 @@ level:
 ## Description
 Passemuraille avec une rotation complète entre l'appui du pied et la saisie du sommet du mur par les mains.
 
-## Remarques
+## Notes
 Sur un mur plus bas, il est possible de passer directement à la position d'appui, sans passer par la position suspendue.
