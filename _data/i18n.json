@@ -82,7 +82,7 @@
 		"de": "tricks muraux",
 		"long": {
 		"fr": "Utiliser le mur de façon variée, habile et ciblée",
-		"en": "Use the wall in a varied, skillful and targeted way",
+		"en": "Use the wall in varied, skillful and targeted ways",
 		"de": "Die Wand vielseitig, clever und zielgerichtet nutzen"
 		}
 	},
@@ -240,10 +240,24 @@
 		"en": "Support this project",
 		"de": "Soutenez ce projet"
 	},
+	"accepter": {
+		"fr": "accepter",
+		"en": "accept",
+		"de": "accepter"
+	},
+	"refuser": {
+		"fr": "refuser",
+		"en": "refuse",
+		"de": "refuser"
+	},
+	"Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil.": {
+		"fr": "Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil.",
+		"en": "This video is hosted by an external service (YouTube\/Vimeo) that can put trackers on your device.",
+		"de": "Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil."
+	},
 	"support_string": {
 		"fr": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme.",
-		"en": "Parkourpedia is free and open to everyone. You can support the project individualy to help it's long term development.",
+		"en": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development.",
 		"de": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme."
-
 	}
 }
