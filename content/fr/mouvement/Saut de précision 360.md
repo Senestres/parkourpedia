@@ -11,7 +11,7 @@ fc:
   - sauts
   - rotations
 prerequis:
-  - précision 180
+  - saut de précision 180
 video:
   - BC00Ernq6y0
 level: t
