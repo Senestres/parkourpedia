@@ -16,6 +16,6 @@ level:
   - t
 ---
 ## Description
-Split vault arrière suivi d'une demi-rotation pour termine le mouvement en avant.
+Split vault arrière suivi d'une demi-rotation pour terminer le mouvement en avant.
 
 ## Notes

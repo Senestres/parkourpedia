@@ -13,7 +13,7 @@ video:
 level:
   - f3
 ---
-## Description
+## Objectif
 Créer un enchainement incluant un mouvement spécifique.
 
 ## Organisation

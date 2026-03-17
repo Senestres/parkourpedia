@@ -15,7 +15,7 @@ video:
 level:
   - t
 ---
-## Description
+## Objectif
 Etre capable d'évaluer sa limite en passemuraille à l'état de repos et avec fatigue.
 
 ## Organisation

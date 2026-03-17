@@ -14,7 +14,7 @@ level:
   - f2
   - f3
 ---
-## Description
+## Objectif
 Comprendre et respecter sa limite en sauts de fond.
 
 ## Organisation

@@ -13,7 +13,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 S'échauffer et entrainer l'équilibre
 
 ## Organisation

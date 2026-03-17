@@ -14,7 +14,7 @@ level:
   - f1
 vimeo: "745708045"
 ---
-## Description
+## Objectif
 Développer un balancé efficace
 
 ## Organisation

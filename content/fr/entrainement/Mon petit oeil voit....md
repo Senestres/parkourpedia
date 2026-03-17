@@ -13,7 +13,7 @@ video:
 level:
   - f3
 ---
-## Description
+## Objectif
 Lire les possibilités de mouvement dans l'environnement
 
 ## Organisation

@@ -14,7 +14,7 @@ video:
 level:
 
 ---
-## Description
+## Objectif
 Améliorer la technique d'amorti pour les sauts.
 
 ## Organisation

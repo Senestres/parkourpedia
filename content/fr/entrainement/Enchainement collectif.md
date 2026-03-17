@@ -14,7 +14,7 @@ level:
   - f2
   - f3
 ---
-## Description
+## Objectif
 Créer un enchainement en équipe.
 
 ## Organisation

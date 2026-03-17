@@ -16,7 +16,7 @@ layout: layouts/post.njk
 level:
   - f1
 ---
-## Description
+## Objectif
 Evaluer de manière réaliste sa capacité de saut
 
 Explosivité

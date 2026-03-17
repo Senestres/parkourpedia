@@ -13,7 +13,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 Préparer des mouvements similaires aux passements, s'échauffer.
 
 ## Organisation

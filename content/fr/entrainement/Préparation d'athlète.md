@@ -14,7 +14,7 @@ level:
   - f2
   - f3
 ---
-## Description
+## Objectif
 Développer des stratégies pour la préparation mentale et technique.
 
 ## Organisation

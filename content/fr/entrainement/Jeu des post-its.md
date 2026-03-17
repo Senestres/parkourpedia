@@ -15,7 +15,7 @@ level:
   - f2
   - f3
 ---
-## Description
+## Objectif
 Améliorer la technique de passemuraille
 
 ## Organisation

@@ -14,7 +14,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 Créer et réaliser des défis de sauts.
 
 ## Organisation

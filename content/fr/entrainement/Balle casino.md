@@ -14,7 +14,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 Entrainer l'endurance et les passements.
 
 ## Organisation

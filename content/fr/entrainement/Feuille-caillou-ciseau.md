@@ -15,7 +15,7 @@ vimeo: "745707276"
 level:
   - f1
 ---
-## Description
+## Objectif
 Effectuer un parcours d'obstacles le plus rapidement possible.
 
 ## Organisation

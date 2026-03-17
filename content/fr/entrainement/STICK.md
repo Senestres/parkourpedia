@@ -19,7 +19,7 @@ level:
   - f3
 vimeo: "744155955"
 ---
-## Description
+## Objectif
 Imaginer et réaliser des défis collectifs.
 
 Evaluer de manière réaliste sa capacité à réaliser ces défis.

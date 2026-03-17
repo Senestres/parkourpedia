@@ -14,7 +14,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 S'échauffer.
 
 ## Organisation

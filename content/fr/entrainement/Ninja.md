@@ -13,7 +13,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 Retour au calme
 
 ## Organisation

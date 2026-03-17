@@ -15,7 +15,7 @@ video:
 level:
   - f3
 ---
-## Description
+## Objectif
 Identifier ses limites en saut de précision.
 
 Réaliser des sauts en condition de "pas le droit" à l'erreur.

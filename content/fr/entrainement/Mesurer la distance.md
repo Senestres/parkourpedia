@@ -14,7 +14,7 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 Atteindre sa limite en saut de précision.
 
 ## Organisation

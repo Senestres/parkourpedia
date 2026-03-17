@@ -13,7 +13,7 @@ video:
 level:
   - t
 ---
-## Description
+## Objectif
 Etre capable d'évaluer sa capacité à réaliser des mouvements en cas de pluie
 
 ## Organisation

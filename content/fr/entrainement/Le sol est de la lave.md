@@ -15,10 +15,10 @@ video:
 level:
   - f1
 ---
-## Description
+## Objectif
 Entrainer les sauts et/ou le grimper (selon obstacles utilisés)
 
-Réaliser des challenges
+Réaliser des challenges sfsdf
 
 ## Organisation
 ⌛Durée: 10min
