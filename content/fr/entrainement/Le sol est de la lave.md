@@ -18,7 +18,7 @@ level:
 ## Objectif
 Entrainer les sauts et/ou le grimper (selon obstacles utilisés)
 
-Réaliser des challenges sfsdf
+Réaliser des challenges
 
 ## Organisation
 ⌛Durée: 10min
