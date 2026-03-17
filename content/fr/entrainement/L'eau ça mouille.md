@@ -24,7 +24,7 @@ Etre capable d'évaluer sa capacité à réaliser des mouvements en cas de pluie
 ⚙️Matériel: obstacles divers, eau (flaque d'eau, gourde...)
 
 ## Description
-Les pratiquants réalisent des mouvements avec les pieds secs, avec pour objectif de déterminer ce non pas leur limite absolue en conditions parfaites, mais ce qu'ils sont capables de réussir 100% du temps. 
+Les pratiquants réalisent des mouvements avec les pieds secs, avec pour objectif de déterminer non pas leur limite absolue en conditions parfaites, mais ce qu'ils sont capables de réussir 100% du temps. 
 
 Une fois qu'il estiment avoir trouvé cette "limite", ils mouillent leur semelle et/ou la surface de l'obstacle (marcher dans une flaque d'eau, verser un peu d'eau d'une gourde ou d'une fontaine), puis tentent leur mouvement à nouveau. Si ils ont évalué correctement leur limite, ils devraient réussir du premier coup !
 

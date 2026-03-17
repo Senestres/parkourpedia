@@ -24,7 +24,7 @@ Explosivité
 ## Organisation
 ⌛Durée: 10+ min
 
-👥Nombre de participants: binômes
+👥Participants: binômes
 
 ⚙️Matériel: Espace avec peu ou pas d'obstacles.
 

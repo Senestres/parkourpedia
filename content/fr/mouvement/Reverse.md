@@ -22,6 +22,5 @@ Contrairement au passement papillon, la rotation implique de tourner le dos à l
 
 ## Notes
 Le passement peut être effectué au sol (quadrupédie latérale avec demi-tour)
-Au sol (quadrupédie latérale avec demi tour).
 
 Une bonne progression est d'effectuer un passement latéral avec une rotation retardée, afin d'éviter la peur de faire la rotation au-dessus de l'obstacle.

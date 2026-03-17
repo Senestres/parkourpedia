@@ -23,7 +23,7 @@ Effectuer un parcours d'obstacles le plus rapidement possible.
 
 👥Participants: équipes de 3-6 joueurs
 
-⚙️Matériel: obstacles divers, adaptés au niveau du joueur. 
+⚙️Matériel: obstacles divers, adaptés au niveau des joueurs. 
 
 ## Description
 Une équipe commence à un point A, l'autre équipe à un point B. Chaque équipe envoie un joueur à travers le parcours d'obstacles en direction de la base opposée. Au moment où ils se rencontrent, ils font un feuille-caillou-ciseau.
@@ -45,7 +45,7 @@ Exemple de mise en place en salle avec 4 équipes: les deux équipes du haut jou
 
 ➖/➕Varier les obstacles et la distance entre les deux équipes
 
-+Jouer à FCC avec les pieds: les joueurs sautent en même temps et choisissent leur position d'atterissage (pieds écartés = feuille; pieds joints = caillou; jambes croisées = ciseaux)
+➕Jouer à FCC avec les pieds: les joueurs sautent en même temps et choisissent leur position d'atterissage (pieds écartés = feuille; pieds joints = caillou; jambes croisées = ciseaux)
 
 ## Notes
 Attention à utiliser des obstacles qui présentent peu de danger en situation de stress: hauteur adaptée et zone de chute appropriée.
