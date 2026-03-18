@@ -33,12 +33,3 @@ Un participant annonce un mouvement à réaliser, par exemple: "mon petit oeil v
 
 ## Notes
 Les participants doivent avoir en tête le nom d'au moins cinq ou six techniques pour que le jeu fonctionne.
-
-
-
-
-
-Une personne dit un mvmt à réaliser. Les joueurs doivent réaliser le mvmt puis revenir à la zone de départ. Le dernier arrivé a perdu (donner un gage ?)
-
-
-#parkour 
