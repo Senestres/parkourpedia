@@ -44,8 +44,8 @@ eleventyComputed:
 	<div class="video-consent-overlay">
 		<p>{{"Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil." | t}}</p>
 		<div class="video-consent-buttons">
-		<button class="video-consent-yes">{{"Accepter" | t}}</button>
-		<button class="video-consent-no">{{"Refuser" | t}}</button>
+		<button class="video-consent-yes">{{"accepter" | t | capitalize }}</button>
+		<button class="video-consent-no">{{"refuser" | t | capitalize }}</button>
 		</div>
 	</div>
 {% endmacro %}
@@ -75,20 +75,20 @@ eleventyComputed:
 	{% set variations = [] %}
 
 	{%- for move in collections.mouvement %}
-		{% if prerequis %} {# creates problems if a file has no prerequis but has variations #}
-			{% for requis in prerequis %}
-				{% if move.data.title | slugify == requis | slugify %}
-					{% set foundations = foundations.concat([move]) %}
-				{% endif %}
-			{% endfor %}
-		{% endif %}
-		{% if move.data.prerequis %}
-				{% for requis in move.data.prerequis %}
-			{% if title | slugify == requis | slugify %}
-				{% set variations = variations.concat([move]) %}
-			{% endif %}
-			{% endfor %}
-		{% endif %}
+		{%- if prerequis %}
+			{%- for requis in prerequis %}
+				{%- if move.fileSlug | slugify == requis | slugify %}
+					{%- set foundations = foundations.concat([move]) %}
+				{%- endif %}
+			{%- endfor %}
+		{%- endif %}
+		{%- if move.data.prerequis %}
+			{%- for requis in move.data.prerequis %}
+				{%- if page.fileSlug | slugify == requis | slugify %}
+					{%- set variations = variations.concat([move]) %}
+				{%- endif %}
+			{%- endfor %}
+		{%- endif %}
 	{%- endfor %}
 
 	{# build list of foundations #}
@@ -99,11 +99,11 @@ eleventyComputed:
 	{% endif %}
 
 	{# build list of variations #}
-	{% if variations | length %}
+	{%- if variations | length -%}
 	<h2>{{"variations" | t | capitalize}}</h2>
 		{% set postslist = variations %}
-		{% include "postslist.njk" %}
-	{% endif %}
+		{% include "postslist.njk" -%}
+	{%- endif -%}
 
 	<div class="post-metadata">
 		<div><b>{{"date" | t | capitalize}}: </b><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate(page.lang) }}</time></div>
