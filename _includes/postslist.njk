@@ -1,17 +1,19 @@
 <ol reversed class="postlist-row" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
-	{%- for post in postslist | reverse | pageLang %}
+	{%- for post in postslist | reverse | pageLang -%}
 		<li class="postlist-card">
 			<a href="{{ post.url }}">
 				<div class="card-header">
-					<div class="card-overlay">{% if post.data.title %}{{ post.data.title }}{% else %} <code>{{ post.url }}</code>{% endif %}</div>
-					{% if post.data.coverImage %}
+					<div class="card-overlay">
+						{%- if post.data.title -%}{{ post.data.title }}{% else %} <code>{{ post.url }}</code>{%- endif -%}
+					</div>
+					{%- if post.data.coverImage -%}
 						<img class="card-img" src="/img/{{post.data.coverImage}}/" alt="Cover image" sizes="300px">
-					{% elif post.data.video %} {# Should be adapted if video =/= youtube #}
+						{# Should be adapted if video =/= youtube #}
+					{%- elif post.data.video -%} 
 						<img class="card-img" src="https://img.youtube.com/vi/{{ post.data.video }}/maxresdefault.jpg" onerror="https://img.youtube.com/vi/{{ post.data.video }}/hqdefault.jpg" alt="Cover image" sizes="300px">
-					{% endif %}
-					
+					{%- endif -%}
 				</div>
 			</a>
 		</li>
-	{%- endfor %}
+	{%- endfor -%}
 </ol>
