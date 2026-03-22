@@ -1,5 +1,5 @@
 export default {
-	title: "parkourpedia",
+	title: "Parkourpedia",
 	url: "https://parkourpedia.ch",
 	base: "https://parkourpedia.ch",
 	description: {
