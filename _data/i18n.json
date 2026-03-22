@@ -1,5 +1,5 @@
 {
-	"languages": ["fr"],
+	"languages": ["fr", "en"],
 	"locales": {"fr": "fr-CH", "en": "en-GB", "de": "de-CH"},
 	"niveaux": {
 		"f1": {"short": "f1", "emoji": "🐣"},
@@ -134,20 +134,21 @@
 	"forme d'entrainement": {
 		"fr": "forme d'entrainement",
 		"en": "training form",
-		"de": "trainingsformen"
+		"de": "trainingsform"
 	},
 	"forme de mouvement": {
 		"fr": "forme de mouvement",
 		"en": "movement form",
-		"de": "bewegungsformen"
+		"de": "bewegungsform"
 	},
 	"forme caractéristique": {
 		"fr": "forme caractéristique",
-		"en": "caracteristic form"
+		"en": "characteristic form",
+		"de": "erscheinungsform"
 	},
 	"formes caractéristiques": {
 		"fr": "formes caractéristiques",
-		"en": "caracteristic forms",
+		"en": "characteristic forms",
 		"de": "erscheinungsform"
 	},
 	"catégorie": {
