@@ -23,7 +23,7 @@ Etre capable d'évaluer sa limite en passemuraille à l'état de repos et avec f
 
 👥Participants: groupe
 
-⚙️Matériel: mur(s) avec différentes hauteurs
+⚙️️️Matériel: mur(s) avec différentes hauteurs
 
 ## Description
 Les participants s'entrainent au passemuraille avec des murs de différentes hauteurs. Leur objectif est d'identifier la hauteur qu'ils sont capables de franchir 100% du temps. 

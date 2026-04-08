@@ -21,7 +21,7 @@ S'échauffer et entrainer l'équilibre
 
 👥Participants: binômes
 
-⚙️Matériel: aucun
+⚙️️️Matériel: aucun
 
 ## Description
 Les binômes se mettent face à face, proche l'un de l'autre, mains à hauteur de poitrine. Ils doit déséquilibrer l'autre en poussant uniquement sur ses mains. Ils peuvent pousser sur une main, sur les deux, ou faire des feintes, mais ne peuvent pas tenir les mains ou pousser sur une autre partie du corps. Le point est remporté lorsque l'adversaire déplace un pied.

@@ -21,7 +21,7 @@ Etre capable d'évaluer sa capacité à réaliser des mouvements en cas de pluie
 
 👥Participants: individuel
 
-⚙️Matériel: obstacles divers, eau (flaque d'eau, gourde...)
+⚙️️️Matériel: obstacles divers, eau (flaque d'eau, gourde...)
 
 ## Description
 Les pratiquants réalisent des mouvements avec les pieds secs, avec pour objectif de déterminer non pas leur limite absolue en conditions parfaites, mais ce qu'ils sont capables de réussir 100% du temps. 

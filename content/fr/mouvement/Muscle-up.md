@@ -11,7 +11,7 @@ fc:
 prerequis:
   - climb-up
 video:
-  - D82HEPwRZGU
+  - L3pO-iMm1yU
 level:
   - t
 ---

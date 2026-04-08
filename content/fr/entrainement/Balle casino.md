@@ -22,7 +22,7 @@ Entrainer l'endurance et les passements.
 
 👥Participants: 2 équipes de 5-12 joueurs
 
-⚙️Matériel: 4 caissons, 1 balle molle, 2 cônes ou piquets
+⚙️️️Matériel: 4 caissons, 1 balle molle, 2 cônes ou piquets
 
 ## Description
 Deux équipes alternent entre attaque et défense.

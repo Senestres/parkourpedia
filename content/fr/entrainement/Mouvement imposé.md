@@ -21,7 +21,7 @@ Créer un enchainement incluant un mouvement spécifique.
 
 👥Participants: groupes de 3-5 pratiquants
 
-⚙️Matériel: obstacles divers
+⚙️️️Matériel: obstacles divers
 
 ## Description
 Chaque groupe se voit attribuer une technique de parkour. Ils disposent alors de 5-10 minutes pour préparer un enchainement en ajoutant d'autres techniques avant et après la technique imposée.

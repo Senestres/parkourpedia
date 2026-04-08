@@ -22,7 +22,7 @@ Développer un balancé efficace
 
 👥Participants: binômes
 
-⚙️Matériel: barres auxquelles se suspendre
+⚙️️️Matériel: barres auxquelles se suspendre
 
 ## Description
 Un participant se suspend à une barre, avec une prise le pouce en opposition et tient une balle ou objet mou entre les pieds. Il se balance d'avant en arrière en gardant les bras tendus, et essaye de lancer la balle à son partenaire en shootant les jambes vers l'avant.

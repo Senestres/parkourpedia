@@ -12,7 +12,7 @@ fc:
 prerequis:
   - wallspin angulaire
 video:
-  - cT8YU2RH2EE
+  - WhqqntuzHoY
 level:
   - t
 ---

@@ -13,7 +13,7 @@ prerequis:
   - passement assis hyper
   - passement roulade
 video:
-  - -d6RDcoM810
+  - JRj2RXIGejA
 level:
   - t
 ---

@@ -22,7 +22,7 @@ Atteindre sa limite en saut de précision.
 
 👥Participants: individuel
 
-⚙️Matériel: petit obstacle (rebord de trottoir, marche d'escalier...) ou ligne au sol
+⚙️️️Matériel: petit obstacle (rebord de trottoir, marche d'escalier...) ou ligne au sol
 
 ## Description
 Le traceur commence avec un petit saut de précision (3-4 pieds de long) et atterrit sur l'obstacle.

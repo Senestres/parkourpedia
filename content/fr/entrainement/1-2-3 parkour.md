@@ -22,7 +22,7 @@ Entrainer l'équilibre et s'échauffer.
 
 👥Participants: 3 ou plus
 
-⚙️Matériel: espace sans obstacles
+⚙️️️Matériel: espace sans obstacles
 
 ## Description
 Fonctionne comme 1-2-3-soleil.

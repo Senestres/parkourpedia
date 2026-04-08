@@ -23,7 +23,7 @@ Effectuer un parcours d'obstacles le plus rapidement possible.
 
 👥Participants: équipes de 3-6 joueurs
 
-⚙️Matériel: obstacles divers, adaptés au niveau des joueurs. 
+⚙️️️Matériel: obstacles divers, adaptés au niveau des joueurs. 
 
 ## Description
 Une équipe commence à un point A, l'autre équipe à un point B. Chaque équipe envoie un joueur à travers le parcours d'obstacles en direction de la base opposée. Au moment où ils se rencontrent, ils font un feuille-caillou-ciseau.

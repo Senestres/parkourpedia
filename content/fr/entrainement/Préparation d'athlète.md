@@ -22,7 +22,7 @@ Développer des stratégies pour la préparation mentale et technique.
 
 👥Participants: binômes
 
-⚙️Matériel: obstacles divers
+⚙️️️Matériel: obstacles divers
 
 ## Description
 La moitié des participants sont des athlètes, l'autre moitié sont des coachs. L'athlète choisit un saut ou mouvement difficile. Le coach trouve des moyens pour simuler le saut dans des conditions sûres. Il peut également lui proposer une progression et un assurage.

@@ -11,8 +11,9 @@ fc:
   - rotations
 prerequis:
   - palmspin marché
+  - edge run
 video:
-  - 2TiUWqmnJKk
+  - rol1ggOVmhk
 level:
 ---
 ## Description

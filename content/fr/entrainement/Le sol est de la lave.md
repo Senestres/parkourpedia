@@ -25,7 +25,7 @@ Réaliser des challenges
 
 👥Participants: individuel
 
-⚙️Matériel: obstacles divers (murs, arbres, barres, bancs, petits tapis, cordes...)
+⚙️️️Matériel: obstacles divers (murs, arbres, barres, bancs, petits tapis, cordes...)
 
 ## Description
 Les participants traversent l'espace d'un point A à un point B sans toucher le sol.

@@ -23,7 +23,7 @@ Coopérer pour franchir des obstacles
 
 👥Participants: groupes de 3-6
 
-⚙️Matériel: mur plus haut que la tête des participants
+⚙️️️Matériel: mur plus haut que la tête des participants
 
 ## Description
 Les participants commencent tous au pied du mur, et doivent tous arriver au sommet. Ils doivent trouver des méthodes efficaces pour amener tout le groupe au sommet, en jouant avec les forces et faiblesses de chacun.

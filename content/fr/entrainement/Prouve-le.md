@@ -26,7 +26,7 @@ Explosivité
 
 👥Participants: binômes
 
-⚙️Matériel: Espace avec peu ou pas d'obstacles.
+⚙️️️Matériel: Espace avec peu ou pas d'obstacles.
 
 ## Description
 Deux par deux, départ dos à dos comme un duel au pistolet. Choisir qui commence.

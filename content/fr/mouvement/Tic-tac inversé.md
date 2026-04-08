@@ -12,7 +12,7 @@ fc:
 prerequis:
   - tic-tac
 video:
-  - LjuW-4HFAMw
+  - AsvJO1YP3wg
 level:
 ---
 ## Description

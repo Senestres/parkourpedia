@@ -21,7 +21,7 @@ Retour au calme
 
 👥Participants: groupes de 3-10
 
-⚙️Matériel: aucun
+⚙️️️Matériel: aucun
 
 ## Description
 Former un cercle avec 4-8 joueurs, choisir un maître ninja.

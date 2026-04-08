@@ -13,9 +13,8 @@ fc:
 prerequis:
   - saut de précision 180
 video:
-  - BC00Ernq6y0
+  - u1SwZhUUeok
 level: t
-
 ---
 ## Description
 Saut de précision avec une rotation complète.

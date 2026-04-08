@@ -12,7 +12,7 @@ prerequis:
   - palmspin illusion sécurité
   - reverse palmspin
 video:
-  - TqGmi0jiBFo
+  - uTkfVcIIyqY
 level:
   - t
 ---

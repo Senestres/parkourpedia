@@ -11,7 +11,7 @@ fc:
 prerequis:
   - quadrupédie
 video:
-  - vFv-UqwlaSY
+  - KFyo7nRI85I
 level:
   - f3
 ---

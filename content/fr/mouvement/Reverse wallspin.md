@@ -13,7 +13,7 @@ prerequis:
   - wallspin
   - reverse palmspin
 video:
-  - wINaOgF3jmU
+  - 8a7m8XQzlIc
 level:
   - t
 ---

@@ -21,7 +21,7 @@ Lire les possibilités de mouvement dans l'environnement
 
 👥Participants: groupes de 3-7 participants
 
-⚙️Matériel: obstacles divers
+⚙️️️Matériel: obstacles divers
 
 ## Description
 Un participant annonce un mouvement à réaliser, par exemple: "mon petit oeil voit... un tic-tac !". Tous les autres doivent aller réaliser le plus rapidement possible ce mouvement et revenir à la zone de départ. Le dernier arrivé devient celui qui annonce le prochain mouvement.

@@ -22,7 +22,7 @@ Créer et réaliser des défis de sauts.
 
 👥Participants: binômes ou petits groupes
 
-⚙️Matériel: obstacles sur lesquels sauter (barres, bancs, tapis, marches d'escaliers, murets...)
+⚙️️️Matériel: obstacles sur lesquels sauter (barres, bancs, tapis, marches d'escaliers, murets...)
 
 ## Description
 Les participants doivent traverser différentes rivières de lave (espace au sol entre deux obstacles). Leurs chaussures sont recouvertes de peinture anti-lave, mais celle-ci est à usage unique: ils peuvent faire au maximum deux pas dans la lave !

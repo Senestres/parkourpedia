@@ -21,7 +21,7 @@ Créer et réaliser des défis d'équilibre
 
 👥Participants: binômes
 
-⚙️Matériel: obstacles divers
+⚙️️️Matériel: obstacles divers
 
 ## Description
 Chaque participant crée 3 petits défis d'équilibre. Par exemple: se déplacer en équilibre sur une barre, faire un saut de précision stabilisé sur un petit rebord, tenir en équilibre sur un pied les yeux fermés... 

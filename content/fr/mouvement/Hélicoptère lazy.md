@@ -1,5 +1,5 @@
 ---
-title: Hélicoptère lazy
+title: Hélicoptère-lazy
 date: 2026-02-14
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
@@ -13,7 +13,7 @@ prerequis:
   - lazy
   - hélicoptère
 video:
-  - MyQW0A90csA
+  - opKxZDvlaGs
 level:
   - t
 ---

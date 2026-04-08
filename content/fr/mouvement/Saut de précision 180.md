@@ -13,8 +13,9 @@ fc:
 prerequis:
   - saut de précision
 video:
-  - W6xaBhWy4CY
+  - ReClnEiIjuo
 level:
+  - f3
 ---
 ## Description
 Saut de précision avec une demi-rotation. Selon la situation, peut être commencé face ou dos au point d'aterrissage.

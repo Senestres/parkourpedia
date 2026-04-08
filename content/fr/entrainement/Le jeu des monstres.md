@@ -21,7 +21,7 @@ Préparer des mouvements similaires aux passements, s'échauffer.
 
 👥Participants: groupe
 
-⚙️Matériel: aucun
+⚙️️️Matériel: aucun
 
 ## Description
 Dans un espace restreint, les humains doivent échapper à des monstres qui se déplacent différemment (les loups en quadrupédie ventrale, les araignées en quadrupédie dorsale, etc.). Lorsqu’un humain se fait toucher, il devient le type de monstre qui l’a touché.

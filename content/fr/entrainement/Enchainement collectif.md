@@ -22,7 +22,7 @@ Créer un enchainement en équipe.
 
 👥Participants: groupes de 2-5
 
-⚙️Matériel: obstacles divers
+⚙️️️Matériel: obstacles divers
 
 ## Description
 Former un nombre pair de groupes.

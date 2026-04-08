@@ -22,7 +22,7 @@ Améliorer la technique d'amorti pour les sauts.
 
 👥Participants: groupes de 4-10
 
-⚙️Matériel: bandeau/masque pour les yeux
+⚙️️️Matériel: bandeau/masque pour les yeux
 
 ## Description
 Un joueur au centre (le Shogun) a les yeux bandés. Les ninjas se répartissent autour, à distance. Lorsque le jeu commence, les ninjas doivent essayer d’aller toucher le Shogun en faisant des sauts à pieds joints. Si le Shogun entend un bruit, il pointe du doigt dans la direction du bruit. Si un ninja se trouve dans la ligne de mire, il doit retourner à son point de départ.

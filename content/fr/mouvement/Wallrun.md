@@ -11,7 +11,7 @@ fc:
 prerequis:
   - tic-tac
 video:
-  - WIJQO3s_1Ko
+  - Lnne4wrIf1c
 level:
 ---
 ## Description

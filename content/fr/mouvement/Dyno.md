@@ -11,7 +11,7 @@ fc:
   - grimper
 prerequis:
 video:
-  - PnU5S6mSp9U
+  - LaAsU83OKcs
 level:
   - f3
 ---

@@ -15,7 +15,7 @@ prerequis:
 level:
   - t
 video:
-  - RhJ_i-Q6WEE
+  - ZWtX78xVY0I
 ---
 ## Description
 Le double (triple, etc.) saut de chat consiste à prendre appui deux (trois…) fois avec les mains sur un obstacle (ou des obstacles différents) avant d’atterrir.

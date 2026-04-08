@@ -12,7 +12,7 @@ fc:
 prerequis:
   - strides
 video:
-  - xFggri56Gkg
+  - 7YBHHOtuV-o
 level:
 ---
 ## Description

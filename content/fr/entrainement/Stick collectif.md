@@ -25,7 +25,7 @@ Réaliser des sauts en condition de "pas le droit" à l'erreur.
 
 👥Participants: groupes de 2-10
 
-⚙️Matériel: obstacles pour sauts de précision (rebords, barres, murets, marches d'escalier, bancs...)
+⚙️️️Matériel: obstacles pour sauts de précision (rebords, barres, murets, marches d'escalier, bancs...)
 
 ## Description
 Les traceurs choisissent individuellement un saut qu'ils sont capables de réaliser. Ils tentent de le stabiliser (sticker) trois fois de suite. Si un traceur échoue à stabiliser son saut, il l'annonce à haute voix: "raté !" Tous le groupe remet alors son décompte à zéro. Le jeu continue jusqu'à ce que tout le monde arrive à trois sans un seul échec.

@@ -13,7 +13,7 @@ fc:
 prerequis:
   - underbar
 video:
-  - wpAI85dFvCw
+  - ETETT6P3qUw
 ---
 (voir variations à la fin de la vidéo)
 

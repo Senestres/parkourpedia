@@ -31,7 +31,7 @@ Développer la précision et l'équilibre pour stabiliser (*sticker*) un saut.
 
 👥Participants: groupes de 2-5
 
-⚙️Matériel: divers obstacles sur lesquels sauter (murets, barres, bancs, haut de caisson, tapis…)
+⚙️️️Matériel: divers obstacles sur lesquels sauter (murets, barres, bancs, haut de caisson, tapis…)
 
 ## Description
 Le premier joueur propose un défi se terminant par un stick (atterrissage stable et précis) et le démontre.

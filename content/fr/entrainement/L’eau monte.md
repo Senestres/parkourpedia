@@ -22,7 +22,7 @@ S'échauffer.
 
 👥Participants: fonctionne peu importe le nombre
 
-⚙️Matériel: aucun (sol de salle de gym ou adapter les consignes à l'environnement)
+⚙️️️Matériel: aucun (sol de salle de gym ou adapter les consignes à l'environnement)
 
 ## Description
 Les participants se déplacent librement dans un espace défini. Lorsque l'enseignant dit:

@@ -1,0 +1,22 @@
+---
+title: Sécurité-lazy
+date: 2026-02-03
+authors: Yann Daout
+description: Apprendre et enseigner le parkour - {{ title }}
+coverImage:
+aliases:
+tags:
+fc:
+  - flow
+  - passements
+prerequis:
+  - sécurité switch
+video:
+  - nUWQnHZTrCY
+level:
+  - t
+---
+## Description
+Passement de sécurité enchaîné avec un lazy.
+
+## Notes

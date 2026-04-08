@@ -23,7 +23,7 @@ Améliorer la technique de passemuraille
 
 👥Participants: individuel
 
-⚙️Matériel: post-its ou scotch de carrossier, murs avec suffisamment d'espace autour
+⚙️️️Matériel: post-its ou scotch de carrossier, murs avec suffisamment d'espace autour
 
 ## Description
 Les participants effectuent un passemuraille contre une paroi et tentent de coller un post-it le plus haut possible. Ils tentent alors à nouveau leur chance pour aller de plus en plus haut !

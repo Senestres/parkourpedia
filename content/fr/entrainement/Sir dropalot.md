@@ -22,7 +22,7 @@ Comprendre et respecter sa limite en sauts de fond.
 
 👥Participants: nombre variable
 
-⚙️Matériel: obstacles avec hauteurs modérées et variées
+⚙️️️Matériel: obstacles avec hauteurs modérées et variées
 ## Description
 Faire un rappel de la technique correcte pour un amorti: sur l'avant du pied, les talons ne touche pas le sol, l'atterrissage est silencieux. Eventuellement: une roulade ou un appui des mains pour aider à dissiper l'impact. Mettre l'accent sur le bruit de l'atterrissage comme indicateur de la (mauvaise) qualité de la technique.
 

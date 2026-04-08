@@ -13,7 +13,7 @@ fc:
 prerequis:
   - traction murale
 video:
-  - Qf3kY6gVLq0
+  - A9K4UatBzXg
 level:
   - f3
 ---

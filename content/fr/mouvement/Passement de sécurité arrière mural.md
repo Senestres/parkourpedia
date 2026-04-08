@@ -12,7 +12,7 @@ fc:
 prerequis:
   - passement de sécurité mural
 video:
-  - JY9BLZzVHlk
+  - w2KVwsBz6IQ
 level:
   - t
 ---

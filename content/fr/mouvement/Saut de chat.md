@@ -14,7 +14,7 @@ fc:
 prerequis:
   - passement latéral
 video:
-  - Lxo0DjqOUls
+  - BzBVM2b8h_U
 level:
 ---
 ## Description

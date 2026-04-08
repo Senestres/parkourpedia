@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 
 # A propos
-Ce site propose une base de donnée de techniques de parkour ainsi que des formes de jeux, exercices et progressions pour apprendre le parkour.
+Ce site propose une base de donnée de techniques de parkour ainsi que des formes de jeux, exercices et progressions pour apprendre et enseigner le parkour.
 
 Le parkour, ce n'est pas juste une liste de techniques stéréotypées. Vous trouverez donc ici des ressources pour développer d'autres compétences centrales dans cette discipline comme la créativité, le flow ou encore le respect de soi, des autres et de l'environnement.
 
