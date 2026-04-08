@@ -26,8 +26,22 @@ eleventyComputed:
 	{% for f in fc %}<a href="{{ ("/tags/" + (f | slugify) + "/") | locale_url }}">{{i18n[f][page.lang]}}</a>
 	{%- if not loop.last %}, {% endif %} {% endfor %}
 </div>
-{% if aliases %}
-	<div data-pagefind-body><b>{{"alias" | t | capitalize}}: </b>{%- for alias in aliases %}{{alias}}{%- if not loop.last %}, {% endif %}{%- endfor %}</div>
+
+{% set filteredAliases = [] %} {# This filters out the title from the list of aliases #}
+{% for alias in aliases %}
+	{% if alias | slugify !== title | slugify %}
+		{% set filteredAliases = filteredAliases.concat([alias]) %}
+	{% endif %}
+{% endfor %}
+
+{% if filteredAliases | length %}
+	<div data-pagefind-body><b>{{"alias" | t | capitalize}}: </b>
+		{%- for alias in filteredAliases -%}
+		{%- if alias | slugify !== title | slugify -%}
+			{{alias}}
+		{%- endif -%}
+		{%- if not loop.last %}, {% endif %}
+		{%- endfor %}</div>
 {% endif %}
 
 {# We can use coverImage here; but should distinguish cosmetic from useful images #}
