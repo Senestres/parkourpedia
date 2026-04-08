@@ -1,0 +1,37 @@
+---
+permalink: /debug/
+eleventyExcludeFromCollections: true
+layout: "layouts/page.njk"
+eleventyNavigation:
+    key: "debug"
+    order: 5
+---
+{% set allSlugs = [] %}
+{% for move in collections.mouvement %}
+    {% set allSlugs = allSlugs.concat([move.fileSlug | slugify]) %}
+{% endfor %}
+
+<h2>All prerequis values across all pages</h2>
+<ul>
+{% for move in collections.mouvement | sort(false, false, "fileSlug") %}
+    {% if move.data.prerequis %}
+        {% for req in move.data.prerequis %}
+                {% if (req | slugify) not in allSlugs  %}
+                    <li>
+                    <b>{{ move.fileSlug }}</b> requires: {{ req | slugify }}
+                    ⚠️ ORPHAN — no matching fileSlug
+                {% endif %}
+            </li>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h2>All fileSlugs in collections.mouvement</h2>
+<ul>
+{% for move in collections.mouvement | sort(false, false, "fileSlug") %}
+    <li>{{ move.fileSlug | slugify }}</li>
+{% endfor %}
+</ul>
+
+{# Move this to /content/ to generate a debug file at build #}
