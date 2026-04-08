@@ -1,0 +1,23 @@
+#v1
+useCodeFinder.b=true
+translateUrls.b=false
+urlToTranslatePattern=.+
+translateCodeBlocks.b=false
+translateIndentedCodeBlocks.b=false
+translateInlineCodeBlocks.b=false
+translateHeaderMetadata.b=true
+translateImageAltText.b=true
+htmlEntitiesToEscape=
+unescapeBackslashCharacters.b=false
+charactersToEscape=*_`{}[]<>()#+\-.!|
+generateHeaderAnchors.b=false
+parseMdx.b=false
+codeFinderRules.count.i=3
+codeFinderRules.rule0=(\{\{.*?}})
+codeFinderRules.sample={{#test}} handle bar test {{/test}}$0a${{test}} [yes](cool ta vie ?)$0a${% test %} [test !](/{{ lang }}/tags/base/)$0a${{ metadata.sponsors[sponsor].name }}
+codeFinderRules.useAllRulesWhenTesting.b=true
+codeFinderRules.rule1=(\{\#.*?#})
+codeFinderRules.rule2=(\{\%.*?%})
+codeFinderRules.rule3=(<.*?>)
+codeFinderRules.rule4=(\{\{.*?}})
+yamlSubfilter=okf_yaml@frontmatter
