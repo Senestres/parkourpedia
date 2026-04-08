@@ -151,10 +151,15 @@
 		"en": "characteristic forms",
 		"de": "erscheinungsform"
 	},
+	"tag_line": {
+		"fr": "Bibliothèque de movements et exercices pour apprendre et enseigner le parkour",
+		"en": "Library of mouvements and exercices to learn and teach parkour",
+		"de": "Library of mouvements and exercices to learn and teach parkour"
+	},
 	"catégorie": {
 		"fr": "catégorie",
 		"en": "category",
-		"de": "catégorie"
+		"de": "category"
 	},
 	"alias": {
 		"fr": "alias",
@@ -164,17 +169,17 @@
 	"vidéo": {
 		"fr": "vidéo",
 		"en": "video",
-		"de": "vidéo"
+		"de": "video"
 	},
 	"prérequis": {
 		"fr": "prérequis",
 		"en": "prerequisites",
-		"de": "prérequis"
+		"de": "prerequisites"
 	},
 	"auteur": {
 		"fr": "auteur",
 		"en": "author",
-		"de": "auteur"
+		"de": "author"
 	},
 	"date": {
 		"fr": "date",
@@ -184,12 +189,12 @@
 	"entrainement": {
 		"fr": "entrainement",
 		"en": "training",
-		"de": "entrainement"
+		"de": "training"
 	},
 	"mouvement": {
 		"fr": "mouvement",
 		"en": "movement",
-		"de": "mouvement"
+		"de": "movement"
 	},
 	"variations": {
 		"fr": "variations",
@@ -199,37 +204,37 @@
 	"avec le soutien de": {
 		"fr": "avec le soutien de",
 		"en": "with support from",
-		"de": "avec "
+		"de": "with support from"
 	},
 	"niveau": {
 		"fr": "niveau",
 		"en": "level",
-		"de": "niveau"
+		"de": "level"
 	},
 	"tous": {
 		"fr": "tous",
 		"en": "all",
-		"de": "tous"
+		"de": "all"
 	},
 		"explorer": {
 		"fr": "explorer",
 		"en": "explore",
-		"de": "explorer"
+		"de": "explore"
 	},
 	"Voir tous les tags": {
 		"fr": "Voir tous les tags",
 		"en": "See all tags",
-		"de": "Voir "
+		"de": "See all tags"
 	},
 	"aléatoire": {
 		"fr": "aléatoire",
 		"en": "random",
-		"de": "aléatoire"
+		"de": "random"
 	},
 	"base": {
 		"fr": "base",
 		"en": "foundation",
-		"de": "base"
+		"de": "foundation"
 	},
 	"support": {
 		"fr": "support",
@@ -239,26 +244,26 @@
 	"Soutenez ce projet": {
 		"fr": "Soutenez ce projet",
 		"en": "Support this project",
-		"de": "Soutenez ce projet"
+		"de": "Support this project"
 	},
 	"accepter": {
 		"fr": "accepter",
 		"en": "accept",
-		"de": "accepter"
+		"de": "accept"
 	},
 	"refuser": {
 		"fr": "refuser",
 		"en": "refuse",
-		"de": "refuser"
+		"de": "refuse"
 	},
 	"Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil.": {
 		"fr": "Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil.",
 		"en": "This video is hosted by an external service (YouTube\/Vimeo) that can put trackers on your device.",
-		"de": "Cette vidéo est hébergée par un service externe (YouTube/Vimeo) susceptible de déposer des traceurs sur votre appareil."
+		"de": "This video is hosted by an external service (YouTube\/Vimeo) that can put trackers on your device."
 	},
 	"support_string": {
 		"fr": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme.",
 		"en": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development.",
-		"de": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme."
+		"de": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development."
 	}
 }
