@@ -127,7 +127,7 @@ eleventyComputed:
 		<div><b>Tags: </b>
 			{%- for tag in tags | filterTagList %}
 			{%- set tagUrl %}{{ ("/tags/" + (tag | slugify) + "/") | locale_url }}{% endset %}
-			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+			<a href="{{ tagUrl }}" class="post-tag">{{ tag | t }}</a>{%- if not loop.last %}, {% endif %}
 			{%- endfor %}
 		</div>
 	</div>
