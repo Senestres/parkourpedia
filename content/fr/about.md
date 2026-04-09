@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.njk
-eleventyNavigation:
-  key: "About"
-  order: 4
+eleventyComputed:
+  eleventyNavigation:
+    key: "{{'à propos'| t | capitalize}}"
+    order: 4
 ---
 
 # A propos

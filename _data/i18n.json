@@ -156,6 +156,16 @@
 		"en": "Library of mouvements and exercices to learn and teach parkour",
 		"de": "Library of mouvements and exercices to learn and teach parkour"
 	},
+	"à propos": {
+		"fr": "à propos",
+		"en": "about",
+		"de": "überblick"
+	},
+	"accueil": {
+		"fr": "accueil",
+		"en": "home",
+		"de": "startseite"
+	},
 	"catégorie": {
 		"fr": "catégorie",
 		"en": "category",
@@ -216,7 +226,7 @@
 		"en": "all",
 		"de": "all"
 	},
-		"explorer": {
+	"explorer": {
 		"fr": "explorer",
 		"en": "explore",
 		"de": "explore"
