@@ -29,8 +29,8 @@ Two teams alternate between attack and defence.
 
 **Attack**: players start in pairs from the cones. A player throws the ball in the field, and they must go touch the boxes as many times as possible. A box cannot be touched twice in a row, but it is possible to alternate between two boxes.
 
-- A touched box = 1pt
-- A box cleared = current points x2
+- Touching a box = 1pt
+- Vaulting over a box = current points x2
 
 When a player thinks they have enough points, they put them in the "bank" by touching a wall and raising their arm. If they get touched by the ball before they have put their points in the bank, they get 0 points for their team.
 
