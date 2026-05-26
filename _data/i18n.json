@@ -157,7 +157,7 @@
 		"de": "Library of mouvements and exercices to learn and teach parkour"
 	},
 	"à propos": {
-		"fr": "à propos",
+		"fr": "a propos",
 		"en": "about",
 		"de": "überblick"
 	},
@@ -275,5 +275,10 @@
 		"fr": "Parkourpedia est gratuit et ouvert à tous·tes. Vous pouvez soutenir le projet individuellement afin de permettre son développement à long terme.",
 		"en": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development.",
 		"de": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development."
+	},
+		"ukemi": {
+		"fr": "ukemi",
+		"en": "ukemi",
+		"de": "ukemi"
 	}
 }
