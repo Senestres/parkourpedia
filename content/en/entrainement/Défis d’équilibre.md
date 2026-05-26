@@ -38,10 +38,7 @@ A few examples of balance challenges:
 
 - [Rail squats](https://youtu.be/KKUb5P8gM8k)
 - [Rail pirouette](https://youtu.be/jVn3jaOL85c)
-- [Half rail pirouette](https://youtu.be/oq4tQJBxsyU)
+- [Rail half pirouette](https://youtu.be/oq4tQJBxsyU)
 - [Rail balance](https://youtu.be/-nL0tlijlI4)
 - [Rail quadrupedal movement](https://youtu.be/vFv-UqwlaSY)
 - ...
-
-
-
