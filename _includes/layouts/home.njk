@@ -6,7 +6,7 @@ layout: layouts/base.njk
 
 <div class="explorer-grid">
     <noscript>
-        Javascript is necessary to use this site. But if necessary, you can try <a href="/{{ lang }}/tags/">browsing manually</a>.
+        Javascript is necessary to use this site. But if not possible, you can try <a href="/{{ lang }}/tags/">browsing manually</a>.
     </noscript>
     <div class="box-filter" >
         <pagefind-input instance="explorer"></pagefind-input>
@@ -14,7 +14,7 @@ layout: layouts/base.njk
         <pagefind-filter-pane instance="explorer" open="{{ "catégorie" | t}}, {{"forme caractéristique" | t}}, {{"niveau" | t}}"></pagefind-filter-pane>
     </div>
     <div class="explorer-results">
-        <pagefind-results instance="explorer" hide-sub-results show-images="false" id="explorer"></pagefind-results>
+        <pagefind-results instance="explorer" hide-sub-results="true" show-images="false" id="explorer"></pagefind-results>
     </div>
 </div>
 
