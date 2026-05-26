@@ -13,6 +13,13 @@
       "command": "echo 🚀 Deploying... && rclone sync ./_site infomaniak:sites/parkourpedia/ --exclude '.*' --stats 1s --progress && echo 🌈 Finished!", //--size-only or --checksum should avoid regenerating all the thumbnails ?
       "dependsOn": "Build",
       "problemMatcher": []
+    },
+        {
+      "label": "Deploy test",
+      "type": "shell",
+      "command": "echo 🚀 Deploying... && rclone sync ./_site infomaniak:sites/parkourpedia_test/ --exclude '.*' --stats 1s --progress && echo 🌈 Finished!", //--size-only or --checksum should avoid regenerating all the thumbnails ?
+      "dependsOn": "Build",
+      "problemMatcher": []
     }
   ]
 }
