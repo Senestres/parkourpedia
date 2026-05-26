@@ -5,13 +5,11 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import Image from "@11ty/eleventy-img";
 import markdownItFootnote from 'markdown-it-footnote';
+import embedEverything from 'eleventy-plugin-embed-everything';
 import { execSync } from 'child_process';
 import { I18nPlugin } from "@11ty/eleventy";
-/* import { checkTranslations } from "./_config/checkTranslations.js"; */
-
 import metadata from "./_data/metadata.js";
 import i18n from "./_data/i18n.json" with { type: "json" } ;
-
 import pluginFilters from "./_config/filters.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -44,9 +42,6 @@ export default async function(eleventyConfig) {
 			"content/img": "img"
 		});
 
-	// Run Eleventy when these files change:
-	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-
 	// Watch CSS files
 	eleventyConfig.addWatchTarget("css/**/*.css");
 	// Watch images for the image pipeline.
@@ -73,6 +68,8 @@ export default async function(eleventyConfig) {
 		mdLib.use(markdownItFootnote); 		// add markdown footnotes
 		/* If using img in .md ressources, use add md-eleventy-img */
 	});
+
+	eleventyConfig.addPlugin(embedEverything);
 
 	// Create new collections from metadata
   Object.keys(i18n["formesCaracteristiques"]).forEach((forme) => {
@@ -129,6 +126,8 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(I18nPlugin, {
 		defaultLanguage: "fr"
 	});
+
+
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
