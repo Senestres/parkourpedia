@@ -1,5 +1,6 @@
 /* import { parse } from "@11ty/parse-date-strings"; */
 import i18n from "../_data/i18n.json" with { type: "json" } ;
+import qrCode from 'qrcode';
 
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, lang) => {
@@ -79,4 +80,11 @@ export default function(eleventyConfig) {
   		return i18n[key]?.[lang] || key;
 	});
 	
+	// add QR code implementation
+	eleventyConfig.addFilter("qrcode", async function(value) {
+
+		return await qrCode.toDataURL(value);
+
+	});
+
 };
