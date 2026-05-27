@@ -21,7 +21,7 @@ eleventyComputed:
 	{% endif %}
 
 <div class="content">
-	<div class="two-columns">
+	<div class="post-header">
 		<div>
 			<h1>{{ title }}</h1>
 			<div>
@@ -70,19 +70,26 @@ eleventyComputed:
 	</div>
 {% endmacro %}
 
+
 {% if video %}
-<div class="video-wrapper" data-src="https://www.youtube-nocookie.com/embed/{{ video }}?autoplay=1&rel=0">
-	<img src="https://img.youtube.com/vi/{{ video }}/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/{{ video }}/hqdefault.jpg'" alt="{{ title }}" size="800">
-	<div data-pagefind-meta="image[src], image_alt[alt]" src="https://img.youtube.com/vi/{{ video }}/hqdefault.jpg" alt=""cover image></div>
-	{{ consentOverlay() }}
-</div>
+	<div class="no-print">
+		<div class="video-wrapper no-print" data-src="https://www.youtube-nocookie.com/embed/{{ video }}?autoplay=1&rel=0">
+			<img class="no-print" src="https://img.youtube.com/vi/{{ video }}/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/{{ video }}/hqdefault.jpg'" alt="{{ title }}" size="800">
+			{# 	<div class="no-print" data-pagefind-meta="image[src], image_alt[alt]" src="https://img.youtube.com/vi/{{ video }}/hqdefault.jpg" alt=""cover image></div> #}
+			{{ consentOverlay() }}
+		</div>		
+	</div>
+	<img class="print-only" src="https://img.youtube.com/vi/{{ video }}/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/{{ video }}/hqdefault.jpg'" alt="{{ title }}" size="800" width="300">
 {% endif %}
 
 {% if vimeo %}
-<div class="video-wrapper" data-src="https://player.vimeo.com/video/{{ vimeo }}?autoplay=1&dnt=1">
-	<img src="https://vumbnail.com/{{ vimeo }}.jpg" alt="{{ title }}">
-{{ consentOverlay() }}
-</div>
+	<div class="no-print">
+		<div class="video-wrapper" data-src="https://player.vimeo.com/video/{{ vimeo }}?autoplay=1&dnt=1">
+			<img src="https://vumbnail.com/{{ vimeo }}.jpg" alt="{{ title }}">
+		{{ consentOverlay() }}
+		</div>		
+	</div>
+	<div class="print-only">	<img src="https://vumbnail.com/{{ vimeo }}.jpg" alt="{{ title }}" width="300"></div>
 {% endif %}
 
 <article data-pagefind-body>
