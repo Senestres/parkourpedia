@@ -28,7 +28,7 @@ script: "/random.js"
   {% include "posts-json.njk" %}
 </script>
 
-<div class="postlist-row">
+<div class="print-grid">
   <div>
     <h2>{{"mouvement" | t | capitalize}} <button class="randomize" data-source="#move-posts" data-target="#random-move-card">🎲</button></h2>
       <div class="postlist-card" id="random-move-card">
