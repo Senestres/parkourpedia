@@ -1,0 +1,30 @@
+---
+permalink: /graph/
+eleventyExcludeFromCollections: true
+layout: "layouts/page.njk"
+eleventyNavigation:
+    key: "graph"
+    order: 5
+---
+{# Move this to /content/ to generate a graph file at build #}
+
+{% for move in collections.mouvement | pageLang %}
+    {% for prerequis in move.data.prerequis %}
+        {{prerequis | slugify}} --> {{move.data.title | slugify}}
+        <br />
+    {% endfor %}
+{% endfor %}
+
+
+{# Can be used to generate a mermaid graph. Use
+---
+config:
+  flowchart:
+    defaultRenderer: "elk"
+---
+flowchart LR
+    c1-->a2
+    subgraph one
+        a1-->a2
+    end
+#}

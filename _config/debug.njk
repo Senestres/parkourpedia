@@ -5,33 +5,43 @@ layout: "layouts/page.njk"
 eleventyNavigation:
     key: "debug"
     order: 5
+lang: fr
 ---
 {% set allSlugs = [] %}
 {% for move in collections.mouvement %}
     {% set allSlugs = allSlugs.concat([move.fileSlug | slugify]) %}
 {% endfor %}
+{% set missing = [] %}
 
-<h2>All prerequis values across all pages</h2>
-<ul>
 {% for move in collections.mouvement | sort(false, false, "fileSlug") %}
     {% if move.data.prerequis %}
         {% for req in move.data.prerequis %}
-                {% if (req | slugify) not in allSlugs  %}
-                    <li>
-                    <b>{{ move.fileSlug }}</b> requires: {{ req | slugify }}
-                    ⚠️ ORPHAN — no matching fileSlug
+                {% if (req | slugify) not in allSlugs %}
+                {% set string %}
+                    {{ move.fileSlug }} ⚠️ requires: {{ req | slugify }}
+                {% endset %}
+                {% set missing = missing.concat(string) %}
                 {% endif %}
-            </li>
         {% endfor %}
     {% endif %}
 {% endfor %}
+
+<h2>All prerequis values across all pages</h2>
+<ul>
+    {% for move in missing | unique %}
+        <li>{{move}} — no matching fileSlug</li>
+    {% endfor %}
 </ul>
 
 <h2>All fileSlugs in collections.mouvement</h2>
 <ul>
-{% for move in collections.mouvement | sort(false, false, "fileSlug") %}
+{% for move in collections.mouvement | pageLang | sort(false, false, "fileSlug") %}
     <li>{{ move.fileSlug | slugify }}</li>
 {% endfor %}
 </ul>
+
+{# Should use a filter to remove duplicates, something like:
+eleventyConfig.addFilter("unique", arr => [...new Set(arr)]);
+#}
 
 {# Move this to /content/ to generate a debug file at build #}
