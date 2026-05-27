@@ -1,22 +1,20 @@
 ---
-title: Butt vault hyper
+title: roulade assise hyper
 date: 2026-02-06
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
-aliases:
-  - roulade assise
 tags:
 fc:
   - passements
   - rotations
 prerequis:
-  - passement assis
+  - roulade assise
 video:
-  - H-KaZijZuKw
+  - tImHdQCXx2M
 level:
 ---
 ## Description
-Sitting roll with over-rotation to land on the other leg.
+Roulade assise avec sur-rotation pour atterrir sur l'autre jambe.
 
 ## Notes

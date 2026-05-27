@@ -12,7 +12,7 @@ fc:
 prerequis:
   - passement latéral
   - roulade assise
-  - passement assis
+  - roulade assise
 video:
   - 6klBEisgosg
 level:

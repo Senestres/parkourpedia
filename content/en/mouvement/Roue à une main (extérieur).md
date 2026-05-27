@@ -9,7 +9,7 @@ tags:
 fc:
   - rotations
 prerequis:
-  - roue à une main (intérieure)
+  - roue à une main (intérieur)
 video:
   - JY9ctMCljpo
 level:

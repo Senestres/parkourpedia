@@ -10,7 +10,7 @@ tags:
 fc:
   - rotations
 prerequis:
-  - roue à une main (extérieure)
+  - roue à une main (extérieur)
   - coup de pied papillon
 video:
   - cUz0mP2_JtU

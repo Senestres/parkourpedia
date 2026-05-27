@@ -1,5 +1,5 @@
 ---
-title: Roue à une main (intérieure)
+title: Roue à une main (intérieur)
 date: 2026-04-01
 authors: Yann Daout
 description: Parkourpedia - {{ title }}

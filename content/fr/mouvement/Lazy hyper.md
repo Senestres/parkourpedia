@@ -10,7 +10,7 @@ fc:
   - passements
 prerequis:
   - lazy
-  - passement assis hyper
+  - roulade assise hyper
 video:
   - 13a7TBJBWiY
 level:

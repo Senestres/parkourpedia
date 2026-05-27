@@ -10,7 +10,7 @@ fc:
   - passements
   - rotations
 prerequis:
-  - passement assis hyper
+  - roulade assise hyper
   - passement roulade
 video:
   - -d6RDcoM810

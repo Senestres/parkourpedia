@@ -12,6 +12,7 @@ fc:
   - grimper
 prerequis:
   - traction murale
+  - hook climb-up
 video:
   - A9K4UatBzXg
 level:

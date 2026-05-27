@@ -10,7 +10,7 @@ fc:
   - passements
   - rotations
 prerequis:
-  - passement assis
+  - roulade assise
 video:
   - DP9DdFl775o
 level:

@@ -1,11 +1,10 @@
 ---
-title: Butt vault
+title: Butt roll
 date: 2026-02-03
 authors: Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
-aliases:
-  - roulade assise
+aliases: butt vault
 tags:
   - base
 fc:
