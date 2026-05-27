@@ -1,7 +1,8 @@
 ---
 title: Half palmspin
 date: 2026-02-14
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 aliases:

@@ -1,7 +1,8 @@
 ---
 title: Kicking to the moon
 date: 2026-02-21
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: default.jpg
 aliases:

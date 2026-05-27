@@ -1,7 +1,8 @@
 ---
 title: Floor is lava
 date: 2026-02-27
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: lave.jpg
 aliases:

@@ -1,7 +1,8 @@
 ---
 title: Post-it game
 date: 2026-02-22
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: wall.jpg
 aliases:
@@ -16,7 +17,7 @@ level:
   - f3
 ---
 ## Objective
-Improve the vertical wall-run technique
+Improve the vertical wallrun technique
 
 ## Organisation
 ⌛Duration: 10min

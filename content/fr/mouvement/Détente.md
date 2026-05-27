@@ -4,7 +4,8 @@ date: 2026-02-03
 tags:
   - base
 description: Apprendre et enseigner le parkour - {{ title }}
-authors: Yann Daout
+authors:
+  - Yann Daout
 coverImage:
 fc:
   - sauts

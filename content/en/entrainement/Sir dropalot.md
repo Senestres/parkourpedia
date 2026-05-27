@@ -1,7 +1,8 @@
 ---
 title: Sir Dropalot
 date: 2026-02-11
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: default.jpg
 aliases:

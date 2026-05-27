@@ -1,7 +1,8 @@
 ---
 title: Backwards split vault
 date: 2026-02-06
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 aliases:

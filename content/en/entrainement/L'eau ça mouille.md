@@ -1,7 +1,8 @@
 ---
 title: Water makes things wet
 date: 2026-02-27
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: gouttes.jpg
 aliases:

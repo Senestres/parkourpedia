@@ -1,7 +1,8 @@
 ---
 title: Helicoptero
 date: 2026-04-01
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Parkourpedia - {{ title }}
 coverImage:
 aliases:

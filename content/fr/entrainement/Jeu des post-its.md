@@ -1,7 +1,8 @@
 ---
 title: Jeu des post-its
 date: 2026-02-22
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: wall.jpg
 aliases:

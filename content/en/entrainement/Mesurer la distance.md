@@ -1,7 +1,8 @@
 ---
 title: Measuring the distance
 date: 2026-02-08
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: mesure.jpg
 aliases:

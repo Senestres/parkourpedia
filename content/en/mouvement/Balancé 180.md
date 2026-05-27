@@ -1,7 +1,8 @@
 ---
 title: Swing 180
 date: 2026-04-02
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Parkourpedia - {{ title }}
 coverImage:
 aliases:

@@ -1,7 +1,8 @@
 ---
 title: Game of stick
 date: 2026-02-04
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: colle.jpg
 aliases:

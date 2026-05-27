@@ -1,7 +1,8 @@
 ---
 title: I spy with my little eye...
 date: 2026-02-27
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: default.jpg
 aliases:

@@ -1,7 +1,8 @@
 ---
 title: Feuille-caillou-ciseau
 date: 2026-02-04
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: FCC.jpg
 aliases:

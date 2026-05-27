@@ -1,7 +1,8 @@
 ---
 title: 1-2-3 parkour
 date: 2026-02-08
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: soleil.jpg
 aliases:

@@ -1,7 +1,8 @@
 ---
 title: Mon petit oeil voit...
 date: 2026-02-27
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: default.jpg
 aliases:

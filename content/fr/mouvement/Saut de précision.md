@@ -3,7 +3,8 @@ title: Saut de précision
 date: 2026-02-03
 tags:
   - base
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 fc:

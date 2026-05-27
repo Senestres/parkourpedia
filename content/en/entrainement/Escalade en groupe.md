@@ -1,7 +1,8 @@
 ---
 title: Team climbing
 date: 2026-02-22
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: default.jpg
 aliases:
@@ -33,7 +34,7 @@ Examples of strategies:
 - Courte-échelle: one practitioner clasps his hands together, and the others use this as a foothold to reach towards the top
 - One gets in a air chair position with their back against the wall, and the others climb on their thighs and shoulders.
 - Same as above, but standing facing the wall, with the legs slightly bent
-- Do a vertical wall-run to reach the top of the wall, and help the others from above.
+- Do a vertical wallrun to reach the top of the wall, and help the others from above.
 - From the top, sit at the top (make sure they are safe, somebody can hold them in place !) and let the feet dangle down. The others can use them as hand holds (always grip near the ankles)
 
 ## Variations
@@ -43,7 +44,7 @@ Examples of strategies:
 
 ➖Use walls with hand- or footholds
 
-➕Use a wall that not all members of a group can reach with a vertical wall-run
+➕Use a wall that not all members of a group can reach with a vertical wallrun
 
 ## Notes
 Always check the safety of the techniques used by the groups. Notably, the grip used to help somebody from above should be to grip their wrists, not their fingers.

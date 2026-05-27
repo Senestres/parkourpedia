@@ -1,7 +1,8 @@
 ---
-title: 360 vertical wall-run
+title: 360 vertical wallrun
 date: 2026-03-13
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage:
 aliases:
@@ -17,7 +18,7 @@ level:
   - t
 ---
 ## Description
-Vertical wall-run with a full rotation from the contact of the foot to gripping the top of the obstacle with the hands.
+Vertical wallrun with a full rotation from the contact of the foot to gripping the top of the obstacle with the hands.
 
 ## Notes
 On a smaller wall, it is possible to go directly to the support position, without going through the hanging position.

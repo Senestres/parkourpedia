@@ -1,7 +1,8 @@
 ---
 title: Saut de chat latéral
 date: 2026-03-30
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Parkourpedia - {{ title }}
 coverImage:
 aliases:

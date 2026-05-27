@@ -1,7 +1,8 @@
 ---
 title: Impose a move
 date: 2026-02-10
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Apprendre et enseigner le parkour - {{ title }}
 coverImage: cubes.jpg
 aliases:
