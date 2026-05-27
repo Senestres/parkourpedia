@@ -20,7 +20,6 @@ export default function(eleventyConfig) {
 		if( n < 0 ) {
 			return array.slice(n);
 		}
-
 		return array.slice(0, n);
 	});
 
@@ -41,6 +40,8 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("sortAlphabetically", strings =>
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
+
+	eleventyConfig.addFilter("unique", arr => [...new Set(arr)]);
 
 	// Frontmatter data filter
 	eleventyConfig.addFilter('filterBy', function(collection, key, values) {
