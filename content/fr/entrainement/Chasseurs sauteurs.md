@@ -2,10 +2,9 @@
 title: Chasseurs sauteurs
 date: 2026-05-27
 authors:
-  - Yann Daout
   - Pedro Ferreira
 description: Parkourpedia - {{ title }}
-coverImage: default.jpg
+coverImage: lapin.jpg
 aliases:
 tags:
 fc:
@@ -16,6 +15,7 @@ level:
 ---
 ## Objectif
 S'échauffer
+
 Entrainer les sauts
 
 ## Organisation

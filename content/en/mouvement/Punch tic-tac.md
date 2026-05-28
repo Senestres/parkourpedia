@@ -11,8 +11,9 @@ fc:
   - tricks muraux
 prerequis:
   - tic-tac
+  - rocket booster
 video:
-  - AG896SdqQvU
+  - D7uONk82vzo
 level:
   - t
 ---

@@ -6,7 +6,7 @@ authors:
 description: Parkourpedia - {{ title }}
 coverImage:
 aliases:
-  - aerial
+  - roue sans les mains
 tags:
 fc:
   - rotations

@@ -4,7 +4,7 @@ date: 2026-05-27
 authors:
   - Derin Uyar
 description: Parkourpedia - {{ title }}
-coverImage: default.jpg
+coverImage: flow.jpg
 aliases:
 tags:
 fc:

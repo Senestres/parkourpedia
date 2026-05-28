@@ -6,7 +6,7 @@ authors:
 description: Parkourpedia - {{ title }}
 coverImage:
 aliases:
-  - aerial
+  - no handed cartwheel
 tags:
 fc:
   - rotations

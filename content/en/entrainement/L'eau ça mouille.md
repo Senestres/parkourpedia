@@ -15,7 +15,7 @@ level:
   - t
 ---
 ## Objective
-Being capable to realistically assess one's capacity to perform in rainy conditions
+Being capable of realistically assess one's capacity to perform in rainy conditions
 
 ## Organisation
 ⌛Duration: 10-15min

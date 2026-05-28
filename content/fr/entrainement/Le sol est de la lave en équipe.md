@@ -1,10 +1,10 @@
 ---
-title: Team floor is lava
+title: Le sol est de la lave en équipe
 date: 2026-05-27
 authors:
   - Derin Uyar
 description: Parkourpedia - {{ title }}
-coverImage: default.jpg
+coverImage: lave.jpg
 aliases:
 tags:
 fc:
@@ -15,6 +15,7 @@ level:
 ---
 ## Objectif
 Coopérer avec ses équipiers pour aller d'un point A à un point B
+
 Respecter ses limites et celles des autres
 
 ## Organisation
@@ -28,6 +29,7 @@ Respecter ses limites et celles des autres
 Préparer un terrain avec des ilots pour pouvoir se déplacer d’un point A à un point B.
 Lorsqu'un participant tombe dans la lave, tout le monde recommence au point A.
 Les participants peuvent s'entraider pour franchir les obstacles.
+
 Modifier le terrain après chaque victoire pour rendre le niveau de plus en plus difficile.
 
 ## Variantes
