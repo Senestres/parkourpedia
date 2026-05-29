@@ -1,5 +1,5 @@
 ---
-title: roulade assise
+title: Roulade assise
 date: 2026-02-03
 authors:
   - Yann Daout
