@@ -132,14 +132,14 @@
 	},
 
 	"forme d'entrainement": {
-		"fr": "forme d'entrainement",
-		"en": "training form",
-		"de": "trainingsform"
+		"fr": "entrainement",
+		"en": "training",
+		"de": "training"
 	},
 	"forme de mouvement": {
-		"fr": "forme de mouvement",
-		"en": "movement form",
-		"de": "bewegungsform"
+		"fr": "mouvement",
+		"en": "movement",
+		"de": "bewegung"
 	},
 	"forme caractéristique": {
 		"fr": "forme caractéristique",
@@ -153,8 +153,8 @@
 	},
 	"tag_line": {
 		"fr": "Bibliothèque de movements et exercices pour apprendre et enseigner le parkour",
-		"en": "Library of mouvements and exercices to learn and teach parkour",
-		"de": "Library of mouvements and exercices to learn and teach parkour"
+		"en": "Library of movements and exercices to learn and teach parkour",
+		"de": "Library of movements and exercices to learn and teach parkour"
 	},
 	"à propos": {
 		"fr": "a propos",
@@ -276,9 +276,19 @@
 		"en": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development.",
 		"de": "Parkourpedia is free and open to everyone. You can support the project individualy to help its long term development."
 	},
-		"ukemi": {
+	"ukemi": {
 		"fr": "ukemi",
 		"en": "ukemi",
 		"de": "ukemi"
+	},
+	"progression": {
+		"fr": "progression",
+		"en": "progression",
+		"de": "progression"
+	},
+	"cheat sheet": {
+		"fr": "cheat sheet",
+		"en": "cheat sheet",
+		"de": "cheat sheet"
 	}
 }
