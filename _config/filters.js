@@ -63,7 +63,8 @@ export default function(eleventyConfig) {
 
 	// Return only pages with same lang as current page
 	eleventyConfig.addFilter("pageLang", function(value) {
-		return value.filter(item => item.page.lang === this.page.lang)
+		if (!value){return}
+		return value.filter(item => item.page.lang === this.page.lang )
 	});
 	// Fix i18l for pagination, use like this: | locale_links | fix_locale_links
 	eleventyConfig.addFilter ("fix_locale_links", function(links, lang) {
@@ -83,9 +84,7 @@ export default function(eleventyConfig) {
 	
 	// add QR code implementation
 	eleventyConfig.addFilter("qrcode", async function(value) {
-
 		return await qrCode.toDataURL(value);
-
 	});
 
 };
