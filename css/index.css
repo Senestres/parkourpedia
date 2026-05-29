@@ -139,7 +139,7 @@ footer {
 	padding: 1rem 2rem;
 	background-color: var(--background-color); 
 }
-.two-columns {
+.post-header {
 	display: flex;
 	align-items: end;
 	justify-content: space-between;
@@ -381,9 +381,18 @@ code {
 	object-fit: cover;
 	transform: translateY(-50%);
 }
+.print-grid {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+.print-card-img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
 
 @media screen and (max-width: 620px) {
-  .postlist-card {
+  .postlist-card, .print-card {
     width: 100%;
   }
 }
@@ -506,28 +515,27 @@ code {
 	border: none;
 }
 
-
 /* override styles when printing */
-	.print-only {
+.print-only {
 		display: none;
-	}
+}
 @media print {
 	header {
 		display: none;
 	}
-	footer > .no-print {
-		display: none;
+	.no-print {
+		display: none !important;
 	}
 	.print-only {
 		display: inline;
 	}
 	footer {
-		margin-bottom: 0;
-		padding-bottom: 0;
-		break-after: avoid;
-		break-inside: avoid;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
 	}
-	body {
+/* 	body {
 		height: 99vh;
-	}
+	} */
 }
