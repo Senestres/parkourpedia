@@ -1,6 +1,11 @@
 ---
+pagination:
+  data: i18n.languages
+  size: 1
+  alias: lang
+  addAllPagesToCollections: true
 eleventyComputed:
-  permalink: "{%- if lang === i18n.languages[0] -%}{{'/index.html'}}{% endif %}"
+  permalink: "/{{ lang }}/"
   eleventyNavigation:
     key: "{{'accueil' | t | capitalize}}"
     order: 1
