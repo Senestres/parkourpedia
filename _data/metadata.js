@@ -4,7 +4,7 @@ export default {
 	base: "https://parkourpedia.ch",
 	description: {
 		"fr": "Bibliothèque de movements et exercices pour apprendre et enseigner le parkour",
-		"en": "Library of mouvements and exercices to learn and teach parkour"
+		"en": "Library of movements and exercices to learn and teach parkour"
 	},
 	subtitle: "Bibliothèque de movements et exercices pour apprendre et enseigner le parkour",
 	author: {
