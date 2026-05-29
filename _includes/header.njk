@@ -1,5 +1,5 @@
 <div class="logo">
-	🦉 <a href="/{% if page.lang != "fr" %}{{ lang }}/{%endif%}" class="home-link"> {{ metadata.title }}</a>
+	🦉 <a href="/{{ lang }}/" class="home-link"> {{ metadata.title }}</a>
 </div>
 
 <div>
@@ -49,8 +49,7 @@
 			<ul>
 				{% for link in page.url | locale_links | fix_locale_links %}
 				<li>
-					<a href="{{ link.url }}" lang="{{ link.lang }}" 
-						{% if link.lang == lang %}aria-current="page"{% endif %}>
+					<a href="{{ link.url }}" lang="{{ link.lang }}" {% if link.lang == lang %}aria-current="page"{% endif %} onclick="document.cookie='lang={{ link.lang }}; max-age=31536000; path=/';">
 						{{ link.lang | upper }}
 					</a>
 				</li>
