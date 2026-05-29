@@ -1,7 +1,8 @@
 ---
 title: "{{title}}"
 date: "{{date}}"
-authors: Yann Daout
+authors:
+  - Yann Daout
 description: Parkourpedia - {{ title }}
 coverImage: default.jpg
 aliases:
